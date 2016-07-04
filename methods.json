@@ -128,7 +128,7 @@
   {
    "displayText": "$dimension->landscape()",
    "type": "dimension",
-   "description": "Checks if the dimensions are "landscape"",
+   "description": "Checks if the dimensions are landscape",
    "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/landscape",
    "snippet": "->landscape()"
   },
@@ -142,7 +142,7 @@
   {
    "displayText": "$dimension->portrait()",
    "type": "dimension",
-   "description": "Checks if the dimensions are "portrait"",
+   "description": "Checks if the dimensions are portrait",
    "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/portrait",
    "snippet": "->portrait()"
   },
@@ -2781,7 +2781,7 @@
   {
    "displayText": "$request->referer()",
    "type": "request",
-   "description": "Returns the referer. Also available with to "rr"",
+   "description": "Returns the referer. Also available with to rr",
    "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/referer",
    "snippet": "->referer()"
   },
