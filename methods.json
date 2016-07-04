@@ -1,0 +1,3726 @@
+[
+  {
+   "displayText": "$camera->make()",
+   "type": "camera",
+   "description": "Returns the camera brand/make",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/camera/make",
+   "snippet": "->make()"
+  },
+  {
+   "displayText": "$camera->model()",
+   "type": "camera",
+   "description": "Returns the name of the camera model",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/camera/model",
+   "snippet": "->model()"
+  },
+  {
+   "displayText": "$camera->toArray()",
+   "type": "camera",
+   "description": "Returns the make and model as associative array.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/camera/to-array",
+   "snippet": "->toArray()"
+  },
+  {
+   "displayText": "$content->data()",
+   "type": "content",
+   "description": "Returns the entire data array with all field objects",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/content/data",
+   "snippet": "->data()"
+  },
+  {
+   "displayText": "$content([$lang])->exists()",
+   "type": "content",
+   "description": "Checks if the content file exists",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/content/exists",
+   "snippet": "->exists()"
+  },
+  {
+   "displayText": "$content([$lang])->fields()",
+   "type": "content",
+   "description": "Returns an array with all field names",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/content/fields",
+   "snippet": "->fields()"
+  },
+  {
+   "displayText": "$content([$lang])->get($key, $arguments = null)",
+   "type": "content",
+   "description": "Gets a field from the content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/content/get",
+   "snippet": "->get()"
+  },
+  {
+   "displayText": "$content([$lang])->has($key)",
+   "type": "content",
+   "description": "Checks if a field exists",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/content/has",
+   "snippet": "->has()"
+  },
+  {
+   "displayText": "$content->language()",
+   "type": "content",
+   "description": "Return the language code for the content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/content/language",
+   "snippet": "->language()"
+  },
+  {
+   "displayText": "$content->name()",
+   "type": "content",
+   "description": "Returns the name of the content file without the extension. This is being used to determine the template for the page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/content/name",
+   "snippet": "->name()"
+  },
+  {
+   "displayText": "$content([$lang])->raw()",
+   "type": "content",
+   "description": "Returns the raw content from the file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/content/raw",
+   "snippet": "->raw()"
+  },
+  {
+   "displayText": "$content([$lang])->root()",
+   "type": "content",
+   "description": "Returns the root for the content file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/content/root",
+   "snippet": "->root()"
+  },
+  {
+   "displayText": "$content([$lang])->toArray()",
+   "type": "content",
+   "description": "Returns the content object as array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/content/to-array",
+   "snippet": "->toArray()"
+  },
+  {
+   "displayText": "$dimension->fit()",
+   "type": "dimension",
+   "description": "Fits the width and height into a box by the given value and returns a modified dimension object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/fit",
+   "snippet": "->fit()"
+  },
+  {
+   "displayText": "$dimension->fitHeight()",
+   "type": "dimension",
+   "description": "Fits the height by the given value and returns a modified dimension object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/fit-height",
+   "snippet": "->fitHeight()"
+  },
+  {
+   "displayText": "$dimension->fitWidth()",
+   "type": "dimension",
+   "description": "Fits the width by the given value and returns a modified dimension object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/fit-width",
+   "snippet": "->fitWidth()"
+  },
+  {
+   "displayText": "$dimension->fitWidthAndHeight()",
+   "type": "dimension",
+   "description": "Fits the width and height by the given values and returns a modified dimension object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/fit-width-and-height",
+   "snippet": "->fitWidthAndHeight()"
+  },
+  {
+   "displayText": "$dimension->height()",
+   "type": "dimension",
+   "description": "Returns the height in pixels",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/height",
+   "snippet": "->height()"
+  },
+  {
+   "displayText": "$dimension->landscape()",
+   "type": "dimension",
+   "description": "Checks if the dimensions are "landscape"",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/landscape",
+   "snippet": "->landscape()"
+  },
+  {
+   "displayText": "$dimension->orientation()",
+   "type": "dimension",
+   "description": "Returns the orientation of the image as string (landscape|portrait|square)",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/orientation",
+   "snippet": "->orientation()"
+  },
+  {
+   "displayText": "$dimension->portrait()",
+   "type": "dimension",
+   "description": "Checks if the dimensions are "portrait"",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/portrait",
+   "snippet": "->portrait()"
+  },
+  {
+   "displayText": "$dimension->ratio()",
+   "type": "dimension",
+   "description": "Returns the ratio",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/ratio",
+   "snippet": "->ratio()"
+  },
+  {
+   "displayText": "$dimension->square()",
+   "type": "dimension",
+   "description": "Checks if the dimensions are square",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/square",
+   "snippet": "->square()"
+  },
+  {
+   "displayText": "$dimension->width()",
+   "type": "dimension",
+   "description": "Returns the width in pixels",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/dimension/width",
+   "snippet": "->width()"
+  },
+  {
+   "displayText": "$exif->aperture()",
+   "type": "exif",
+   "description": "Returns the aperture value of the image, if it is available in the exif data set.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/exif/aperture",
+   "snippet": "->aperture()"
+  },
+  {
+   "displayText": "$exif->camera()",
+   "type": "exif",
+   "description": "Returns the $camera object for the image, which contains the make and model.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/exif/camera",
+   "snippet": "->camera()"
+  },
+  {
+   "displayText": "$exif->data()",
+   "type": "exif",
+   "description": "Returns the full exif data set as a raw array.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/exif/data",
+   "snippet": "->data()"
+  },
+  {
+   "displayText": "$exif->exposure()",
+   "type": "exif",
+   "description": "Returns the exposure value of the image, if it is available in the exif data set.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/exif/exposure",
+   "snippet": "->exposure()"
+  },
+  {
+   "displayText": "$exif->focalLength()",
+   "type": "exif",
+   "description": "Returns the focal length of the image, if it is available in the exif data set.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/exif/focal-length",
+   "snippet": "->focalLength()"
+  },
+  {
+   "displayText": "$exif->isBW()",
+   "type": "exif",
+   "description": "Checks if the image colorspace is grayscale",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/exif/is-bw",
+   "snippet": "->isBW()"
+  },
+  {
+   "displayText": "$exif->isColor()",
+   "type": "exif",
+   "description": "Checks if the image colorspace is either RGB or CMYK",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/exif/is-color",
+   "snippet": "->isColor()"
+  },
+  {
+   "displayText": "$exif->iso()",
+   "type": "exif",
+   "description": "Returns the iso value of the image, if it is available in the exif data set.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/exif/iso",
+   "snippet": "->iso()"
+  },
+  {
+   "displayText": "$exif->location()",
+   "type": "exif",
+   "description": "Returns the $location object for the image if the image has GPS data.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/exif/location",
+   "snippet": "->location()"
+  },
+  {
+   "displayText": "$exif->timestamp()",
+   "type": "exif",
+   "description": "Returns the unix timestamp of when the image was taken.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/exif/timestamp",
+   "snippet": "->timestamp()"
+  },
+  {
+   "displayText": "$exif->toArray()",
+   "type": "exif",
+   "description": "Returns an associative array of all available exif data.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/exif/to-array",
+   "snippet": "->toArray()"
+  },
+  {
+   "displayText": "$field->bool()",
+   "type": "field-methods",
+   "description": "Converts the field value into a proper boolean",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/bool",
+   "snippet": "->bool()"
+  },
+  {
+   "displayText": "$field->empty()",
+   "type": "field-methods",
+   "description": "Checks if the field is empty",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/empty",
+   "snippet": "->empty()"
+  },
+  {
+   "displayText": "$field->escape()",
+   "type": "field-methods",
+   "description": "Escapes all critical characters from the field content to make sure all you get is clean HTML",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/escape",
+   "snippet": "->escape()"
+  },
+  {
+   "displayText": "$field->excerpt($length = 140, $mode = 'chars')",
+   "type": "field-methods",
+   "description": "Creates a short text excerpt",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/excerpt",
+   "snippet": "->excerpt()"
+  },
+  {
+   "displayText": "$field->exists()",
+   "type": "field-methods",
+   "description": "Checks if the field exists.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/exists",
+   "snippet": "->exists()"
+  },
+  {
+   "displayText": "$field->float()",
+   "type": "field-methods",
+   "description": "Converts the field value into a proper float",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/float",
+   "snippet": "->float()"
+  },
+  {
+   "displayText": "$field->html()",
+   "type": "field-methods",
+   "description": "Converts the field content to valid HTML",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/html",
+   "snippet": "->html()"
+  },
+  {
+   "displayText": "$field->int()",
+   "type": "field-methods",
+   "description": "Converts the field value into a proper integer",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/int",
+   "snippet": "->int()"
+  },
+  {
+   "displayText": "$field->isEmpty()",
+   "type": "field-methods",
+   "description": "Checks if the field is empty",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/isEmpty",
+   "snippet": "->isEmpty()"
+  },
+  {
+   "displayText": "$field->isFalse()",
+   "type": "field-methods",
+   "description": "Converts the field value into a proper boolean and inverts it",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/isFalse",
+   "snippet": "->isFalse()"
+  },
+  {
+   "displayText": "$field->isNotEmpty()",
+   "type": "field-methods",
+   "description": "Checks if the field is not empty",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/isNotEmpty",
+   "snippet": "->isNotEmpty()"
+  },
+  {
+   "displayText": "$field->isTrue()",
+   "type": "field-methods",
+   "description": "Converts the field value into a proper boolean",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/isTrue",
+   "snippet": "->isTrue()"
+  },
+  {
+   "displayText": "$field->key()",
+   "type": "field-methods",
+   "description": "Returns the name of the field.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/key",
+   "snippet": "->key()"
+  },
+  {
+   "displayText": "$field->kirbytext()",
+   "type": "field-methods",
+   "description": "Converts the field content from Markdown/Kirbytext to valid HTML",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/kirbytext",
+   "snippet": "->kirbytext()"
+  },
+  {
+   "displayText": "$field->kt()",
+   "type": "field-methods",
+   "description": "Converts the field content from Markdown/Kirbytext to valid HTML",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/kt",
+   "snippet": "->kt()"
+  },
+  {
+   "displayText": "$field->length()",
+   "type": "field-methods",
+   "description": "Returns the length of the field content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/length",
+   "snippet": "->length()"
+  },
+  {
+   "displayText": "$field->link()",
+   "type": "field-methods",
+   "description": "Creates a link for any field value",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/link",
+   "snippet": "->link()"
+  },
+  {
+   "displayText": "$field->lower()",
+   "type": "field-methods",
+   "description": "Converts the field content to lowercase",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/lower",
+   "snippet": "->lower()"
+  },
+  {
+   "displayText": "$field->markdown()",
+   "type": "field-methods",
+   "description": "Converts markdown to valid HTML",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/markdown",
+   "snippet": "->markdown()"
+  },
+  {
+   "displayText": "$field->or($alternative)",
+   "type": "field-methods",
+   "description": "Checks if the field is empty and returns an alternative value in this case",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/or",
+   "snippet": "->or()"
+  },
+  {
+   "displayText": "$field->pages()",
+   "type": "field-methods",
+   "description": "Converts a yaml list of page URIs to valid page objects",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/pages",
+   "snippet": "->pages()"
+  },
+  {
+   "displayText": "$field->short($chars)",
+   "type": "field-methods",
+   "description": "Shortens the field content by the given length",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/short",
+   "snippet": "->short()"
+  },
+  {
+   "displayText": "$field->split($separator = ',')",
+   "type": "field-methods",
+   "description": "Splits the field content into an array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/split",
+   "snippet": "->split()"
+  },
+  {
+   "displayText": "$field->toFile()",
+   "type": "field-methods",
+   "description": "Returns a file object from a filename in the field",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/toFile",
+   "snippet": "->toFile()"
+  },
+  {
+   "displayText": "$field->toPage()",
+   "type": "field-methods",
+   "description": "Returns a page object from a uri in the field",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/toPage",
+   "snippet": "->toPage()"
+  },
+  {
+   "displayText": "$field->toStructure()",
+   "type": "field-methods",
+   "description": "Converts a yaml field to a Structure object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/toStructure",
+   "snippet": "->toStructure()"
+  },
+  {
+   "displayText": "$field->toURL()",
+   "type": "field-methods",
+   "description": "Creates an URL for any field value",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/toURL",
+   "snippet": "->toURL()"
+  },
+  {
+   "displayText": "$field->upper()",
+   "type": "field-methods",
+   "description": "Converts the field content to uppercase",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/upper",
+   "snippet": "->upper()"
+  },
+  {
+   "displayText": "$field->value()",
+   "type": "field-methods",
+   "description": "Returns the value of a field as string.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/value",
+   "snippet": "->value()"
+  },
+  {
+   "displayText": "$field->widont()",
+   "type": "field-methods",
+   "description": "Avoids typographical widows in strings by replacing the last space with &nbsp;",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/widont",
+   "snippet": "->widont()"
+  },
+  {
+   "displayText": "$field->words()",
+   "type": "field-methods",
+   "description": "Returns the number of words in the text",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/words",
+   "snippet": "->words()"
+  },
+  {
+   "displayText": "$field->xml()",
+   "type": "field-methods",
+   "description": "Converts the field content to valid XML",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/xml",
+   "snippet": "->xml()"
+  },
+  {
+   "displayText": "$field->yaml()",
+   "type": "field-methods",
+   "description": "Converts YAML-structured field content to an array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/field-methods/yaml",
+   "snippet": "->yaml()"
+  },
+  {
+   "displayText": "$file->append($content)",
+   "type": "file",
+   "description": "Appends the content and saves the file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/append",
+   "snippet": "->append()"
+  },
+  {
+   "displayText": "$file->base64()",
+   "type": "file",
+   "description": "Returns the content of the file as base64 encoded string",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/base64",
+   "snippet": "->base64()"
+  },
+  {
+   "displayText": "$file->content($content = null, $format = null)",
+   "type": "file",
+   "description": "Setter and getter for the file content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/content",
+   "snippet": "->content()"
+  },
+  {
+   "displayText": "$file->copy($to)",
+   "type": "file",
+   "description": "Copies the file to a new location",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/copy",
+   "snippet": "->copy()"
+  },
+  {
+   "displayText": "$file->createNewFilename($name, $safeName = true)",
+   "type": "file",
+   "description": "Generates a new filename for a given name and makes sure to handle badly given extensions correctly",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/create-new-filename",
+   "snippet": "->createNewFilename()"
+  },
+  {
+   "displayText": "$file->dataUri()",
+   "type": "file",
+   "description": "Returns a full base64 encoded data uri with a proper mime type",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/data-uri",
+   "snippet": "->dataUri()"
+  },
+  {
+   "displayText": "$file->date($format = null, $field = 'date')",
+   "type": "file",
+   "description": "Returns a unix timestamp or formatted date string from the file's meta date field or any other field containing a parsable date",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/date",
+   "snippet": "->date()"
+  },
+  {
+   "displayText": "$file->delete()",
+   "type": "file",
+   "description": "Deletes the file. This cannot be undone.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/delete",
+   "snippet": "->delete()"
+  },
+  {
+   "displayText": "$file->dimensions()",
+   "type": "file",
+   "description": "Returns the $dimensions object for the file. This is only available for images (jpg, png, gif)",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/dimensions",
+   "snippet": "->dimensions()"
+  },
+  {
+   "displayText": "$file->dir()",
+   "type": "file",
+   "description": "Returns the full path for the directory, in which the file is located",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/dir",
+   "snippet": "->dir()"
+  },
+  {
+   "displayText": "$file->download($filename = null)",
+   "type": "file",
+   "description": "Sends all needed headers and the content to force the browser to download the file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/download",
+   "snippet": "->download()"
+  },
+  {
+   "displayText": "$file->exif()",
+   "type": "file",
+   "description": "Returns the $exif object for the file, which can be used to fetch information such as the camera model or GPS data",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/exif",
+   "snippet": "->exif()"
+  },
+  {
+   "displayText": "$file->exists()",
+   "type": "file",
+   "description": "Checks if the file exists",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/exists",
+   "snippet": "->exists()"
+  },
+  {
+   "displayText": "$file->extension()",
+   "type": "file",
+   "description": "Returns the file extension",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/extension",
+   "snippet": "->extension()"
+  },
+  {
+   "displayText": "$file->filename()",
+   "type": "file",
+   "description": "Returns the full filename including extension",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/filename",
+   "snippet": "->filename()"
+  },
+  {
+   "displayText": "$file->files()",
+   "type": "file",
+   "description": "Returns the collection of sibling files including the current object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/files",
+   "snippet": "->files()"
+  },
+  {
+   "displayText": "$file->hasNext()",
+   "type": "file",
+   "description": "Checks if there's a next sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/has-next",
+   "snippet": "->hasNext()"
+  },
+  {
+   "displayText": "$file->hasPrev()",
+   "type": "file",
+   "description": "Checks if there's a previous sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/has-prev",
+   "snippet": "->hasPrev()"
+  },
+  {
+   "displayText": "$file->hash()",
+   "type": "file",
+   "description": "Returns an md5 hash for the root of the file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/hash",
+   "snippet": "->hash()"
+  },
+  {
+   "displayText": "$file->header($send = true)",
+   "type": "file",
+   "description": "Sends an appropriate header for the asset",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/header",
+   "snippet": "->header()"
+  },
+  {
+   "displayText": "$file->height()",
+   "type": "file",
+   "description": "Returns the height of image files in pixels",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/height",
+   "snippet": "->height()"
+  },
+  {
+   "displayText": "$file->html($attr = array())",
+   "type": "file",
+   "description": "Auto-generates an HTML tag for images",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/html",
+   "snippet": "->html()"
+  },
+  {
+   "displayText": "$file->imagesize()",
+   "type": "file",
+   "description": "Returns the PHP imagesize array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/imagesize",
+   "snippet": "->imagesize()"
+  },
+  {
+   "displayText": "$file->is($value)",
+   "type": "file",
+   "description": "Checks if a file is of a certain type",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/is",
+   "snippet": "->is()"
+  },
+  {
+   "displayText": "$file->isExecutable()",
+   "type": "file",
+   "description": "Checks if the file is executable",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/is-executable",
+   "snippet": "->isExecutable()"
+  },
+  {
+   "displayText": "$file->isLandscape()",
+   "type": "file",
+   "description": "Checks if an image file has been taken in landscape mode",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/is-landscape",
+   "snippet": "->isLandscape()"
+  },
+  {
+   "displayText": "$file->isPortrait()",
+   "type": "file",
+   "description": "Checks if an image file has been taken in portrait mode",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/is-portrait",
+   "snippet": "->isPortrait()"
+  },
+  {
+   "displayText": "$file->isReadable()",
+   "type": "file",
+   "description": "Checks if the file is readable",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/is-readable",
+   "snippet": "->isReadable()"
+  },
+  {
+   "displayText": "$file->isSquare()",
+   "type": "file",
+   "description": "Checks if the image is square",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/is-square",
+   "snippet": "->isSquare()"
+  },
+  {
+   "displayText": "$file->isWritable()",
+   "type": "file",
+   "description": "Checks if the file is writable",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/is-writable",
+   "snippet": "->isWritable()"
+  },
+  {
+   "displayText": "$file->kirby()",
+   "type": "file",
+   "description": "Returns the kirby object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/kirby",
+   "snippet": "->kirby()"
+  },
+  {
+   "displayText": "$file->load($data = array())",
+   "type": "file",
+   "description": "Safely requires a file if it exists",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/load",
+   "snippet": "->load()"
+  },
+  {
+   "displayText": "$file->meta([$language])",
+   "type": "file",
+   "description": "Returns the file's $content object with data from the meta file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/meta",
+   "snippet": "->meta()"
+  },
+  {
+   "displayText": "$file->mime()",
+   "type": "file",
+   "description": "Returns the file's mime type",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/mime",
+   "snippet": "->mime()"
+  },
+  {
+   "displayText": "$file->modified($format = false, $handler = null)",
+   "type": "file",
+   "description": "Returns the unix timestamp or a formatted date for when the file has been modified",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/modified",
+   "snippet": "->modified()"
+  },
+  {
+   "displayText": "$file->move($to)",
+   "type": "file",
+   "description": "Moves the file to a new location",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/move",
+   "snippet": "->move()"
+  },
+  {
+   "displayText": "$file->name()",
+   "type": "file",
+   "description": "Returns the name of the file without extension",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/name",
+   "snippet": "->name()"
+  },
+  {
+   "displayText": "$file->next()",
+   "type": "file",
+   "description": "Returns the next sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/next",
+   "snippet": "->next()"
+  },
+  {
+   "displayText": "$file->niceSize()",
+   "type": "file",
+   "description": "Returns the size of the file in a human readable format",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/nice-size",
+   "snippet": "->niceSize()"
+  },
+  {
+   "displayText": "$file->orientation()",
+   "type": "file",
+   "description": "Returns the orientation of image files as a string (landscape, portrait, square)",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/orientation",
+   "snippet": "->orientation()"
+  },
+  {
+   "displayText": "$file->original()",
+   "type": "file",
+   "description": "Returns the reference to the original file (for thumbnails)",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/original",
+   "snippet": "->original()"
+  },
+  {
+   "displayText": "$file->page()",
+   "type": "file",
+   "description": "Returns the page object for a file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/page",
+   "snippet": "->page()"
+  },
+  {
+   "displayText": "$file->prev()",
+   "type": "file",
+   "description": "Returns the previous sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/prev",
+   "snippet": "->prev()"
+  },
+  {
+   "displayText": "$file->ratio()",
+   "type": "file",
+   "description": "Returns the ratio of an image file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/ratio",
+   "snippet": "->ratio()"
+  },
+  {
+   "displayText": "$file->read($format = null)",
+   "type": "file",
+   "description": "Reads the content of the file and returns it",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/read",
+   "snippet": "->read()"
+  },
+  {
+   "displayText": "$file->remove()",
+   "type": "file",
+   "description": "Alternative for delete",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/remove",
+   "snippet": "->remove()"
+  },
+  {
+   "displayText": "$file->rename($name, $safeName = true)",
+   "type": "file",
+   "description": "Renames the file and all the meta text files",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/rename",
+   "snippet": "->rename()"
+  },
+  {
+   "displayText": "$file->reset()",
+   "type": "file",
+   "description": "Resets the internal memory data cache",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/reset",
+   "snippet": "->reset()"
+  },
+  {
+   "displayText": "$file->root()",
+   "type": "file",
+   "description": "Returns the full root for a file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/root",
+   "snippet": "->root()"
+  },
+  {
+   "displayText": "$file->safeName()",
+   "type": "file",
+   "description": "Returns the filename as safe name",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/safe-name",
+   "snippet": "->safeName()"
+  },
+  {
+   "displayText": "$file->save($content = null, $format = null)",
+   "type": "file",
+   "description": "Saves new content to the file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/save",
+   "snippet": "->save()"
+  },
+  {
+   "displayText": "$file->show()",
+   "type": "file",
+   "description": "Read and send the file with the correct headers",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/show",
+   "snippet": "->show()"
+  },
+  {
+   "displayText": "$file->siblings()",
+   "type": "file",
+   "description": "Returns all siblings of the file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/siblings",
+   "snippet": "->siblings()"
+  },
+  {
+   "displayText": "$file->site()",
+   "type": "file",
+   "description": "Returns the site object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/site",
+   "snippet": "->site()"
+  },
+  {
+   "displayText": "$file->size()",
+   "type": "file",
+   "description": "Returns the raw file size",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/size",
+   "snippet": "->size()"
+  },
+  {
+   "displayText": "$file->textfile([$language])",
+   "type": "file",
+   "description": "Returns the root for the meta file of the file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/textfile",
+   "snippet": "->textfile()"
+  },
+  {
+   "displayText": "$file->toArray($callback = null)",
+   "type": "file",
+   "description": "Converts the entire file object into a plain PHP array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/to-array",
+   "snippet": "->toArray()"
+  },
+  {
+   "displayText": "$file->toJson($callback = null)",
+   "type": "file",
+   "description": "Converts the entire media object into a JSON string",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/to-json",
+   "snippet": "->toJson()"
+  },
+  {
+   "displayText": "$file->touch()",
+   "type": "file",
+   "description": "Change the file's modification date to now and create it with an empty content if it is not there yet",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/touch",
+   "snippet": "->touch()"
+  },
+  {
+   "displayText": "$file->type()",
+   "type": "file",
+   "description": "Returns the file type (image, document, video, archive, code, audio, unkown)",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/type",
+   "snippet": "->type()"
+  },
+  {
+   "displayText": "$file->update($data = array()[, $language])",
+   "type": "file",
+   "description": "Updates the meta information for a file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/update",
+   "snippet": "->update()[, $language])"
+  },
+  {
+   "displayText": "$file->url()",
+   "type": "file",
+   "description": "Returns the absolute URL for a file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/url",
+   "snippet": "->url()"
+  },
+  {
+   "displayText": "$file->width()",
+   "type": "file",
+   "description": "Returns the width of image files in pixels",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/width",
+   "snippet": "->width()"
+  },
+  {
+   "displayText": "$file->write($content = null, $format = null)",
+   "type": "file",
+   "description": "Alternative for save",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/file/write",
+   "snippet": "->write()"
+  },
+  {
+   "displayText": "$files->count()",
+   "type": "files",
+   "description": "Returns the number of files in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/count",
+   "snippet": "->count()"
+  },
+  {
+   "displayText": "$files->filter($callback)",
+   "type": "files",
+   "description": "Applies a filter callback to each item in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/filter",
+   "snippet": "->filter()"
+  },
+  {
+   "displayText": "$files->filterBy()",
+   "type": "files",
+   "description": "Filters the collection by a key and value.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/filterBy",
+   "snippet": "->filterBy()"
+  },
+  {
+   "displayText": "$files->find()",
+   "type": "files",
+   "description": "Finds a single file or multiple files by one or many filenames.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/find",
+   "snippet": "->find()"
+  },
+  {
+   "displayText": "$files->findBy($field, $value)",
+   "type": "files",
+   "description": "Finds a single file by key and value",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/findBy",
+   "snippet": "->findBy()"
+  },
+  {
+   "displayText": "$files->first()",
+   "type": "files",
+   "description": "Returns the first file in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/first",
+   "snippet": "->first()"
+  },
+  {
+   "displayText": "$files->flip()",
+   "type": "files",
+   "description": "Returns the collection in reverse order",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/flip",
+   "snippet": "->flip()"
+  },
+  {
+   "displayText": "$files->get($filename)",
+   "type": "files",
+   "description": "Returns a single file by filename",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/get",
+   "snippet": "->get()"
+  },
+  {
+   "displayText": "$files->groupBy($field, $caseInsensitive = true)",
+   "type": "files",
+   "description": "Groups all files in the collection by a given field.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/groupBy",
+   "snippet": "->groupBy()"
+  },
+  {
+   "displayText": "$files->has($file)",
+   "type": "files",
+   "description": "Checks if a $file object is included in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/has",
+   "snippet": "->has()"
+  },
+  {
+   "displayText": "$files->keys()",
+   "type": "files",
+   "description": "Returns an array with all filenames in the collection.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/keys",
+   "snippet": "->keys()"
+  },
+  {
+   "displayText": "$files->last()",
+   "type": "files",
+   "description": "Returns the last file in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/last",
+   "snippet": "->last()"
+  },
+  {
+   "displayText": "$files->limit($limit)",
+   "type": "files",
+   "description": "Returns the collection with a limited set of items",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/limit",
+   "snippet": "->limit()"
+  },
+  {
+   "displayText": "$files->map($callback)",
+   "type": "files",
+   "description": "Applies a callback to all items in the collection.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/map",
+   "snippet": "->map()"
+  },
+  {
+   "displayText": "$files->not()",
+   "type": "files",
+   "description": "Returns the collection without a given file. The ignored file can be passed by filename or entire file object.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/not",
+   "snippet": "->not()"
+  },
+  {
+   "displayText": "$files->nth($n)",
+   "type": "files",
+   "description": "Returns the nth file in the collection.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/nth",
+   "snippet": "->nth()"
+  },
+  {
+   "displayText": "$files->offset($offset)",
+   "type": "files",
+   "description": "Returns the collection starting from a given offset",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/offset",
+   "snippet": "->offset()"
+  },
+  {
+   "displayText": "$files->paginate($limit, $options = array())",
+   "type": "files",
+   "description": "Applies pagination to the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/paginate",
+   "snippet": "->paginate()"
+  },
+  {
+   "displayText": "$files->pagination()",
+   "type": "files",
+   "description": "Returns the $pagination object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/pagination",
+   "snippet": "->pagination()"
+  },
+  {
+   "displayText": "$files->pluck($field, $split = null, $unique = false)",
+   "type": "files",
+   "description": "Plucks all values for a specific field from the collection and returns those as array.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/pluck",
+   "snippet": "->pluck()"
+  },
+  {
+   "displayText": "$files->shuffle()",
+   "type": "files",
+   "description": "Returns the collection in shuffled order.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/shuffle",
+   "snippet": "->shuffle()"
+  },
+  {
+   "displayText": "$files->slice($offset = null, $limit = null)",
+   "type": "files",
+   "description": "Returns a sliced version of the collection starting from a given offset and an optional limited number of items.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/slice",
+   "snippet": "->slice()"
+  },
+  {
+   "displayText": "$files->sortBy($field, $direction = 'asc', $method = SORT_REGULAR)",
+   "type": "files",
+   "description": "Sorts the files in the collection by field and direction",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/sortBy",
+   "snippet": "->sortBy()"
+  },
+  {
+   "displayText": "$files->toArray($callback = null)",
+   "type": "files",
+   "description": "Converts the collection to a simple array.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/to-array",
+   "snippet": "->toArray()"
+  },
+  {
+   "displayText": "$files->toJson()",
+   "type": "files",
+   "description": "Converts the collection to a json string.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/files/to-json",
+   "snippet": "->toJson()"
+  },
+  {
+   "displayText": "attr($name, $value = null)",
+   "type": "helpers",
+   "description": "Creates attributes for an HTML tag",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/attr",
+   "snippet": "attr()"
+  },
+  {
+   "displayText": "brick($tag, $html = false, $attr = array())",
+   "type": "helpers",
+   "description": "Creates an HTML Element (Brick object)",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/brick",
+   "snippet": "brick()"
+  },
+  {
+   "displayText": "call($function, $arguments = array())",
+   "type": "helpers",
+   "description": "Calls a function with a given set of arguments",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/call",
+   "snippet": "call()"
+  },
+  {
+   "displayText": "csrf($check = null)",
+   "type": "helpers",
+   "description": "Generates and checks CSRF tokens",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/csrf",
+   "snippet": "csrf()"
+  },
+  {
+   "displayText": "css($path, $media = null)",
+   "type": "helpers",
+   "description": "Creates one or multiple CSS link tags",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/css",
+   "snippet": "css()"
+  },
+  {
+   "displayText": "dump($variable, $echo = true)",
+   "type": "helpers",
+   "description": "Dumps the content of any variable in a human readable way for debugging",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/dump",
+   "snippet": "dump()"
+  },
+  {
+   "displayText": "e($condition, $a, $b = null)",
+   "type": "helpers",
+   "description": "Echos one of two alternatives depending on a condition (Shortcut for ecco())",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/e",
+   "snippet": "e()"
+  },
+  {
+   "displayText": "ecco($condition, $a, $b = null)",
+   "type": "helpers",
+   "description": "Echos one of two alternatives depending on a condition",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/ecco",
+   "snippet": "ecco()"
+  },
+  {
+   "displayText": "email($params)",
+   "type": "helpers",
+   "description": "Sends an email",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/email",
+   "snippet": "email()"
+  },
+  {
+   "displayText": "esc($string, $context = 'html', $strict = false)",
+   "type": "helpers",
+   "description": "Escapes strings based on the output context",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/esc",
+   "snippet": "esc()"
+  },
+  {
+   "displayText": "excerpt($text, $length = 140, $mode = 'chars')",
+   "type": "helpers",
+   "description": "Creates an excerpt of any text by a given character or word length",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/excerpt",
+   "snippet": "excerpt()"
+  },
+  {
+   "displayText": "get($key = null, $default = null)",
+   "type": "helpers",
+   "description": "Fetches a POST or GET parameter by key",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/get",
+   "snippet": "get()"
+  },
+  {
+   "displayText": "gist($url, $file = null)",
+   "type": "helpers",
+   "description": "Embeds a Gist from Github by URL",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/gist",
+   "snippet": "gist()"
+  },
+  {
+   "displayText": "go($url = '/')",
+   "type": "helpers",
+   "description": "Redirects to a different URL",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/go",
+   "snippet": "go()"
+  },
+  {
+   "displayText": "gravatar($email, $size = 256, $default = 'mm')",
+   "type": "helpers",
+   "description": "Builds the Gravatar URL by email",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/gravatar",
+   "snippet": "gravatar()"
+  },
+  {
+   "displayText": "h($text, $keepTags = true)",
+   "type": "helpers",
+   "description": "Converts any text to valid HTML (shortcut for html())",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/h",
+   "snippet": "h()"
+  },
+  {
+   "displayText": "html($text, $keepTags = true)",
+   "type": "helpers",
+   "description": "Converts any text to valid HTML",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/html",
+   "snippet": "html()"
+  },
+  {
+   "displayText": "invalid($data, $rules, $messages = array())",
+   "type": "helpers",
+   "description": "Runs a number of validators on a set of data and checks if the data is invalid",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/invalid",
+   "snippet": "invalid()"
+  },
+  {
+   "displayText": "js($path, $async = false)",
+   "type": "helpers",
+   "description": "Creates a script tag to load a javascript file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/js",
+   "snippet": "js()"
+  },
+  {
+   "displayText": "kirby()",
+   "type": "helpers",
+   "description": "Returns the Kirby object in any situation",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/kirby",
+   "snippet": "kirby()"
+  },
+  {
+   "displayText": "kirbytag($attr)",
+   "type": "helpers",
+   "description": "Makes it possible to use any defined Kirbytag as standalone function",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/kirbytag",
+   "snippet": "kirbytag()"
+  },
+  {
+   "displayText": "kirbytext($text)",
+   "type": "helpers",
+   "description": "Parses any text with Markdown and Kirbytext",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/kirbytext",
+   "snippet": "kirbytext()"
+  },
+  {
+   "displayText": "l($key, $default = null)",
+   "type": "helpers",
+   "description": "Fetches a language variable for multi-language sites",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/l",
+   "snippet": "l()"
+  },
+  {
+   "displayText": "markdown($text)",
+   "type": "helpers",
+   "description": "Parses the text as Markdown",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/markdown",
+   "snippet": "markdown()"
+  },
+  {
+   "displayText": "memory()",
+   "type": "helpers",
+   "description": "Returns the current memory usage in a human-readable format",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/memory",
+   "snippet": "memory()"
+  },
+  {
+   "displayText": "multiline($text)",
+   "type": "helpers",
+   "description": "Converts new lines in text to html breaks.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/multiline",
+   "snippet": "multiline()"
+  },
+  {
+   "displayText": "page($uri = null)",
+   "type": "helpers",
+   "description": "Fetches any page by URI or the current page when no URI is specified",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/page",
+   "snippet": "page()"
+  },
+  {
+   "displayText": "pages($data = array())",
+   "type": "helpers",
+   "description": "Helper to build page collections",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/pages",
+   "snippet": "pages()"
+  },
+  {
+   "displayText": "param($key = null, $default = null)",
+   "type": "helpers",
+   "description": "Fetches a Kirby URL parameter",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/param",
+   "snippet": "param()"
+  },
+  {
+   "displayText": "params()",
+   "type": "helpers",
+   "description": "Fetches all Kirby URL parameters",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/params",
+   "snippet": "params()"
+  },
+  {
+   "displayText": "r($condition, $a, $b = null)",
+   "type": "helpers",
+   "description": "Returns either $a or $b by the given condition",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/r",
+   "snippet": "r()"
+  },
+  {
+   "displayText": "site()",
+   "type": "helpers",
+   "description": "Returns the site object in any situation",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/site",
+   "snippet": "site()"
+  },
+  {
+   "displayText": "size($input)",
+   "type": "helpers",
+   "description": "Returns the size of strings, numbers, files and arrays.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/size",
+   "snippet": "size()"
+  },
+  {
+   "displayText": "smartypants($text)",
+   "type": "helpers",
+   "description": "Applies the SmartyPants Typographer on an HTML string",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/smartypants",
+   "snippet": "smartypants()"
+  },
+  {
+   "displayText": "snippet($file, $data = array(), $return = false)",
+   "type": "helpers",
+   "description": "Embeds a snippet from the snippet folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/snippet",
+   "snippet": "snippet(), $return = false)"
+  },
+  {
+   "displayText": "structure($data, $page = null, $key = null)",
+   "type": "helpers",
+   "description": "Creates a Kirby structure object from a data array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/structure",
+   "snippet": "structure()"
+  },
+  {
+   "displayText": "textfile($uri, $template, $lang = null)",
+   "type": "helpers",
+   "description": "Helper to create correct text file names for content files",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/textfile",
+   "snippet": "textfile()"
+  },
+  {
+   "displayText": "thisUrl()",
+   "type": "helpers",
+   "description": "Returns the current url",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/this-url",
+   "snippet": "thisUrl()"
+  },
+  {
+   "displayText": "thumb($image, $params = array(), $obj = true)",
+   "type": "helpers",
+   "description": "Creates a thumbnail for a given image object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/thumb",
+   "snippet": "thumb(), $obj = true)"
+  },
+  {
+   "displayText": "twitter($username, $text = null, $title = null, $class = null)",
+   "type": "helpers",
+   "description": "Builds a Twitter profile link by username",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/twitter",
+   "snippet": "twitter()"
+  },
+  {
+   "displayText": "u($path = '/')",
+   "type": "helpers",
+   "description": "Shortcut for url()",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/u",
+   "snippet": "u()"
+  },
+  {
+   "displayText": "upload($to, $params = array())",
+   "type": "helpers",
+   "description": "Shortcut for the Upload class",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/upload",
+   "snippet": "upload()"
+  },
+  {
+   "displayText": "url($path = '/')",
+   "type": "helpers",
+   "description": "Builds an absolute URL for a given path",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/url",
+   "snippet": "url()"
+  },
+  {
+   "displayText": "vimeo($url, $width = null, $height = null, $class = null)",
+   "type": "helpers",
+   "description": "Embeds a Vimeo video by URL in an iframe",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/vimeo",
+   "snippet": "vimeo()"
+  },
+  {
+   "displayText": "widont($text)",
+   "type": "helpers",
+   "description": "Avoids typographical widows in strings by replacing the last space with &nbsp;",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/widont",
+   "snippet": "widont()"
+  },
+  {
+   "displayText": "xml($text)",
+   "type": "helpers",
+   "description": "Converts any text to valid XML",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/xml",
+   "snippet": "xml()"
+  },
+  {
+   "displayText": "yaml($string)",
+   "type": "helpers",
+   "description": "Parses any string as YAML",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/yaml",
+   "snippet": "yaml()"
+  },
+  {
+   "displayText": "youtube($url, $width = null, $height = null, $class = null)",
+   "type": "helpers",
+   "description": "Embeds a Youtube video by URL in an iframe",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/helpers/youtube",
+   "snippet": "youtube()"
+  },
+  {
+   "displayText": "$language->code()",
+   "type": "language",
+   "description": "Returns the iso language code",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/language/code",
+   "snippet": "->code()"
+  },
+  {
+   "displayText": "$language->default()",
+   "type": "language",
+   "description": "Checks if this is the default language",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/language/default",
+   "snippet": "->default()"
+  },
+  {
+   "displayText": "$language->direction()",
+   "type": "language",
+   "description": "Returns the text direction of the language (rtl or ltr)",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/language/direction",
+   "snippet": "->direction()"
+  },
+  {
+   "displayText": "$language->locale()",
+   "type": "language",
+   "description": "Returns the locale string",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/language/locale",
+   "snippet": "->locale()"
+  },
+  {
+   "displayText": "$language->name()",
+   "type": "language",
+   "description": "Returns the full name of the language",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/language/name",
+   "snippet": "->name()"
+  },
+  {
+   "displayText": "$language->url()",
+   "type": "language",
+   "description": "Returns the assigned base URL for the language",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/language/url",
+   "snippet": "->url()"
+  },
+  {
+   "displayText": "$location->lat()",
+   "type": "location",
+   "description": "Returns the latitude",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/location/lat",
+   "snippet": "->lat()"
+  },
+  {
+   "displayText": "$location->lng()",
+   "type": "location",
+   "description": "Returns the longitude",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/location/lng",
+   "snippet": "->lng()"
+  },
+  {
+   "displayText": "$location->toArray()",
+   "type": "location",
+   "description": "Returns latitude and longitude as associative array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/location/to-array",
+   "snippet": "->toArray()"
+  },
+  {
+   "displayText": "$page->archives()",
+   "type": "page",
+   "description": "Returns a $files collection with all archive files (zip, gzip, tar) in the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/archives",
+   "snippet": "->archives()"
+  },
+  {
+   "displayText": "$page->audio()",
+   "type": "page",
+   "description": "Returns a $files collection with all audio files in the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/audio",
+   "snippet": "->audio()"
+  },
+  {
+   "displayText": "$page->children()",
+   "type": "page",
+   "description": "Returns a $pages collection with all children of the page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/children",
+   "snippet": "->children()"
+  },
+  {
+   "displayText": "$page->code()",
+   "type": "page",
+   "description": "Returns a $files collection with all code files (css, js, html, etc.) in the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/code",
+   "snippet": "->code()"
+  },
+  {
+   "displayText": "$page->content([$lang = null])",
+   "type": "page",
+   "description": "Returns the page's $content object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/content",
+   "snippet": "->content()"
+  },
+  {
+   "displayText": "$page->content()->has($field)",
+   "type": "page",
+   "description": "Checks if the page has a certain field",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/content-has-field",
+   "snippet": "->content()->has()"
+  },
+  {
+   "displayText": "$page->contentURL()",
+   "type": "page",
+   "description": "Returns the full URL for the content folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/content-url",
+   "snippet": "->contentURL()"
+  },
+  {
+   "displayText": "$page->create($uri, $template, $data = array())",
+   "type": "page",
+   "description": "Creates a new page object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/create",
+   "snippet": "->create()"
+  },
+  {
+   "displayText": "$page->date($format = null, $field = 'date')",
+   "type": "page",
+   "description": "Returns a unix timestamp or formatted date string from the page's date field or any other field containing a parsable date",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/date",
+   "snippet": "->date()"
+  },
+  {
+   "displayText": "$page->delete($force = false)",
+   "type": "page",
+   "description": "Deletes the $page object and all its data and files. This cannot be undone!",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/delete",
+   "snippet": "->delete()"
+  },
+  {
+   "displayText": "$page->depth()",
+   "type": "page",
+   "description": "Returns a number, which represents the nesting depth of the page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/depth",
+   "snippet": "->depth()"
+  },
+  {
+   "displayText": "$page->dirname()",
+   "type": "page",
+   "description": "Returns the full name of the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/dirname",
+   "snippet": "->dirname()"
+  },
+  {
+   "displayText": "$page->diruri()",
+   "type": "page",
+   "description": "Returns the full directory path of the page starting at /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/diruri",
+   "snippet": "->diruri()"
+  },
+  {
+   "displayText": "$page->documents()",
+   "type": "page",
+   "description": "Returns a $files collection with all documents in the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/documents",
+   "snippet": "->documents()"
+  },
+  {
+   "displayText": "$page->equals($other)",
+   "type": "page",
+   "description": "Compares the page with another $page object and checks if they are the same",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/equals",
+   "snippet": "->equals()"
+  },
+  {
+   "displayText": "$page->file($filename = false)",
+   "type": "page",
+   "description": "Returns a specific $file object within the page's directory by filename. If no filename is given, the first file will be returned",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/file",
+   "snippet": "->file()"
+  },
+  {
+   "displayText": "$page->files()",
+   "type": "page",
+   "description": "Returns a $files collection with all files in the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/files",
+   "snippet": "->files()"
+  },
+  {
+   "displayText": "$page->find($uri)",
+   "type": "page",
+   "description": "Returns the $page object of a specific subpage by URI. If multiple URIs are given, the method will return a $pages collection with all matches.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/find",
+   "snippet": "->find()"
+  },
+  {
+   "displayText": "$page->grandChildren()",
+   "type": "page",
+   "description": "Returns a $pages collection with all children of children in the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/grand-children",
+   "snippet": "->grandChildren()"
+  },
+  {
+   "displayText": "$page->hasArchives()",
+   "type": "page",
+   "description": "Checks if there are any archive files (zip, gzip, tar) in the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-archives",
+   "snippet": "->hasArchives()"
+  },
+  {
+   "displayText": "$page->hasAudio()",
+   "type": "page",
+   "description": "Checks if there are any audio files in the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-audio",
+   "snippet": "->hasAudio()"
+  },
+  {
+   "displayText": "$page->hasChildren()",
+   "type": "page",
+   "description": "Checks if the page has children",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-children",
+   "snippet": "->hasChildren()"
+  },
+  {
+   "displayText": "$page->hasCode()",
+   "type": "page",
+   "description": "Checks if there are any audio files in the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-code",
+   "snippet": "->hasCode()"
+  },
+  {
+   "displayText": "$page->hasDocuments()",
+   "type": "page",
+   "description": "Checks if there are any documents (pdf, doc, xls, etc.) in the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-documents",
+   "snippet": "->hasDocuments()"
+  },
+  {
+   "displayText": "$page->hasFiles()",
+   "type": "page",
+   "description": "Checks if there are any files in the page's directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-files",
+   "snippet": "->hasFiles()"
+  },
+  {
+   "displayText": "$page->hasImages()",
+   "type": "page",
+   "description": "Checks if there are image files (jpg, png, gif, etc.) in the page directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-images",
+   "snippet": "->hasImages()"
+  },
+  {
+   "displayText": "$page->hasInvisibleChildren()",
+   "type": "page",
+   "description": "Checks if the page has any invisible children",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-invisible-children",
+   "snippet": "->hasInvisibleChildren()"
+  },
+  {
+   "displayText": "$page->hasNext([$sort, $direction])",
+   "type": "page",
+   "description": "Checks if the page has a next sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-next",
+   "snippet": "->hasNext()"
+  },
+  {
+   "displayText": "$page->hasNextInvisible([$sort, $direction])",
+   "type": "page",
+   "description": "Checks if the page has a next invisible sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-next-invisible",
+   "snippet": "->hasNextInvisible()"
+  },
+  {
+   "displayText": "$page->hasNextVisible([$sort, $direction])",
+   "type": "page",
+   "description": "Checks if the page has a next visible sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-next-visible",
+   "snippet": "->hasNextVisible()"
+  },
+  {
+   "displayText": "$page->hasPrev([$sort, $direction])",
+   "type": "page",
+   "description": "Checks if the page has a previous sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-prev",
+   "snippet": "->hasPrev()"
+  },
+  {
+   "displayText": "$page->hasPrevInvisible([$sort, $direction])",
+   "type": "page",
+   "description": "Checks if the page has a previous invisible sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-prev-invisible",
+   "snippet": "->hasPrevInvisible()"
+  },
+  {
+   "displayText": "$page->hasPrevVisible([$sort, $direction])",
+   "type": "page",
+   "description": "Checks if the page has a previous visible sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-prev-visible",
+   "snippet": "->hasPrevVisible()"
+  },
+  {
+   "displayText": "$page->hasTemplate()",
+   "type": "page",
+   "description": "Checks if the page has its own template or if it uses the default template",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-template",
+   "snippet": "->hasTemplate()"
+  },
+  {
+   "displayText": "$page->hasVideos()",
+   "type": "page",
+   "description": "Checks if there are any video files in the page directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-videos",
+   "snippet": "->hasVideos()"
+  },
+  {
+   "displayText": "$page->hasVisibleChildren()",
+   "type": "page",
+   "description": "Checks if the page has any visible children",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/has-visible-children",
+   "snippet": "->hasVisibleChildren()"
+  },
+  {
+   "displayText": "$page->hash()",
+   "type": "page",
+   "description": "Returns a unique hash for the page, which is used by tinyurls",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/hash",
+   "snippet": "->hash()"
+  },
+  {
+   "displayText": "$page->headers()",
+   "type": "page",
+   "description": "Sends all appropriate headers for this page. Can be configured with the headers config array, which should contain all header definitions for each template",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/headers",
+   "snippet": "->headers()"
+  },
+  {
+   "displayText": "$page->hide()",
+   "type": "page",
+   "description": "Removes the sorting number from the page directory to switch it to invisible",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/hide",
+   "snippet": "->hide()"
+  },
+  {
+   "displayText": "$page->id()",
+   "type": "page",
+   "description": "Returns the page id, which is the untranslated URI",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/id",
+   "snippet": "->id()"
+  },
+  {
+   "displayText": "$page->image($filename = false)",
+   "type": "page",
+   "description": "Returns a specific image $file object by filename. If no filename is given, the first available image will be returned.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/image",
+   "snippet": "->image()"
+  },
+  {
+   "displayText": "$page->images()",
+   "type": "page",
+   "description": "Returns a $files collection with all image files (jpg, png, gif, etc.) in the page directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/images",
+   "snippet": "->images()"
+  },
+  {
+   "displayText": "$page->index()",
+   "type": "page",
+   "description": "Recursively builds a $pages collection with all children, children of children, etc.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/index",
+   "snippet": "->index()"
+  },
+  {
+   "displayText": "$page->intendedTemplate()",
+   "type": "page",
+   "description": "Returns the name of the intended template. This is the name of the content text file.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/intended-template",
+   "snippet": "->intendedTemplate()"
+  },
+  {
+   "displayText": "$page->intendedTemplateFile()",
+   "type": "page",
+   "description": "Returns the path for the intended template file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/intendedTemplateFile",
+   "snippet": "->intendedTemplateFile()"
+  },
+  {
+   "displayText": "$page->inventory()",
+   "type": "page",
+   "description": "Reads the directory and returns an inventory array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/inventory",
+   "snippet": "->inventory()"
+  },
+  {
+   "displayText": "$page->is($other)",
+   "type": "page",
+   "description": "Compares the page with another $page object and checks if they are the same",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is",
+   "snippet": "->is()"
+  },
+  {
+   "displayText": "$page->isActive()",
+   "type": "page",
+   "description": "Checks if the page is the currently active page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-active",
+   "snippet": "->isActive()"
+  },
+  {
+   "displayText": "$page->isAncestorOf($child)",
+   "type": "page",
+   "description": "Checks if the page is a direct or indirect ancestor of the given $page object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-ancestor-of",
+   "snippet": "->isAncestorOf()"
+  },
+  {
+   "displayText": "$page->isCacheable()",
+   "type": "page",
+   "description": "Checks if the page can be cached",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-cachable",
+   "snippet": "->isCacheable()"
+  },
+  {
+   "displayText": "$page->isChildOf($parent)",
+   "type": "page",
+   "description": "Checks if the page is a child of the given page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-child-of",
+   "snippet": "->isChildOf()"
+  },
+  {
+   "displayText": "$page->isDeletable()",
+   "type": "page",
+   "description": "Checks if the page is deletable",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-deletable",
+   "snippet": "->isDeletable()"
+  },
+  {
+   "displayText": "$page->isDescendantOf($parent)",
+   "type": "page",
+   "description": "Checks if the page is a descendant of the given page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-descendant-of",
+   "snippet": "->isDescendantOf()"
+  },
+  {
+   "displayText": "$page->isDescendantOfActive()",
+   "type": "page",
+   "description": "Checks if the page is a descendant of the currently active page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-descendant-of-active",
+   "snippet": "->isDescendantOfActive()"
+  },
+  {
+   "displayText": "$page->isErrorPage()",
+   "type": "page",
+   "description": "Checks if the page is the error page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-error-page",
+   "snippet": "->isErrorPage()"
+  },
+  {
+   "displayText": "$page->isHomePage()",
+   "type": "page",
+   "description": "Checks if the page is the home page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-home-page",
+   "snippet": "->isHomePage()"
+  },
+  {
+   "displayText": "$page->isInvisible()",
+   "type": "page",
+   "description": "Checks if the page is invisible",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-invisible",
+   "snippet": "->isInvisible()"
+  },
+  {
+   "displayText": "$page->isOpen()",
+   "type": "page",
+   "description": "Checks if the page is open. This means that it is either active or it is a direct or indirect parent of the currently active page.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-open",
+   "snippet": "->isOpen()"
+  },
+  {
+   "displayText": "$page->isParentOf($child)",
+   "type": "page",
+   "description": "Checks if the page is the parent of the given page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-parent-of",
+   "snippet": "->isParentOf()"
+  },
+  {
+   "displayText": "$page->isSite()",
+   "type": "page",
+   "description": "Checks if this page object is the main site",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-site",
+   "snippet": "->isSite()"
+  },
+  {
+   "displayText": "$page->isVisible()",
+   "type": "page",
+   "description": "Checks if the page is visible",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-visible",
+   "snippet": "->isVisible()"
+  },
+  {
+   "displayText": "$page->isWritable()",
+   "type": "page",
+   "description": "Checks if the page is writable",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/is-writable",
+   "snippet": "->isWritable()"
+  },
+  {
+   "displayText": "$page->kirby()",
+   "type": "page",
+   "description": "Returns the kirby object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/kirby",
+   "snippet": "->kirby()"
+  },
+  {
+   "displayText": "$page->modified($format = false)",
+   "type": "page",
+   "description": "Returns the unix timestamp or a formatted date string of the last modification date of the page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/modified",
+   "snippet": "->modified()"
+  },
+  {
+   "displayText": "$page->move($uid)",
+   "type": "page",
+   "description": "Changes the uid for the page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/move",
+   "snippet": "->move()"
+  },
+  {
+   "displayText": "$page->next([$sort, $direction])",
+   "type": "page",
+   "description": "Returns the next sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/next",
+   "snippet": "->next()"
+  },
+  {
+   "displayText": "$page->nextInvisible([$sort, $direction])",
+   "type": "page",
+   "description": "Returns the next invisible sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/next-invisible",
+   "snippet": "->nextInvisible()"
+  },
+  {
+   "displayText": "$page->nextVisible([$sort, $direction])",
+   "type": "page",
+   "description": "Returns the next visible sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/next-visible",
+   "snippet": "->nextVisible()"
+  },
+  {
+   "displayText": "$page->num()",
+   "type": "page",
+   "description": "Returns the sorting number",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/num",
+   "snippet": "->num()"
+  },
+  {
+   "displayText": "$page->parent()",
+   "type": "page",
+   "description": "Returns the parent $page object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/parent",
+   "snippet": "->parent()"
+  },
+  {
+   "displayText": "$page->parents()",
+   "type": "page",
+   "description": "Returns a $pages collection of all parents",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/parents",
+   "snippet": "->parents()"
+  },
+  {
+   "displayText": "$page->prev([$sort, $direction])",
+   "type": "page",
+   "description": "Returns the previous sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/prev",
+   "snippet": "->prev()"
+  },
+  {
+   "displayText": "$page->prevInvisible([$sort, $direction])",
+   "type": "page",
+   "description": "Returns the previous invisble sibling.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/prev-invisible",
+   "snippet": "->prevInvisible()"
+  },
+  {
+   "displayText": "$page->prevVisible([$sort, $direction])",
+   "type": "page",
+   "description": "Returns the previous visible sibling",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/prev-visible",
+   "snippet": "->prevVisible()"
+  },
+  {
+   "displayText": "$page->reset()",
+   "type": "page",
+   "description": "Cleans the temporary page cache and the cache of all parent pages",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/reset",
+   "snippet": "->reset()"
+  },
+  {
+   "displayText": "$page->root()",
+   "type": "page",
+   "description": "Returns the full root of the page directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/root",
+   "snippet": "->root()"
+  },
+  {
+   "displayText": "$page->search($query, $params = array())",
+   "type": "page",
+   "description": "Searches all descendants",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/search",
+   "snippet": "->search()"
+  },
+  {
+   "displayText": "$page->siblings($self = true)",
+   "type": "page",
+   "description": "Returns all siblings.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/siblings",
+   "snippet": "->siblings()"
+  },
+  {
+   "displayText": "$page->site()",
+   "type": "page",
+   "description": "Returns the site object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/site",
+   "snippet": "->site()"
+  },
+  {
+   "displayText": "$page->slug([$lang = null])",
+   "type": "page",
+   "description": "Returns the slug. The slug is the last part of the page's URL. It is translatable in multi-language sites while the UID always stays the page's directory name without the sorting number.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/slug",
+   "snippet": "->slug()"
+  },
+  {
+   "displayText": "$page->sort($num = null)",
+   "type": "page",
+   "description": "Changes the sorting number of the page.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/sort",
+   "snippet": "->sort()"
+  },
+  {
+   "displayText": "$page->template()",
+   "type": "page",
+   "description": "Returns the name of the used template for the page. Will return default if the intended template cannot be found.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/template",
+   "snippet": "->template()"
+  },
+  {
+   "displayText": "$page->templateData()",
+   "type": "page",
+   "description": "Additional data, which will be passed to the template",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/template-data",
+   "snippet": "->templateData()"
+  },
+  {
+   "displayText": "$page->templateFile()",
+   "type": "page",
+   "description": "Returns the full path of the template file.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/templateFile",
+   "snippet": "->templateFile()"
+  },
+  {
+   "displayText": "$page->textfile($template = null [, $lang = null])",
+   "type": "page",
+   "description": "Returns the root for the content file",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/textfile",
+   "snippet": "->textfile()"
+  },
+  {
+   "displayText": "$page->tinyurl()",
+   "type": "page",
+   "description": "Returns the tinyurl for the page if tinyurls are activated in the config",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/tinyurl",
+   "snippet": "->tinyurl()"
+  },
+  {
+   "displayText": "$page->title()",
+   "type": "page",
+   "description": "Returns the page title. The title is fetched from the content unless it does not exist. In this case it will be overwritten by the UID.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/title",
+   "snippet": "->title()"
+  },
+  {
+   "displayText": "$page->toArray($callback = null)",
+   "type": "page",
+   "description": "Converts the entire page object into a plain PHP array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/to-array",
+   "snippet": "->toArray()"
+  },
+  {
+   "displayText": "$page->toJson($callback = null)",
+   "type": "page",
+   "description": "Converts the entire page array into a json string",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/to-json",
+   "snippet": "->toJson()"
+  },
+  {
+   "displayText": "$page->touch()",
+   "type": "page",
+   "description": "Marks the page as modified",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/touch",
+   "snippet": "->touch()"
+  },
+  {
+   "displayText": "$page->uid()",
+   "type": "page",
+   "description": "The UID is the page directory name without the sorting number.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/uid",
+   "snippet": "->uid()"
+  },
+  {
+   "displayText": "$page->update($data = array() [, $lang = null])",
+   "type": "page",
+   "description": "Updates the page content with all passed variables.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/update",
+   "snippet": "->update()[, $lang = null])"
+  },
+  {
+   "displayText": "$page->uri([$lang = null])",
+   "type": "page",
+   "description": "Returns the URI. The URI is the relative URL without the host or any subfolders.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/uri",
+   "snippet": "->uri()"
+  },
+  {
+   "displayText": "$page->url()",
+   "type": "page",
+   "description": "Returns the full URL of the page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/url",
+   "snippet": "->url()"
+  },
+  {
+   "displayText": "$page->urlKey($lang = null)",
+   "type": "page",
+   "description": "Returns the URL key from the content file if available and otherwise returns the page UID",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/url-key",
+   "snippet": "->urlKey()"
+  },
+  {
+   "displayText": "$page->videos()",
+   "type": "page",
+   "description": "Returns a $files collection with all videos in the page directory.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/page/videos",
+   "snippet": "->videos()"
+  },
+  {
+   "displayText": "$pages->add($page)",
+   "type": "pages",
+   "description": "Adds a single page object or a collection to a collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/add",
+   "snippet": "->add()"
+  },
+  {
+   "displayText": "$pages->append($key, $object)",
+   "type": "pages",
+   "description": "Appends an element to the data array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/append",
+   "snippet": "->append()"
+  },
+  {
+   "displayText": "$pages->children()",
+   "type": "pages",
+   "description": "Returns a $pages collection with all children of each page in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/children",
+   "snippet": "->children()"
+  },
+  {
+   "displayText": "$pages->count()",
+   "type": "pages",
+   "description": "Returns the number of pages in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/count",
+   "snippet": "->count()"
+  },
+  {
+   "displayText": "$pages->create($uid, $template, $data = array())",
+   "type": "pages",
+   "description": "Creates a new subpage",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/create",
+   "snippet": "->create()"
+  },
+  {
+   "displayText": "$pages->current()",
+   "type": "pages",
+   "description": "Returns the current element of the array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/current",
+   "snippet": "->current()"
+  },
+  {
+   "displayText": "pages::extractValue($item, $field)",
+   "type": "pages",
+   "description": "Makes sure to provide a valid value for each filter method no matter if an object or an array is given",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/extract-value",
+   "snippet": "pages::extractValue()"
+  },
+  {
+   "displayText": "$pages->files()",
+   "type": "pages",
+   "description": "Returns a $files collection with all files of each page in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/files",
+   "snippet": "->files()"
+  },
+  {
+   "displayText": "$pages->filter($callback)",
+   "type": "pages",
+   "description": "Filters the collection with a custom filter callback",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/filter",
+   "snippet": "->filter()"
+  },
+  {
+   "displayText": "$pages->filterBy($key [,$operator], $value)",
+   "type": "pages",
+   "description": "Filters the collection by any field and value and with a set of filtering operators",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/filter-by",
+   "snippet": "->filterBy()"
+  },
+  {
+   "displayText": "$pages->find($page)",
+   "type": "pages",
+   "description": "Finds a $page object in the collection by UID or relative URI",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/find",
+   "snippet": "->find()"
+  },
+  {
+   "displayText": "$pages->findBy($key, $value)",
+   "type": "pages",
+   "description": "Finds a single $page object in the collection by $key and $value",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/find-by",
+   "snippet": "->findBy()"
+  },
+  {
+   "displayText": "$pages->findByURI($uri)",
+   "type": "pages",
+   "description": "Finds a $page object in the collection by its full URI",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/find-by-uri",
+   "snippet": "->findByURI()"
+  },
+  {
+   "displayText": "$pages->findOpen()",
+   "type": "pages",
+   "description": "Finds the open $page object in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/find-open",
+   "snippet": "->findOpen()"
+  },
+  {
+   "displayText": "$pages->first()",
+   "type": "pages",
+   "description": "Returns the first $page object from the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/first",
+   "snippet": "->first()"
+  },
+  {
+   "displayText": "$pages->flip()",
+   "type": "pages",
+   "description": "Returns the collection in reverse order",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/flip",
+   "snippet": "->flip()"
+  },
+  {
+   "displayText": "$pages->get($key, $default = null)",
+   "type": "pages",
+   "description": "Returns a $page object by its full URI",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/get",
+   "snippet": "->get()"
+  },
+  {
+   "displayText": "$pages->groupBy($field, $caseInsensitive = true)",
+   "type": "pages",
+   "description": "Groups $page objects in the collection by any field and returns them in a new collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/group-by",
+   "snippet": "->groupBy()"
+  },
+  {
+   "displayText": "$pages->has($page)",
+   "type": "pages",
+   "description": "Checks if a $page object is included in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/has",
+   "snippet": "->has()"
+  },
+  {
+   "displayText": "$pages->index()",
+   "type": "pages",
+   "description": "Recursively creates a full index from all pages and subpages in the collection and returns it as a new flat $pages collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/index",
+   "snippet": "->index()"
+  },
+  {
+   "displayText": "$pages->indexOf($needle)",
+   "type": "pages",
+   "description": "Tries to find the index number for the given element",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/index-of",
+   "snippet": "->indexOf()"
+  },
+  {
+   "displayText": "$pages->invisible()",
+   "type": "pages",
+   "description": "Returns all invisible $page objects from the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/invisible",
+   "snippet": "->invisible()"
+  },
+  {
+   "displayText": "$pages->key()",
+   "type": "pages",
+   "description": "Returns the current key from the array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/key",
+   "snippet": "->key()"
+  },
+  {
+   "displayText": "$pages->keyOf($needle)",
+   "type": "pages",
+   "description": "Tries to find the key for the given element",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/key-of",
+   "snippet": "->keyOf()"
+  },
+  {
+   "displayText": "$pages->keys()",
+   "type": "pages",
+   "description": "Returns all keys/URIs from the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/keys",
+   "snippet": "->keys()"
+  },
+  {
+   "displayText": "$pages->last()",
+   "type": "pages",
+   "description": "Returns the last $page object from the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/last",
+   "snippet": "->last()"
+  },
+  {
+   "displayText": "$pages->limit($limit)",
+   "type": "pages",
+   "description": "Returns the collection with a limited amount of pages",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/limit",
+   "snippet": "->limit()"
+  },
+  {
+   "displayText": "$pages->map($callback)",
+   "type": "pages",
+   "description": "Returns a new collection and applies the mapping callback to all pages",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/map",
+   "snippet": "->map()"
+  },
+  {
+   "displayText": "$pages->merge($collection2)",
+   "type": "pages",
+   "description": "Returns a new combined collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/merge",
+   "snippet": "->merge()"
+  },
+  {
+   "displayText": "$pages->next()",
+   "type": "pages",
+   "description": "Moves the cursor to the next element in the array and returns it",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/next",
+   "snippet": "->next()"
+  },
+  {
+   "displayText": "$pages->not($args)",
+   "type": "pages",
+   "description": "Returns the collection without any given pages.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/not",
+   "snippet": "->not()"
+  },
+  {
+   "displayText": "$pages->nth($n)",
+   "type": "pages",
+   "description": "Returns the nth page in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/nth",
+   "snippet": "->nth()"
+  },
+  {
+   "displayText": "$pages->offset($offset)",
+   "type": "pages",
+   "description": "Returns the collection starting from the given offset",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/offset",
+   "snippet": "->offset()"
+  },
+  {
+   "displayText": "$pages->paginate($limit, $options = array())",
+   "type": "pages",
+   "description": "Adds a $pagination object to the collection, which makes it easy to page through items",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/paginate",
+   "snippet": "->paginate()"
+  },
+  {
+   "displayText": "$pages->pagination()",
+   "type": "pages",
+   "description": "Returns the $pagination object if available",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/pagination",
+   "snippet": "->pagination()"
+  },
+  {
+   "displayText": "$pages->pluck($field, $split = null, $unique = false)",
+   "type": "pages",
+   "description": "Extracts an array of values from each item by field",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/pluck",
+   "snippet": "->pluck()"
+  },
+  {
+   "displayText": "$pages->prepend($key, $object)",
+   "type": "pages",
+   "description": "Prepends an element to the data array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/prepend",
+   "snippet": "->prepend()"
+  },
+  {
+   "displayText": "$pages->prev()",
+   "type": "pages",
+   "description": "Moves the cursor to the previous element in the array and returns it",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/prev",
+   "snippet": "->prev()"
+  },
+  {
+   "displayText": "$pages->rewind()",
+   "type": "pages",
+   "description": "Moves the cursor to the first element of the array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/rewind",
+   "snippet": "->rewind()"
+  },
+  {
+   "displayText": "$pages->search($query, $params = array())",
+   "type": "pages",
+   "description": "Searches all pages in the collection and all descendants",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/search",
+   "snippet": "->search()"
+  },
+  {
+   "displayText": "$pages->set($key, $value)",
+   "type": "pages",
+   "description": "undefined",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/set",
+   "snippet": "->set()"
+  },
+  {
+   "displayText": "$pages->shuffle()",
+   "type": "pages",
+   "description": "Shuffles all items in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/shuffle",
+   "snippet": "->shuffle()"
+  },
+  {
+   "displayText": "$pages->slice($offset = null, $limit = null)",
+   "type": "pages",
+   "description": "Returns a sliced version of the collection defined by offset and limit",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/slice",
+   "snippet": "->slice()"
+  },
+  {
+   "displayText": "$pages->sortBy($field, $direction = 'asc', $method = SORT_REGULAR)",
+   "type": "pages",
+   "description": "Returns a sorted version of the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/sort-by",
+   "snippet": "->sortBy()"
+  },
+  {
+   "displayText": "$pages->toArray($callback = null)",
+   "type": "pages",
+   "description": "Converts the collection to a good old array. You can pass a callback which will be applied to all items in the collection before conversion",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/to-array",
+   "snippet": "->toArray()"
+  },
+  {
+   "displayText": "$pages->toJson()",
+   "type": "pages",
+   "description": "Converts the collection to a JSON string",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/to-json",
+   "snippet": "->toJson()"
+  },
+  {
+   "displayText": "$pages->valid()",
+   "type": "pages",
+   "description": "Checks if an element is valid This is needed for the Iterator implementation",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/valid",
+   "snippet": "->valid()"
+  },
+  {
+   "displayText": "$pages->visible()",
+   "type": "pages",
+   "description": "Returns all visible items in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/visible",
+   "snippet": "->visible()"
+  },
+  {
+   "displayText": "$pages->without($args)",
+   "type": "pages",
+   "description": "Returns a new collection without the given element(s)",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pages/without",
+   "snippet": "->without()"
+  },
+  {
+   "displayText": "$pagination->firstPage()",
+   "type": "pagination",
+   "description": "Returns the first page number — which is actually always 1.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/first-page",
+   "snippet": "->firstPage()"
+  },
+  {
+   "displayText": "$pagination->firstPageUrl()",
+   "type": "pagination",
+   "description": "Returns the absolute URL for the first page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/first-page-url",
+   "snippet": "->firstPageUrl()"
+  },
+  {
+   "displayText": "$pagination->hasNextPage()",
+   "type": "pagination",
+   "description": "Checks if there's a next available page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/has-next-page",
+   "snippet": "->hasNextPage()"
+  },
+  {
+   "displayText": "$pagination->hasPages()",
+   "type": "pagination",
+   "description": "Checks if there are any pages at all. This is useful if you want to show/hide the pagination.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/has-pages",
+   "snippet": "->hasPages()"
+  },
+  {
+   "displayText": "$pagination->hasPrevPage()",
+   "type": "pagination",
+   "description": "Checks if there is a previous page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/has-prev-page",
+   "snippet": "->hasPrevPage()"
+  },
+  {
+   "displayText": "$pagination->isFirstPage()",
+   "type": "pagination",
+   "description": "Checks if the current page is the first page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/is-first-page",
+   "snippet": "->isFirstPage()"
+  },
+  {
+   "displayText": "$pagination->isLastPage()",
+   "type": "pagination",
+   "description": "Checks if the current page is the last page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/is-last-page",
+   "snippet": "->isLastPage()"
+  },
+  {
+   "displayText": "$pagination->items()",
+   "type": "pagination",
+   "description": "Returns the total number of items",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/items",
+   "snippet": "->items()"
+  },
+  {
+   "displayText": "$pagination->lastPage()",
+   "type": "pagination",
+   "description": "Returns the last page number",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/last-page",
+   "snippet": "->lastPage()"
+  },
+  {
+   "displayText": "$pagination->lastPageUrl()",
+   "type": "pagination",
+   "description": "Returns the absolute URL for the last page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/last-page-url",
+   "snippet": "->lastPageUrl()"
+  },
+  {
+   "displayText": "$pagination->limit()",
+   "type": "pagination",
+   "description": "Returns the limit of items per page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/limit",
+   "snippet": "->limit()"
+  },
+  {
+   "displayText": "$pagination->nextPage()",
+   "type": "pagination",
+   "description": "Returns the next page number",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/next-page",
+   "snippet": "->nextPage()"
+  },
+  {
+   "displayText": "$pagination->nextPageUrl()",
+   "type": "pagination",
+   "description": "Returns the absolute URL for the next page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/next-page-url",
+   "snippet": "->nextPageUrl()"
+  },
+  {
+   "displayText": "$pagination->numEnd()",
+   "type": "pagination",
+   "description": "Returns the index number of the last item on the current page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/num-end",
+   "snippet": "->numEnd()"
+  },
+  {
+   "displayText": "$pagination->numStart()",
+   "type": "pagination",
+   "description": "Returns the index number of the first item on the current page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/num-start",
+   "snippet": "->numStart()"
+  },
+  {
+   "displayText": "$pagination->offset()",
+   "type": "pagination",
+   "description": "Returns the offset, which is being applied to the items collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/offset",
+   "snippet": "->offset()"
+  },
+  {
+   "displayText": "$pagination->page()",
+   "type": "pagination",
+   "description": "Returns the current page number",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/page",
+   "snippet": "->page()"
+  },
+  {
+   "displayText": "$pagination->pageUrl($page)",
+   "type": "pagination",
+   "description": "Returns the absolute URL for the given page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/page-url",
+   "snippet": "->pageUrl()"
+  },
+  {
+   "displayText": "$pagination->pages()",
+   "type": "pagination",
+   "description": "Returns the total number of available pages",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/pages",
+   "snippet": "->pages()"
+  },
+  {
+   "displayText": "$pagination->prevPage()",
+   "type": "pagination",
+   "description": "Returns the previous page number",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/prev-page",
+   "snippet": "->prevPage()"
+  },
+  {
+   "displayText": "$pagination->prevPageUrl()",
+   "type": "pagination",
+   "description": "Returns the absolute URL for the previous page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/prev-page-url",
+   "snippet": "->prevPageUrl()"
+  },
+  {
+   "displayText": "$pagination->range($range=5)",
+   "type": "pagination",
+   "description": "Returns an array of page numbers in a range of the given value.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/range",
+   "snippet": "->range()"
+  },
+  {
+   "displayText": "$pagination->rangeEnd()",
+   "type": "pagination",
+   "description": "Returns the page number at the end of the range",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/range-end",
+   "snippet": "->rangeEnd()"
+  },
+  {
+   "displayText": "$pagination->rangeStart()",
+   "type": "pagination",
+   "description": "Returns the page number at the beginning of the range",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/range-start",
+   "snippet": "->rangeStart()"
+  },
+  {
+   "displayText": "$pagination->toArray()",
+   "type": "pagination",
+   "description": "Returns the pagination object as an associative array.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/pagination/to-array",
+   "snippet": "->toArray()"
+  },
+  {
+   "displayText": "$request->ajax()",
+   "type": "request",
+   "description": "Checks if this request is an Ajax request",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/ajax",
+   "snippet": "->ajax()"
+  },
+  {
+   "displayText": "$request->body()",
+   "type": "request",
+   "description": "Returns the raw request body",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/body",
+   "snippet": "->body()"
+  },
+  {
+   "displayText": "$request->cli()",
+   "type": "request",
+   "description": "Checks if this request is comming from the command line",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/cli",
+   "snippet": "->cli()"
+  },
+  {
+   "displayText": "$request->data()",
+   "type": "request",
+   "description": "Returns an array of request data coming through the query and the post body.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/data",
+   "snippet": "->data()"
+  },
+  {
+   "displayText": "$request->files()",
+   "type": "request",
+   "description": "Returns the $_FILES array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/files",
+   "snippet": "->files()"
+  },
+  {
+   "displayText": "$request->get($key, $default = null)",
+   "type": "request",
+   "description": "Returns any value of the request data by key",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/get",
+   "snippet": "->get()"
+  },
+  {
+   "displayText": "$request->has($key)",
+   "type": "request",
+   "description": "Checks if a value is available in the request data",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/has",
+   "snippet": "->has()"
+  },
+  {
+   "displayText": "$request->ip()",
+   "type": "request",
+   "description": "Returns the IP address of the current visitor",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/ip",
+   "snippet": "->ip()"
+  },
+  {
+   "displayText": "$request->is()",
+   "type": "request",
+   "description": "Checks for the type of method",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/is",
+   "snippet": "->is()"
+  },
+  {
+   "displayText": "$request->method()",
+   "type": "request",
+   "description": "Returns the request method (GET, POST, DELETE, etc.)",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/method",
+   "snippet": "->method()"
+  },
+  {
+   "displayText": "$request->params()",
+   "type": "request",
+   "description": "Returns all params from the URL in a handy object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/params",
+   "snippet": "->params()"
+  },
+  {
+   "displayText": "$request->path()",
+   "type": "request",
+   "description": "Returns the path in the current URL as object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/path",
+   "snippet": "->path()"
+  },
+  {
+   "displayText": "$request->query()",
+   "type": "request",
+   "description": "Returns the query from the current URL as object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/query",
+   "snippet": "->query()"
+  },
+  {
+   "displayText": "$request->referer()",
+   "type": "request",
+   "description": "Returns the referer. Also available with to "rr"",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/referer",
+   "snippet": "->referer()"
+  },
+  {
+   "displayText": "$request->scheme()",
+   "type": "request",
+   "description": "Returns the URL scheme (http, https, ftp, etc.)",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/scheme",
+   "snippet": "->scheme()"
+  },
+  {
+   "displayText": "$request->secure()",
+   "type": "request",
+   "description": "Checks if this is a secure request (SSL)",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/secure",
+   "snippet": "->secure()"
+  },
+  {
+   "displayText": "$request->ssl()",
+   "type": "request",
+   "description": "Checks if this is an SSL request",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/ssl",
+   "snippet": "->ssl()"
+  },
+  {
+   "displayText": "$request->url()",
+   "type": "request",
+   "description": "Returns the complete URL for the current request",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/request/url",
+   "snippet": "->url()"
+  },
+  {
+   "displayText": "$roots->accounts()",
+   "type": "roots",
+   "description": "Returns the root of the accounts folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/accounts",
+   "snippet": "->accounts()"
+  },
+  {
+   "displayText": "$roots->assets()",
+   "type": "roots",
+   "description": "Returns the root of the assets folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/assets",
+   "snippet": "->assets()"
+  },
+  {
+   "displayText": "$roots->autocss()",
+   "type": "roots",
+   "description": "Returns the root of the autocss folder for the css('@auto') rule.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/autocss",
+   "snippet": "->autocss()"
+  },
+  {
+   "displayText": "$roots->autojs()",
+   "type": "roots",
+   "description": "Returns the root of the autojs folder for the js('@auto') rule.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/autojs",
+   "snippet": "->autojs()"
+  },
+  {
+   "displayText": "$roots->avatars()",
+   "type": "roots",
+   "description": "Returns the root of the avatars folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/avatars",
+   "snippet": "->avatars()"
+  },
+  {
+   "displayText": "$roots->blueprints()",
+   "type": "roots",
+   "description": "Returns the root of the blueprints folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/blueprints",
+   "snippet": "->blueprints()"
+  },
+  {
+   "displayText": "$roots->cache()",
+   "type": "roots",
+   "description": "Returns the root of the cache folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/cache",
+   "snippet": "->cache()"
+  },
+  {
+   "displayText": "$roots->config()",
+   "type": "roots",
+   "description": "Returns the root of the config folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/config",
+   "snippet": "->config()"
+  },
+  {
+   "displayText": "$roots->content()",
+   "type": "roots",
+   "description": "Returns the root of the content folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/content",
+   "snippet": "->content()"
+  },
+  {
+   "displayText": "$roots->controllers()",
+   "type": "roots",
+   "description": "Returns the root of the controllers folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/controllers",
+   "snippet": "->controllers()"
+  },
+  {
+   "displayText": "$roots->fields()",
+   "type": "roots",
+   "description": "Returns the root of the Panel fields folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/fields",
+   "snippet": "->fields()"
+  },
+  {
+   "displayText": "$roots->index()",
+   "type": "roots",
+   "description": "Returns the document root of the website",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/index",
+   "snippet": "->index()"
+  },
+  {
+   "displayText": "$roots->kirby()",
+   "type": "roots",
+   "description": "Returns the root of the Kirby core folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/kirby",
+   "snippet": "->kirby()"
+  },
+  {
+   "displayText": "$roots->languages()",
+   "type": "roots",
+   "description": "Returns the root of the languages folder for custom site localizations",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/languages",
+   "snippet": "->languages()"
+  },
+  {
+   "displayText": "$roots->models()",
+   "type": "roots",
+   "description": "Returns the root of the folder for page models",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/models",
+   "snippet": "->models()"
+  },
+  {
+   "displayText": "$roots->plugins()",
+   "type": "roots",
+   "description": "Returns the root of the plugins folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/plugins",
+   "snippet": "->plugins()"
+  },
+  {
+   "displayText": "$roots->site()",
+   "type": "roots",
+   "description": "Returns the root of the site folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/site",
+   "snippet": "->site()"
+  },
+  {
+   "displayText": "$roots->snippets()",
+   "type": "roots",
+   "description": "Returns the root of the snippets folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/snippets",
+   "snippet": "->snippets()"
+  },
+  {
+   "displayText": "$roots->tags()",
+   "type": "roots",
+   "description": "Returns the root of the Kirbytags folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/tags",
+   "snippet": "->tags()"
+  },
+  {
+   "displayText": "$roots->templates()",
+   "type": "roots",
+   "description": "Returns the root of the templates folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/templates",
+   "snippet": "->templates()"
+  },
+  {
+   "displayText": "$roots->thumbs()",
+   "type": "roots",
+   "description": "Returns the root of the thumbs folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/thumbs",
+   "snippet": "->thumbs()"
+  },
+  {
+   "displayText": "$roots->widgets()",
+   "type": "roots",
+   "description": "Returns the root of the Panel widgets folder.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/roots/widgets",
+   "snippet": "->widgets()"
+  },
+  {
+   "displayText": "$site->activePage()",
+   "type": "site",
+   "description": "Returns the currently active page object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/active-page",
+   "snippet": "->activePage()"
+  },
+  {
+   "displayText": "$site->archives()",
+   "type": "site",
+   "description": "Returns a $files collection with all archive files (zip, gzip, tar) placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/archives",
+   "snippet": "->archives()"
+  },
+  {
+   "displayText": "$site->audio()",
+   "type": "site",
+   "description": "Returns a $files collection with all audio files placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/audio",
+   "snippet": "->audio()"
+  },
+  {
+   "displayText": "$site->breadcrumb()",
+   "type": "site",
+   "description": "Returns a $pages collection, prepared for a foreach loop to generate a breadcrumb",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/breadcrumb",
+   "snippet": "->breadcrumb()"
+  },
+  {
+   "displayText": "$site->children()",
+   "type": "site",
+   "description": "Returns a $pages collection with all first-level children in the content folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/children",
+   "snippet": "->children()"
+  },
+  {
+   "displayText": "$site->code()",
+   "type": "site",
+   "description": "Returns a $files collection with all code files (css, js, html) placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/code",
+   "snippet": "->code()"
+  },
+  {
+   "displayText": "$site->content()",
+   "type": "site",
+   "description": "Returns the $content object for the site, which can be used to further inspect all content variables for $site",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/content",
+   "snippet": "->content()"
+  },
+  {
+   "displayText": "$site->content()->has($field)",
+   "type": "site",
+   "description": "Checks if the site has a certain field",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/content-has-field",
+   "snippet": "->content()->has()"
+  },
+  {
+   "displayText": "$site->contentURL()",
+   "type": "site",
+   "description": "Returns the full URL for the content folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/content-url",
+   "snippet": "->contentURL()"
+  },
+  {
+   "displayText": "$site->defaultLanguage()",
+   "type": "site",
+   "description": "Returns the $language object for the default language",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/default-language",
+   "snippet": "->defaultLanguage()"
+  },
+  {
+   "displayText": "$site->detectedLanguage()",
+   "type": "site",
+   "description": "Returns the detected language",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/detected-language",
+   "snippet": "->detectedLanguage()"
+  },
+  {
+   "displayText": "$site->diruri()",
+   "type": "site",
+   "description": "The base diruri is basically just an empty string",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/diruri",
+   "snippet": "->diruri()"
+  },
+  {
+   "displayText": "$site->documents()",
+   "type": "site",
+   "description": "Returns a $files collection with all documents (pdf, doc, xls, etc.) placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/documents",
+   "snippet": "->documents()"
+  },
+  {
+   "displayText": "$site->errorPage()",
+   "type": "site",
+   "description": "Returns the $page object for the error page.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/error-page",
+   "snippet": "->errorPage()"
+  },
+  {
+   "displayText": "$site->file($filename)",
+   "type": "site",
+   "description": "Searches for a specific file placed directly in /content by filename",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/file",
+   "snippet": "->file()"
+  },
+  {
+   "displayText": "$site->files()",
+   "type": "site",
+   "description": "Returns a $files collection with all files placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/files",
+   "snippet": "->files()"
+  },
+  {
+   "displayText": "$site->find($uri)",
+   "type": "site",
+   "description": "Finds a single $page object or a collection of $pages placed directly in /content by a single UID or a set of multiple UIDs.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/find",
+   "snippet": "->find()"
+  },
+  {
+   "displayText": "$site->grandChildren()",
+   "type": "site",
+   "description": "Returns a $pages collection with all grandChildren in the /content directory",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/grand-children",
+   "snippet": "->grandChildren()"
+  },
+  {
+   "displayText": "$site->hasArchives()",
+   "type": "site",
+   "description": "Checks if there are any archive files (zip, gzip, tar) placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/has-archives",
+   "snippet": "->hasArchives()"
+  },
+  {
+   "displayText": "$site->hasAudio()",
+   "type": "site",
+   "description": "Checks if there are any audio files placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/has-audio",
+   "snippet": "->hasAudio()"
+  },
+  {
+   "displayText": "$site->hasChildren()",
+   "type": "site",
+   "description": "Checks if there are any children placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/has-children()",
+   "snippet": "->hasChildren()"
+  },
+  {
+   "displayText": "$site->hasCode()",
+   "type": "site",
+   "description": "Checks if there are any code files placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/has-code",
+   "snippet": "->hasCode()"
+  },
+  {
+   "displayText": "$site->hasDocuments()",
+   "type": "site",
+   "description": "Checks if there are any documents (pdf, doc, xls, etc.) placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/has-documents",
+   "snippet": "->hasDocuments()"
+  },
+  {
+   "displayText": "$site->hasFiles()",
+   "type": "site",
+   "description": "Checks if there are any files placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/has-files",
+   "snippet": "->hasFiles()"
+  },
+  {
+   "displayText": "$site->hasImages()",
+   "type": "site",
+   "description": "Checks if there are any images (jpg, png, gif, etc.) placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/has-images",
+   "snippet": "->hasImages()"
+  },
+  {
+   "displayText": "$site->hasInvisibleChildren()",
+   "type": "site",
+   "description": "Checks if there are any invisible children placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/has-invisible-children",
+   "snippet": "->hasInvisibleChildren()"
+  },
+  {
+   "displayText": "$site->hasVideos()",
+   "type": "site",
+   "description": "Checks if there are any videos placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/has-videos",
+   "snippet": "->hasVideos()"
+  },
+  {
+   "displayText": "$site->hasVisibleChildren()",
+   "type": "site",
+   "description": "Checks if there are any visible children placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/has-visible-children",
+   "snippet": "->hasVisibleChildren()"
+  },
+  {
+   "displayText": "$site->homePage()",
+   "type": "site",
+   "description": "Returns the $page object for the home page",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/home-page",
+   "snippet": "->homePage()"
+  },
+  {
+   "displayText": "$site->id()",
+   "type": "site",
+   "description": "Returns the site id, which is an empty string in case of the site object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/id",
+   "snippet": "->id()"
+  },
+  {
+   "displayText": "$site->image($filename = false)",
+   "type": "site",
+   "description": "Returns a specific image $file object by filename. If no filename is given, the first image will be returned.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/image",
+   "snippet": "->image()"
+  },
+  {
+   "displayText": "$site->images()",
+   "type": "site",
+   "description": "Returns a $files collection with all images (jpg, png, gif, etc.) placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/images",
+   "snippet": "->images()"
+  },
+  {
+   "displayText": "$site->index()",
+   "type": "site",
+   "description": "Creates a $pages collection with every page and subpage in /content. This will walk the entire file tree.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/index",
+   "snippet": "->index()"
+  },
+  {
+   "displayText": "$site->isSite()",
+   "type": "site",
+   "description": "Checks if this site object is the main site",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/is-site",
+   "snippet": "->isSite()"
+  },
+  {
+   "displayText": "$site->language($code = null)",
+   "type": "site",
+   "description": "Returns the current language by default or any other language when a language code is given",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/language",
+   "snippet": "->language()"
+  },
+  {
+   "displayText": "$site->languages()",
+   "type": "site",
+   "description": "Returns the collection of available languages for multi-language sites",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/languages",
+   "snippet": "->languages()"
+  },
+  {
+   "displayText": "$site->locale()",
+   "type": "site",
+   "description": "Returns the locale settings for the site",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/locale",
+   "snippet": "->locale()"
+  },
+  {
+   "displayText": "$site->modified($format = false)",
+   "type": "site",
+   "description": "Returns the last modification date for the site. This will walk all pages and subpages and search for the very last modification.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/modified",
+   "snippet": "->modified()"
+  },
+  {
+   "displayText": "$site->multilang()",
+   "type": "site",
+   "description": "Checks if there are one or more languages configured in the config.php",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/multilang",
+   "snippet": "->multilang()"
+  },
+  {
+   "displayText": "$site->page($uri = null)",
+   "type": "site",
+   "description": "Returns a specific $page object by URI. If no URI is specified the currently active page will be returned.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/page",
+   "snippet": "->page()"
+  },
+  {
+   "displayText": "$site->pages()",
+   "type": "site",
+   "description": "Returns a $pages collection for all direct children in /content. It's an old version of $site->children()",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/pages",
+   "snippet": "->pages()"
+  },
+  {
+   "displayText": "$site->reset()",
+   "type": "site",
+   "description": "Cleans the temporary internal cache",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/reset",
+   "snippet": "->reset()"
+  },
+  {
+   "displayText": "$site->roles()",
+   "type": "site",
+   "description": "Returns a collection of all roles",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/roles",
+   "snippet": "->roles()"
+  },
+  {
+   "displayText": "$site->search($query, $params = array())",
+   "type": "site",
+   "description": "Searches within all pages of the site",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/search",
+   "snippet": "->search()"
+  },
+  {
+   "displayText": "$site->sessionLanguage()",
+   "type": "site",
+   "description": "Returns the language which will be remembered for the next visit",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/session-language",
+   "snippet": "->sessionLanguage()"
+  },
+  {
+   "displayText": "$site->switchLanguage(Language $language)",
+   "type": "site",
+   "description": "Redirects to the given language",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/switch-language",
+   "snippet": "->switchLanguage()"
+  },
+  {
+   "displayText": "$site->update($data = array())",
+   "type": "site",
+   "description": "Updates all given site variables, which are stored in site.txt",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/update",
+   "snippet": "->update()"
+  },
+  {
+   "displayText": "$site->url([$lang=false])",
+   "type": "site",
+   "description": "Returns the base URL for the site",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/url",
+   "snippet": "->url()"
+  },
+  {
+   "displayText": "$site->user()",
+   "type": "site",
+   "description": "Returns the currently logged in $user object. If no user is logged in, it will return false.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/user",
+   "snippet": "->user()"
+  },
+  {
+   "displayText": "$site->users()",
+   "type": "site",
+   "description": "Returns a $users collection with all registered users.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/users",
+   "snippet": "->users()"
+  },
+  {
+   "displayText": "$site->videos()",
+   "type": "site",
+   "description": "Returns a $files collection with all video files placed directly in /content",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/videos",
+   "snippet": "->videos()"
+  },
+  {
+   "displayText": "$site->visit($uri = '' [, $lang])",
+   "type": "site",
+   "description": "Activates the specified page and returns its page object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/visit",
+   "snippet": "->visit()"
+  },
+  {
+   "displayText": "$site->visitorLanguage()",
+   "type": "site",
+   "description": "Tries to find the language for the current visitor",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/visitor-language",
+   "snippet": "->visitorLanguage()"
+  },
+  {
+   "displayText": "$site->wasModifiedAfter()",
+   "type": "site",
+   "description": "Checks if any content of the site has been modified after the given unix timestamp",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/site/was-modified-after",
+   "snippet": "->wasModifiedAfter()"
+  },
+  {
+   "displayText": "$urls->assets()",
+   "type": "urls",
+   "description": "Returns the url of the assets folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/urls/assets",
+   "snippet": "->assets()"
+  },
+  {
+   "displayText": "$urls->autocss()",
+   "type": "urls",
+   "description": "Returns the url of the autocss folder for the css('@auto') rule.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/urls/autocss",
+   "snippet": "->autocss()"
+  },
+  {
+   "displayText": "$urls->autojs()",
+   "type": "urls",
+   "description": "Returns the url of the autojs folder for the js('@auto') rule.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/urls/autojs",
+   "snippet": "->autojs()"
+  },
+  {
+   "displayText": "$urls->avatars()",
+   "type": "urls",
+   "description": "Returns the url of the avatars folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/urls/avatars",
+   "snippet": "->avatars()"
+  },
+  {
+   "displayText": "$urls->content()",
+   "type": "urls",
+   "description": "Returns the url of the content folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/urls/content",
+   "snippet": "->content()"
+  },
+  {
+   "displayText": "$urls->index()",
+   "type": "urls",
+   "description": "Returns the base url of the site",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/urls/index",
+   "snippet": "->index()"
+  },
+  {
+   "displayText": "$urls->thumbs()",
+   "type": "urls",
+   "description": "Returns the URL of the thumbs folder",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/urls/thumbs",
+   "snippet": "->thumbs()"
+  },
+  {
+   "displayText": "$user->avatar()",
+   "type": "user",
+   "description": "Returns the user avatar object if the avatar exists",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/avatar",
+   "snippet": "->avatar()"
+  },
+  {
+   "displayText": "$user->avatarRoot()",
+   "type": "user",
+   "description": "Returns the full root for the user avatar image",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/avatar-root",
+   "snippet": "->avatarRoot()"
+  },
+  {
+   "displayText": "$user->current()",
+   "type": "user",
+   "description": "Returns the current user",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/current",
+   "snippet": "->current()"
+  },
+  {
+   "displayText": "$user->data()",
+   "type": "user",
+   "description": "Returns an array with all user data",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/data",
+   "snippet": "->data()"
+  },
+  {
+   "displayText": "$user->delete()",
+   "type": "user",
+   "description": "Deletes the user account. This cannot be undone",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/delete",
+   "snippet": "->delete()"
+  },
+  {
+   "displayText": "$user->email()",
+   "type": "user",
+   "description": "Returns the email address for the user",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/email",
+   "snippet": "->email()"
+  },
+  {
+   "displayText": "$user->exists()",
+   "type": "user",
+   "description": "Checks if the user exists",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/exists",
+   "snippet": "->exists()"
+  },
+  {
+   "displayText": "$user->firstName()",
+   "type": "user",
+   "description": "Returns the user's first name",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/firstname",
+   "snippet": "->firstName()"
+  },
+  {
+   "displayText": "$user->gravatar($size = 256)",
+   "type": "user",
+   "description": "Returns the gravatar URL for the user.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/gravatar",
+   "snippet": "->gravatar()"
+  },
+  {
+   "displayText": "$user->hasPanelAccess()",
+   "type": "user",
+   "description": "Checks if the user is allowed to acces the panel based on its role.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/has-panel-access",
+   "snippet": "->hasPanelAccess()"
+  },
+  {
+   "displayText": "$user->hasPermission($target)",
+   "type": "user",
+   "description": "Checks if the user is allowed to access the given target",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/has-permission",
+   "snippet": "->hasPermission()"
+  },
+  {
+   "displayText": "$user->hasRole($role)",
+   "type": "user",
+   "description": "Checks if the user has a particular role.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/has-role",
+   "snippet": "->hasRole()"
+  },
+  {
+   "displayText": "$user->is($someone)",
+   "type": "user",
+   "description": "Checks if the user is the same as the given $user object",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/is",
+   "snippet": "->is()"
+  },
+  {
+   "displayText": "$user->isAdmin()",
+   "type": "user",
+   "description": "Checks if the user is an admin",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/is-admin",
+   "snippet": "->isAdmin()"
+  },
+  {
+   "displayText": "$user->isCurrent()",
+   "type": "user",
+   "description": "Checks if the user is the currently logged in user.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/is-current",
+   "snippet": "->isCurrent()"
+  },
+  {
+   "displayText": "$user->lastName()",
+   "type": "user",
+   "description": "Returns the user's last name",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/lastname",
+   "snippet": "->lastName()"
+  },
+  {
+   "displayText": "$user->login($password)",
+   "type": "user",
+   "description": "Login the user with the given password if the password matches the user's password.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/login",
+   "snippet": "->login()"
+  },
+  {
+   "displayText": "$user->logout()",
+   "type": "user",
+   "description": "Logs out the user and kills the session.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/logout",
+   "snippet": "->logout()"
+  },
+  {
+   "displayText": "$user->role()",
+   "type": "user",
+   "description": "Returns the user role",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/role",
+   "snippet": "->role()"
+  },
+  {
+   "displayText": "$user->update($data = array())",
+   "type": "user",
+   "description": "Updates the user account information.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/update",
+   "snippet": "->update()"
+  },
+  {
+   "displayText": "$user->username()",
+   "type": "user",
+   "description": "Returns the username",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/user/username",
+   "snippet": "->username()"
+  },
+  {
+   "displayText": "$users->count()",
+   "type": "users",
+   "description": "Returns the number of all users",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/count",
+   "snippet": "->count()"
+  },
+  {
+   "displayText": "$users->create($data = array())",
+   "type": "users",
+   "description": "Creates a new user account",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/create",
+   "snippet": "->create()"
+  },
+  {
+   "displayText": "$users->filter($callback)",
+   "type": "users",
+   "description": "Filters the collection of users by a given callback function",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/filter",
+   "snippet": "->filter()"
+  },
+  {
+   "displayText": "$users->filterBy($field, $value)",
+   "type": "users",
+   "description": "Filters the collection of users by field and value",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/filterBy",
+   "snippet": "->filterBy()"
+  },
+  {
+   "displayText": "$users->find($username)",
+   "type": "users",
+   "description": "Finds a single user account by username",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/find",
+   "snippet": "->find()"
+  },
+  {
+   "displayText": "$users->findBy($field, $value)",
+   "type": "users",
+   "description": "Finds a single user account by field and value",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/findBy",
+   "snippet": "->findBy()"
+  },
+  {
+   "displayText": "$users->first()",
+   "type": "users",
+   "description": "Returns the first $user object from the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/first",
+   "snippet": "->first()"
+  },
+  {
+   "displayText": "$users->flip()",
+   "type": "users",
+   "description": "Returns the $users collection in reversed order",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/flip",
+   "snippet": "->flip()"
+  },
+  {
+   "displayText": "$users->get($username)",
+   "type": "users",
+   "description": "Returns a single $user object by username",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/get",
+   "snippet": "->get()"
+  },
+  {
+   "displayText": "$users->groupBy($field, $caseInsensitive = true)",
+   "type": "users",
+   "description": "Groups users in the collection by a given field.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/groupBy",
+   "snippet": "->groupBy()"
+  },
+  {
+   "displayText": "$users->has($user)",
+   "type": "users",
+   "description": "Checks if a $user object is included in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/has",
+   "snippet": "->has()"
+  },
+  {
+   "displayText": "$users->keys()",
+   "type": "users",
+   "description": "Returns all usernames/keys in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/keys",
+   "snippet": "->keys()"
+  },
+  {
+   "displayText": "$users->last()",
+   "type": "users",
+   "description": "Returns the last $user object from the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/last",
+   "snippet": "->last()"
+  },
+  {
+   "displayText": "$users->limit($limit)",
+   "type": "users",
+   "description": "Returns a limited subset of the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/limit",
+   "snippet": "->limit()"
+  },
+  {
+   "displayText": "$users->map($callback)",
+   "type": "users",
+   "description": "Maps a callback function to all $user objects in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/map",
+   "snippet": "->map()"
+  },
+  {
+   "displayText": "$users->not()",
+   "type": "users",
+   "description": "Returns the $users collection without the given usernames or $user objects",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/not",
+   "snippet": "->not()"
+  },
+  {
+   "displayText": "$users->nth($n)",
+   "type": "users",
+   "description": "Returns the nth $user in the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/nth",
+   "snippet": "->nth()"
+  },
+  {
+   "displayText": "$users->offset($offset)",
+   "type": "users",
+   "description": "Returns the $users collection starting form the given offset",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/offset",
+   "snippet": "->offset()"
+  },
+  {
+   "displayText": "$users->paginate($limit, $options = array())",
+   "type": "users",
+   "description": "Applies pagination to the collection",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/paginate",
+   "snippet": "->paginate()"
+  },
+  {
+   "displayText": "$users->pagination()",
+   "type": "users",
+   "description": "Returns the pagination object after using $users->paginate()",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/pagination",
+   "snippet": "->pagination()"
+  },
+  {
+   "displayText": "$users->pluck($field, $split = null, $unique = false)",
+   "type": "users",
+   "description": "Plucks all values for a specific field from the collection and returns those as array.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/pluck",
+   "snippet": "->pluck()"
+  },
+  {
+   "displayText": "$users->shuffle()",
+   "type": "users",
+   "description": "Returns the collection in shuffled order",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/shuffle",
+   "snippet": "->shuffle()"
+  },
+  {
+   "displayText": "$users->slice($offset = null, $limit = null)",
+   "type": "users",
+   "description": "Returns a sliced version of the collection starting with the offset and limited by the given limit value.",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/slice",
+   "snippet": "->slice()"
+  },
+  {
+   "displayText": "$users->sortBy($field, $direction = 'desc', $method = SORT_REGULAR)",
+   "type": "users",
+   "description": "Sort the collection by one or multiple fields",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/sortBy",
+   "snippet": "->sortBy()"
+  },
+  {
+   "displayText": "$users->toArray($callback = null)",
+   "type": "users",
+   "description": "Converts the collection to a mult-dimensional array",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/to-array",
+   "snippet": "->toArray()"
+  },
+  {
+   "displayText": "$users->toJson()",
+   "type": "users",
+   "description": "Converts the collection to a json string",
+   "descriptionMoreUrl": "https://getkirby.com/docs/cheatsheet/users/to-json",
+   "snippet": "->toJson()"
+  }
+]
