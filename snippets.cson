@@ -1067,7 +1067,7 @@
  '$file->thumb($params)':
    'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
    'prefix': 'thumb()     '
-   'body': 'thumb(${1:$params})${2}'
+   'body': 'thumb([\'width\' => ${1:300}, \'height\' => ${2:200}, \'quality\' => ${3:80}])${4}'
    'leftLabel': '$file'
    'description': 'Sets all parameters for the thumb generator at once.'
    'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/thumb'
