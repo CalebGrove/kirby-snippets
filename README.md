@@ -4,7 +4,7 @@
 
 I've added tabs stops for every parameter and included the corresponding description and "more" link for every snippet.
 
-![Kirby snippets](preview.gif?raw=true "Preview")
+![Kirby snippets](snippets-preview.gif?raw=true "Preview")
 
 # Installation
 
