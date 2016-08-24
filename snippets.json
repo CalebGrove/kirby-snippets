@@ -1,2946 +1,1843 @@
-".text.html.php": {
+{
   "$camera->make()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "make()",
     "body": "make()",
-    "leftLabel": "$camera",
-    "description": "Returns the camera brand/make",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/camera/make"
+    "description": "Returns the camera brand/make"
   },
   "$camera->model()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "model()",
     "body": "model()",
-    "leftLabel": "$camera",
-    "description": "Returns the name of the camera model",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/camera/model"
+    "description": "Returns the name of the camera model"
   },
   "$camera->toArray()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toArray()",
     "body": "toArray()",
-    "leftLabel": "$camera",
-    "description": "Returns the make and model as associative array.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/camera/to-array"
+    "description": "Returns the make and model as associative array."
   },
   "$content->data()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "data() ",
     "body": "data()",
-    "leftLabel": "$content",
-    "description": "Returns the entire data array with all field objects",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/content/data"
+    "description": "Returns the entire data array with all field objects"
   },
   "$content([$lang])->exists()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "exists() ",
     "body": "exists()",
-    "leftLabel": "$content",
-    "description": "Checks if the content file exists",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/content/exists"
+    "description": "Checks if the content file exists"
   },
   "$content([$lang])->fields()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "fields() ",
     "body": "fields()",
-    "leftLabel": "$content",
-    "description": "Returns an array with all field names",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/content/fields"
+    "description": "Returns an array with all field names"
   },
   "$content([$lang])->get($key, $arguments = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "get() ",
     "body": "get(${1:$key}, ${2:$arguments})${3}",
-    "leftLabel": "$content",
-    "description": "Gets a field from the content",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/content/get"
+    "description": "Gets a field from the content"
   },
   "$content([$lang])->has($key)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "has() ",
     "body": "has(${1:$key})",
-    "leftLabel": "$content",
-    "description": "Checks if a field exists",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/content/has"
+    "description": "Checks if a field exists"
   },
   "$content->language()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "language() ",
     "body": "language()",
-    "leftLabel": "$content",
-    "description": "Return the language code for the content",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/content/language"
+    "description": "Return the language code for the content"
   },
   "$content->name()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "name() ",
     "body": "name()",
-    "leftLabel": "$content",
-    "description": "Returns the name of the content file without the extension. This is being used to determine the template for the page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/content/name"
+    "description": "Returns the name of the content file without the extension. This is being used to determine the template for the page"
   },
   "$content([$lang])->raw()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "raw() ",
     "body": "raw()",
-    "leftLabel": "$content",
-    "description": "Returns the raw content from the file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/content/raw"
+    "description": "Returns the raw content from the file"
   },
   "$content([$lang])->root()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "root() ",
     "body": "root()",
-    "leftLabel": "$content",
-    "description": "Returns the root for the content file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/content/root"
+    "description": "Returns the root for the content file"
   },
   "$content([$lang])->toArray()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toArray() ",
     "body": "toArray()",
-    "leftLabel": "$content",
-    "description": "Returns the content object as array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/content/to-array"
+    "description": "Returns the content object as array"
   },
   "$dimension->fit()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "fit()  ",
     "body": "fit()",
-    "leftLabel": "$dimension",
-    "description": "Fits the width and height into a box by the given value and returns a modified dimension object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/dimension/fit"
+    "description": "Fits the width and height into a box by the given value and returns a modified dimension object"
   },
   "$dimension->fitHeight()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "fitHeight()  ",
     "body": "fitHeight()",
-    "leftLabel": "$dimension",
-    "description": "Fits the height by the given value and returns a modified dimension object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/dimension/fit-height"
+    "description": "Fits the height by the given value and returns a modified dimension object"
   },
   "$dimension->fitWidth()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "fitWidth()  ",
     "body": "fitWidth()",
-    "leftLabel": "$dimension",
-    "description": "Fits the width by the given value and returns a modified dimension object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/dimension/fit-width"
+    "description": "Fits the width by the given value and returns a modified dimension object"
   },
   "$dimension->fitWidthAndHeight()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "fitWidthAndHeight()  ",
     "body": "fitWidthAndHeight()",
-    "leftLabel": "$dimension",
-    "description": "Fits the width and height by the given values and returns a modified dimension object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/dimension/fit-width-and-height"
+    "description": "Fits the width and height by the given values and returns a modified dimension object"
   },
   "$dimension->height()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "height()  ",
     "body": "height()",
-    "leftLabel": "$dimension",
-    "description": "Returns the height in pixels",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/dimension/height"
+    "description": "Returns the height in pixels"
   },
   "$dimension->landscape()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "landscape()  ",
     "body": "landscape()",
-    "leftLabel": "$dimension",
-    "description": "Checks if the dimensions are \"landscape\"",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/dimension/landscape"
+    "description": "Checks if the dimensions are \"landscape\""
   },
   "$dimension->orientation()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "orientation()  ",
     "body": "orientation()",
-    "leftLabel": "$dimension",
-    "description": "Returns the orientation of the image as string (landscape|portrait|square)",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/dimension/orientation"
+    "description": "Returns the orientation of the image as string (landscape|portrait|square)"
   },
   "$dimension->portrait()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "portrait()  ",
     "body": "portrait()",
-    "leftLabel": "$dimension",
-    "description": "Checks if the dimensions are \"portrait\"",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/dimension/portrait"
+    "description": "Checks if the dimensions are \"portrait\""
   },
   "$dimension->ratio()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "ratio()  ",
     "body": "ratio()",
-    "leftLabel": "$dimension",
-    "description": "Returns the ratio",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/dimension/ratio"
+    "description": "Returns the ratio"
   },
   "$dimension->square()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "square()  ",
     "body": "square()",
-    "leftLabel": "$dimension",
-    "description": "Checks if the dimensions are square",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/dimension/square"
+    "description": "Checks if the dimensions are square"
   },
   "$dimension->width()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "width()  ",
     "body": "width()",
-    "leftLabel": "$dimension",
-    "description": "Returns the width in pixels",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/dimension/width"
+    "description": "Returns the width in pixels"
   },
   "$exif->aperture()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "aperture()   ",
     "body": "aperture()",
-    "leftLabel": "$exif",
-    "description": "Returns the aperture value of the image, if it is available in the exif data set.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/exif/aperture"
+    "description": "Returns the aperture value of the image, if it is available in the exif data set."
   },
   "$exif->camera()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "camera()   ",
     "body": "camera()",
-    "leftLabel": "$exif",
-    "description": "Returns the $camera object for the image, which contains the make and model.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/exif/camera"
+    "description": "Returns the $camera object for the image, which contains the make and model."
   },
   "$exif->data()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "data()   ",
     "body": "data()",
-    "leftLabel": "$exif",
-    "description": "Returns the full exif data set as a raw array.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/exif/data"
+    "description": "Returns the full exif data set as a raw array."
   },
   "$exif->exposure()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "exposure()   ",
     "body": "exposure()",
-    "leftLabel": "$exif",
-    "description": "Returns the exposure value of the image, if it is available in the exif data set.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/exif/exposure"
+    "description": "Returns the exposure value of the image, if it is available in the exif data set."
   },
   "$exif->focalLength()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "focalLength()   ",
     "body": "focalLength()",
-    "leftLabel": "$exif",
-    "description": "Returns the focal length of the image, if it is available in the exif data set.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/exif/focal-length"
+    "description": "Returns the focal length of the image, if it is available in the exif data set."
   },
   "$exif->isBW()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isBW()   ",
     "body": "isBW()",
-    "leftLabel": "$exif",
-    "description": "Checks if the image colorspace is grayscale",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/exif/is-bw"
+    "description": "Checks if the image colorspace is grayscale"
   },
   "$exif->isColor()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isColor()   ",
     "body": "isColor()",
-    "leftLabel": "$exif",
-    "description": "Checks if the image colorspace is either RGB or CMYK",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/exif/is-color"
+    "description": "Checks if the image colorspace is either RGB or CMYK"
   },
   "$exif->iso()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "iso()   ",
     "body": "iso()",
-    "leftLabel": "$exif",
-    "description": "Returns the iso value of the image, if it is available in the exif data set.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/exif/iso"
+    "description": "Returns the iso value of the image, if it is available in the exif data set."
   },
   "$exif->location()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "location()   ",
     "body": "location()",
-    "leftLabel": "$exif",
-    "description": "Returns the $location object for the image if the image has GPS data.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/exif/location"
+    "description": "Returns the $location object for the image if the image has GPS data."
   },
   "$exif->timestamp()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "timestamp()   ",
     "body": "timestamp()",
-    "leftLabel": "$exif",
-    "description": "Returns the unix timestamp of when the image was taken.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/exif/timestamp"
+    "description": "Returns the unix timestamp of when the image was taken."
   },
   "$exif->toArray()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toArray()   ",
     "body": "toArray()",
-    "leftLabel": "$exif",
-    "description": "Returns an associative array of all available exif data.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/exif/to-array"
+    "description": "Returns an associative array of all available exif data."
   },
   "$field->bool()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "bool()    ",
     "body": "bool()",
-    "leftLabel": "Field methods",
-    "description": "Converts the field value into a proper boolean",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/bool"
+    "description": "Converts the field value into a proper boolean"
   },
   "$field->empty()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "empty()    ",
     "body": "empty()",
-    "leftLabel": "Field methods",
-    "description": "Checks if the field is empty",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/empty"
+    "description": "Checks if the field is empty"
   },
   "$field->escape()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "escape()    ",
     "body": "escape()",
-    "leftLabel": "Field methods",
-    "description": "Escapes all critical characters from the field content to make sure all you get is clean HTML",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/escape"
+    "description": "Escapes all critical characters from the field content to make sure all you get is clean HTML"
   },
   "$field->excerpt($length = 140, $mode = 'chars')": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "excerpt()    ",
     "body": "excerpt(${1:$length = 140}, ${2:$mode = 'chars'})${3}",
-    "leftLabel": "Field methods",
-    "description": "Creates a short text excerpt",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/excerpt"
+    "description": "Creates a short text excerpt"
   },
   "$field->exists()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "exists()    ",
     "body": "exists()",
-    "leftLabel": "Field methods",
-    "description": "Checks if the field exists.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/exists"
+    "description": "Checks if the field exists."
   },
   "$field->float()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "float()    ",
     "body": "float()",
-    "leftLabel": "Field methods",
-    "description": "Converts the field value into a proper float",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/float"
+    "description": "Converts the field value into a proper float"
   },
   "$field->html()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "html()    ",
     "body": "html()",
-    "leftLabel": "Field methods",
-    "description": "Converts the field content to valid HTML",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/html"
+    "description": "Converts the field content to valid HTML"
   },
   "$field->int()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "int()    ",
     "body": "int()",
-    "leftLabel": "Field methods",
-    "description": "Converts the field value into a proper integer",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/int"
+    "description": "Converts the field value into a proper integer"
   },
   "$field->isEmpty()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isEmpty()    ",
     "body": "isEmpty()",
-    "leftLabel": "Field methods",
-    "description": "Checks if the field is empty",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/isEmpty"
+    "description": "Checks if the field is empty"
   },
   "$field->isFalse()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isFalse()    ",
     "body": "isFalse()",
-    "leftLabel": "Field methods",
-    "description": "Converts the field value into a proper boolean and inverts it",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/isFalse"
+    "description": "Converts the field value into a proper boolean and inverts it"
   },
   "$field->isNotEmpty()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isNotEmpty()    ",
     "body": "isNotEmpty()",
-    "leftLabel": "Field methods",
-    "description": "Checks if the field is not empty",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/isNotEmpty"
+    "description": "Checks if the field is not empty"
   },
   "$field->isTranslated($lang = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isTranslated()    ",
     "body": "isTranslated(${1:$lang = null})${2}",
-    "leftLabel": "Field methods",
-    "description": "Checks if the field is translated in the current/specified language",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/isTranslated"
+    "description": "Checks if the field is translated in the current/specified language"
   },
   "$field->isTrue()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isTrue()    ",
     "body": "isTrue()",
-    "leftLabel": "Field methods",
-    "description": "Converts the field value into a proper boolean",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/isTrue"
+    "description": "Converts the field value into a proper boolean"
   },
   "$field->key()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "key()    ",
     "body": "key()",
-    "leftLabel": "Field methods",
-    "description": "Returns the name of the field.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/key"
+    "description": "Returns the name of the field."
   },
   "$field->kirbytext()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "kirbytext()    ",
     "body": "kirbytext()",
-    "leftLabel": "Field methods",
-    "description": "Converts the field content from Markdown/Kirbytext to valid HTML",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/kirbytext"
+    "description": "Converts the field content from Markdown/Kirbytext to valid HTML"
   },
   "$field->kt()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "kt()    ",
     "body": "kt()",
-    "leftLabel": "Field methods",
-    "description": "Converts the field content from Markdown/Kirbytext to valid HTML",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/kt"
+    "description": "Converts the field content from Markdown/Kirbytext to valid HTML"
   },
   "$field->length()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "length()    ",
     "body": "length()",
-    "leftLabel": "Field methods",
-    "description": "Returns the length of the field content",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/length"
+    "description": "Returns the length of the field content"
   },
   "$field->link()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "link()    ",
     "body": "link()",
-    "leftLabel": "Field methods",
-    "description": "Creates a link for any field value",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/link"
+    "description": "Creates a link for any field value"
   },
   "$field->lower()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "lower()    ",
     "body": "lower()",
-    "leftLabel": "Field methods",
-    "description": "Converts the field content to lowercase",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/lower"
+    "description": "Converts the field content to lowercase"
   },
   "$field->markdown()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "markdown()    ",
     "body": "markdown()",
-    "leftLabel": "Field methods",
-    "description": "Converts markdown to valid HTML",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/markdown"
+    "description": "Converts markdown to valid HTML"
   },
   "$field->or($alternative)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "or()    ",
     "body": "or(${1:$alternative})${2}",
-    "leftLabel": "Field methods",
-    "description": "Checks if the field is empty and returns an alternative value in this case",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/or"
+    "description": "Checks if the field is empty and returns an alternative value in this case"
   },
   "$field->pages()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "pages()    ",
     "body": "pages()",
-    "leftLabel": "Field methods",
-    "description": "Converts a yaml list of page URIs to valid page objects",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/pages"
+    "description": "Converts a yaml list of page URIs to valid page objects"
   },
   "$field->short($chars)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "short()    ",
     "body": "short(${1:$chars})${2}",
-    "leftLabel": "Field methods",
-    "description": "Shortens the field content by the given length",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/short"
+    "description": "Shortens the field content by the given length"
   },
   "$field->smartypants()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "smartypants()    ",
     "body": "smartypants()",
-    "leftLabel": "Field methods",
-    "description": "Applies SmartyPants to the field",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/smartypants"
+    "description": "Applies SmartyPants to the field"
   },
   "$field->split($separator = ',')": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "split()    ",
     "body": "split(${1:$separator = ','})${2}",
-    "leftLabel": "Field methods",
-    "description": "Splits the field content into an array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/split"
+    "description": "Splits the field content into an array"
   },
   "$field->toFile()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toFile()    ",
     "body": "toFile()",
-    "leftLabel": "Field methods",
-    "description": "Returns a file object from a filename in the field",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/toFile"
+    "description": "Returns a file object from a filename in the field"
   },
   "$field->toPage()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toPage()    ",
     "body": "toPage()",
-    "leftLabel": "Field methods",
-    "description": "Returns a page object from a uri in the field",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/toPage"
+    "description": "Returns a page object from a uri in the field"
   },
   "$field->toStructure()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toStructure()    ",
     "body": "toStructure()",
-    "leftLabel": "Field methods",
-    "description": "Converts a yaml field to a Structure object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/toStructure"
+    "description": "Converts a yaml field to a Structure object"
   },
   "$field->toURL()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toURL()    ",
     "body": "toURL()",
-    "leftLabel": "Field methods",
-    "description": "Creates an URL for any field value",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/toURL"
+    "description": "Creates an URL for any field value"
   },
   "$field->upper()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "upper()    ",
     "body": "upper()",
-    "leftLabel": "Field methods",
-    "description": "Converts the field content to uppercase",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/upper"
+    "description": "Converts the field content to uppercase"
   },
   "$field->value()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "value()    ",
     "body": "value()",
-    "leftLabel": "Field methods",
-    "description": "Returns the value of a field as string.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/value"
+    "description": "Returns the value of a field as string."
   },
   "$field->widont()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "widont()    ",
     "body": "widont()",
-    "leftLabel": "Field methods",
-    "description": "Avoids typographical widows in strings by replacing the last space with &nbsp;",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/widont"
+    "description": "Avoids typographical widows in strings by replacing the last space with &nbsp;"
   },
   "$field->words()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "words()    ",
     "body": "words()",
-    "leftLabel": "Field methods",
-    "description": "Returns the number of words in the text",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/words"
+    "description": "Returns the number of words in the text"
   },
   "$field->xml()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "xml()    ",
     "body": "xml()",
-    "leftLabel": "Field methods",
-    "description": "Converts the field content to valid XML",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/xml"
+    "description": "Converts the field content to valid XML"
   },
   "$field->yaml()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "yaml()    ",
     "body": "yaml()",
-    "leftLabel": "Field methods",
-    "description": "Converts YAML-structured field content to an array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/field-methods/yaml"
+    "description": "Converts YAML-structured field content to an array"
   },
   "$file->append($content)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "append()     ",
     "body": "append(${1:$content})${2}",
-    "leftLabel": "$file",
-    "description": "Appends the content and saves the file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/append"
+    "description": "Appends the content and saves the file"
   },
   "$file->base64()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "base64()     ",
     "body": "base64()",
-    "leftLabel": "$file",
-    "description": "Returns the content of the file as base64 encoded string",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/base64"
+    "description": "Returns the content of the file as base64 encoded string"
   },
   "$file->blur()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "blur()     ",
     "body": "blur()",
-    "leftLabel": "$file",
-    "description": "Applies a blur filter to the image",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/blur"
+    "description": "Applies a blur filter to the image"
   },
   "$file->bw($bw)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "bw()     ",
     "body": "bw(${1:$bw})${2}",
-    "leftLabel": "$file",
-    "description": "Converts the image to grayscale",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/bw"
+    "description": "Converts the image to grayscale"
   },
   "$file->content($content = null, $format = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "content()     ",
     "body": "content(${1:$content = null}, ${2:$format = null})${3}",
-    "leftLabel": "$file",
-    "description": "Setter and getter for the file content",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/content"
+    "description": "Setter and getter for the file content"
   },
   "$file->copy($to)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "copy()     ",
     "body": "copy(${1:$to})${2}",
-    "leftLabel": "$file",
-    "description": "Copies the file to a new location",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/copy"
+    "description": "Copies the file to a new location"
   },
   "$file->createNewFilename($name, $safeName = true)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "createNewFilename()     ",
     "body": "createNewFilename(${1:$name}, ${2:$safeName = true})${3}",
-    "leftLabel": "$file",
-    "description": "Generates a new filename for a given name and makes sure to handle badly given extensions correctly",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/create-new-filename"
+    "description": "Generates a new filename for a given name and makes sure to handle badly given extensions correctly"
   },
   "$file->crop($width, $height = null, $quality = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "crop()     ",
     "body": "crop(${1:$width}, ${2:$height = null}, ${3:$quality = null})${4}",
-    "leftLabel": "$file",
-    "description": "Crops the image by width and optionally by height",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/crop"
+    "description": "Crops the image by width and optionally by height"
   },
   "$file->dataUri()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "dataUri()     ",
     "body": "dataUri()",
-    "leftLabel": "$file",
-    "description": "Returns a full base64 encoded data uri with a proper mime type",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/data-uri"
+    "description": "Returns a full base64 encoded data uri with a proper mime type"
   },
   "$file->date($format = null, $field = 'date')": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "date()     ",
     "body": "date(${1:$format = null}, ${2:$field = 'date'})${3}",
-    "leftLabel": "$file",
-    "description": "Returns a unix timestamp or formatted date string from the file's meta date field or any other field containing a parsable date",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/date"
+    "description": "Returns a unix timestamp or formatted date string from the file's meta date field or any other field containing a parsable date"
   },
   "$file->delete()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "delete()     ",
     "body": "delete()",
-    "leftLabel": "$file",
-    "description": "Deletes the file. This cannot be undone.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/delete"
+    "description": "Deletes the file. This cannot be undone."
   },
   "$file->dimensions()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "dimensions()     ",
     "body": "dimensions()",
-    "leftLabel": "$file",
-    "description": "Returns the $dimensions object for the file. This is only available for images (jpg, png, gif)",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/dimensions"
+    "description": "Returns the $dimensions object for the file. This is only available for images (jpg, png, gif)"
   },
   "$file->dir()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "dir()     ",
     "body": "dir()",
-    "leftLabel": "$file",
-    "description": "Returns the full path for the directory, in which the file is located",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/dir"
+    "description": "Returns the full path for the directory, in which the file is located"
   },
   "$file->diruri()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "diruri()     ",
     "body": "diruri()",
-    "leftLabel": "$file",
-    "description": "Returns the relative path for the file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/diruri"
+    "description": "Returns the relative path for the file"
   },
   "$file->download($filename = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "download()     ",
     "body": "download(${1:$filename = null})",
-    "leftLabel": "$file",
-    "description": "Sends all needed headers and the content to force the browser to download the file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/download"
+    "description": "Sends all needed headers and the content to force the browser to download the file"
   },
   "$file->exif()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "exif()     ",
     "body": "exif()",
-    "leftLabel": "$file",
-    "description": "Returns the $exif object for the file, which can be used to fetch information such as the camera model or GPS data",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/exif"
+    "description": "Returns the $exif object for the file, which can be used to fetch information such as the camera model or GPS data"
   },
   "$file->exists()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "exists()     ",
     "body": "exists()",
-    "leftLabel": "$file",
-    "description": "Checks if the file exists",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/exists"
+    "description": "Checks if the file exists"
   },
   "$file->extension()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "extension()     ",
     "body": "extension()",
-    "leftLabel": "$file",
-    "description": "Returns the file extension",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/extension"
+    "description": "Returns the file extension"
   },
   "$file->filename()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "filename()     ",
     "body": "filename()",
-    "leftLabel": "$file",
-    "description": "Returns the full filename including extension",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/filename"
+    "description": "Returns the full filename including extension"
   },
   "$file->files()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "files()     ",
     "body": "files()",
-    "leftLabel": "$file",
-    "description": "Returns the collection of sibling files including the current object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/files"
+    "description": "Returns the collection of sibling files including the current object"
   },
   "$file->hasNext()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasNext()     ",
     "body": "hasNext()",
-    "leftLabel": "$file",
-    "description": "Checks if there's a next sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/has-next"
+    "description": "Checks if there's a next sibling"
   },
   "$file->hasPrev()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasPrev()     ",
     "body": "hasPrev()",
-    "leftLabel": "$file",
-    "description": "Checks if there's a previous sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/has-prev"
+    "description": "Checks if there's a previous sibling"
   },
   "$file->hash()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hash()     ",
     "body": "hash()",
-    "leftLabel": "$file",
-    "description": "Returns an md5 hash for the root of the file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/hash"
+    "description": "Returns an md5 hash for the root of the file"
   },
   "$file->header($send = true)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "header()     ",
     "body": "header(${1:$send = true})${2}",
-    "leftLabel": "$file",
-    "description": "Sends an appropriate header for the asset",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/header"
+    "description": "Sends an appropriate header for the asset"
   },
   "$file->height()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "height()     ",
     "body": "height()",
-    "leftLabel": "$file",
-    "description": "Returns the height of image files in pixels",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/height"
+    "description": "Returns the height of image files in pixels"
   },
   "$file->html($attr = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "html()     ",
     "body": "html(${1:$attr = array()})${2}",
-    "leftLabel": "$file",
-    "description": "Auto-generates an HTML tag for images",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/html"
+    "description": "Auto-generates an HTML tag for images"
   },
   "$file->imagesize()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "imagesize()     ",
     "body": "imagesize()",
-    "leftLabel": "$file",
-    "description": "Returns the PHP imagesize array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/imagesize"
+    "description": "Returns the PHP imagesize array"
   },
   "$file->is($value)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "is()     ",
     "body": "is(${1:$value})${2}",
-    "leftLabel": "$file",
-    "description": "Checks if a file is of a certain type",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/is"
+    "description": "Checks if a file is of a certain type"
   },
   "$file->isExecutable()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isExecutable()     ",
     "body": "isExecutable()",
-    "leftLabel": "$file",
-    "description": "Checks if the file is executable",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/is-executable"
+    "description": "Checks if the file is executable"
   },
   "$file->isLandscape()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isLandscape()     ",
     "body": "isLandscape()",
-    "leftLabel": "$file",
-    "description": "Checks if an image file has been taken in landscape mode",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/is-landscape"
+    "description": "Checks if an image file has been taken in landscape mode"
   },
   "$file->isPortrait()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isPortrait()     ",
     "body": "isPortrait()",
-    "leftLabel": "$file",
-    "description": "Checks if an image file has been taken in portrait mode",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/is-portrait"
+    "description": "Checks if an image file has been taken in portrait mode"
   },
   "$file->isReadable()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isReadable()     ",
     "body": "isReadable()",
-    "leftLabel": "$file",
-    "description": "Checks if the file is readable",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/is-readable"
+    "description": "Checks if the file is readable"
   },
   "$file->isSquare()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isSquare()     ",
     "body": "isSquare()",
-    "leftLabel": "$file",
-    "description": "Checks if the image is square",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/is-square"
+    "description": "Checks if the image is square"
   },
   "$file->isWebsafe()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isWebsafe()     ",
     "body": "isWebsafe()",
-    "leftLabel": "$file",
-    "description": "Checks if the file is a jpg, png or gif",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/is-websafe"
+    "description": "Checks if the file is a jpg, png or gif"
   },
   "$file->isWritable()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isWritable()     ",
     "body": "isWritable()",
-    "leftLabel": "$file",
-    "description": "Checks if the file is writable",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/is-writable"
+    "description": "Checks if the file is writable"
   },
   "$file->kirby()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "kirby()     ",
     "body": "kirby()",
-    "leftLabel": "$file",
-    "description": "Returns the kirby object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/kirby"
+    "description": "Returns the kirby object"
   },
   "$file->load($data = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "load()     ",
     "body": "load(${1:$data = array()})${2}",
-    "leftLabel": "$file",
-    "description": "Safely requires a file if it exists",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/load"
+    "description": "Safely requires a file if it exists"
   },
   "$file->meta([$language])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "meta()     ",
     "body": "meta(${1:$language})${2}",
-    "leftLabel": "$file",
-    "description": "Returns the file's $content object with data from the meta file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/meta"
+    "description": "Returns the file's $content object with data from the meta file"
   },
   "$file->mime()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "mime()     ",
     "body": "mime()",
-    "leftLabel": "$file",
-    "description": "Returns the file's mime type",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/mime"
+    "description": "Returns the file's mime type"
   },
   "$file->modified($format = false, $handler = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "modified()     ",
     "body": "modified(${1:$format = false}, ${2:$handler = null})${3}",
-    "leftLabel": "$file",
-    "description": "Returns the unix timestamp or a formatted date for when the file has been modified",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/modified"
+    "description": "Returns the unix timestamp or a formatted date for when the file has been modified"
   },
   "$file->move($to)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "move()     ",
     "body": "move(${1:$to})${2}",
-    "leftLabel": "$file",
-    "description": "Moves the file to a new location",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/move"
+    "description": "Moves the file to a new location"
   },
   "$file->name()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "name()     ",
     "body": "name()",
-    "leftLabel": "$file",
-    "description": "Returns the name of the file without extension",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/name"
+    "description": "Returns the name of the file without extension"
   },
   "$file->next()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "next()     ",
     "body": "next()",
-    "leftLabel": "$file",
-    "description": "Returns the next sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/next"
+    "description": "Returns the next sibling"
   },
   "$file->niceSize()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "niceSize()     ",
     "body": "niceSize()",
-    "leftLabel": "$file",
-    "description": "Returns the size of the file in a human readable format",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/nice-size"
+    "description": "Returns the size of the file in a human readable format"
   },
   "$file->orientation()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "orientation()     ",
     "body": "orientation()",
-    "leftLabel": "$file",
-    "description": "Returns the orientation of image files as a string (landscape, portrait, square)",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/orientation"
+    "description": "Returns the orientation of image files as a string (landscape, portrait, square)"
   },
   "$file->original()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "original()     ",
     "body": "original()",
-    "leftLabel": "$file",
-    "description": "Returns the reference to the original file (for thumbnails)",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/original"
+    "description": "Returns the reference to the original file (for thumbnails)"
   },
   "$file->page()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "page()     ",
     "body": "page()",
-    "leftLabel": "$file",
-    "description": "Returns the page object for a file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/page"
+    "description": "Returns the page object for a file"
   },
   "$file->prev()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "prev()     ",
     "body": "prev()",
-    "leftLabel": "$file",
-    "description": "Returns the previous sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/prev"
+    "description": "Returns the previous sibling"
   },
   "$file->ratio()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "ratio()     ",
     "body": "ratio()",
-    "leftLabel": "$file",
-    "description": "Returns the ratio of an image file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/ratio"
+    "description": "Returns the ratio of an image file"
   },
   "$file->read($format = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "read()     ",
     "body": "read(${1:$format = null})${2}",
-    "leftLabel": "$file",
-    "description": "Reads the content of the file and returns it",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/read"
+    "description": "Reads the content of the file and returns it"
   },
   "$file->remove()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "remove()     ",
     "body": "remove()",
-    "leftLabel": "$file",
-    "description": "Alternative for delete",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/remove"
+    "description": "Alternative for delete"
   },
   "$file->rename($name, $safeName = true)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "rename()     ",
     "body": "rename(${1:$name}, ${2:$safeName = true})${3}",
-    "leftLabel": "$file",
-    "description": "Renames the file and all the meta text files",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/rename"
+    "description": "Renames the file and all the meta text files"
   },
   "$file->reset()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "reset()     ",
     "body": "reset()",
-    "leftLabel": "$file",
-    "description": "Resets the internal memory data cache",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/reset"
+    "description": "Resets the internal memory data cache"
   },
   "$file->resize($width, $height = null, $quality = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "resize()     ",
     "body": "resize(${1:$width}, ${2:$height = null}, ${3:$quality = null})${4}",
-    "leftLabel": "$file",
-    "description": "Resizes the image by width and optionally by height",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/resize"
+    "description": "Resizes the image by width and optionally by height"
   },
   "$file->root()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "root()     ",
     "body": "root()",
-    "leftLabel": "$file",
-    "description": "Returns the full root for a file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/root"
+    "description": "Returns the full root for a file"
   },
   "$file->safeName()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "safeName()     ",
     "body": "safeName()",
-    "leftLabel": "$file",
-    "description": "Returns the filename as safe name",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/safe-name"
+    "description": "Returns the filename as safe name"
   },
   "$file->save($content = null, $format = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "save()     ",
     "body": "save(${1:$content = null}, ${2:$format = null})${3}",
-    "leftLabel": "$file",
-    "description": "Saves new content to the file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/save"
+    "description": "Saves new content to the file"
   },
   "$file->scale($by)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "scale()     ",
     "body": "scale(${1:$by})${2}",
-    "leftLabel": "$file",
-    "description": "Scales the image up or down by value",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/scale"
+    "description": "Scales the image up or down by value"
   },
   "$file->show()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "show()     ",
     "body": "show()",
-    "leftLabel": "$file",
-    "description": "Read and send the file with the correct headers",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/show"
+    "description": "Read and send the file with the correct headers"
   },
   "$file->siblings()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "siblings()     ",
     "body": "siblings()",
-    "leftLabel": "$file",
-    "description": "Returns all siblings of the file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/siblings"
+    "description": "Returns all siblings of the file"
   },
   "$file->site()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "site()     ",
     "body": "site()",
-    "leftLabel": "$file",
-    "description": "Returns the site object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/site"
+    "description": "Returns the site object"
   },
   "$file->size()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "size()     ",
     "body": "size()",
-    "leftLabel": "$file",
-    "description": "Returns the raw file size",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/size"
+    "description": "Returns the raw file size"
   },
   "$file->textfile([$language])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "textfile()     ",
     "body": "textfile(${1:$language})${2}",
-    "leftLabel": "$file",
-    "description": "Returns the root for the meta file of the file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/textfile"
+    "description": "Returns the root for the meta file of the file"
   },
   "$file->thumb($params)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "thumb()     ",
     "body": "thumb(['width' => ${1:300}, 'height' => ${2:200}, 'quality' => ${3:80}])${4}",
-    "leftLabel": "$file",
-    "description": "Sets all parameters for the thumb generator at once.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/thumb"
+    "description": "Sets all parameters for the thumb generator at once."
   },
   "$file->toArray($callback = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toArray()     ",
     "body": "toArray(${1:$callback = null})${2}",
-    "leftLabel": "$file",
-    "description": "Converts the entire file object into a plain PHP array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/to-array"
+    "description": "Converts the entire file object into a plain PHP array"
   },
   "$file->toJson($callback = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toJson()     ",
     "body": "toJson(${1:$callback = null})${2}",
-    "leftLabel": "$file",
-    "description": "Converts the entire media object into a JSON string",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/to-json"
+    "description": "Converts the entire media object into a JSON string"
   },
   "$file->touch()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "touch()     ",
     "body": "touch()",
-    "leftLabel": "$file",
-    "description": "Change the file's modification date to now and create it with an empty content if it is not there yet",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/touch"
+    "description": "Change the file's modification date to now and create it with an empty content if it is not there yet"
   },
   "$file->type()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "type()     ",
     "body": "type()",
-    "leftLabel": "$file",
-    "description": "Returns the file type (image, document, video, archive, code, audio, unkown)",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/type"
+    "description": "Returns the file type (image, document, video, archive, code, audio, unkown)"
   },
   "$file->update($data = array()[, $language])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "update()     ",
     "body": "update(${1:$data = array()}, ${2:$language})${3}",
-    "leftLabel": "$file",
-    "description": "Updates the meta information for a file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/update"
+    "description": "Updates the meta information for a file"
   },
   "$file->uri()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "uri()     ",
     "body": "uri()",
-    "leftLabel": "$file",
-    "description": "Returns the cleaned up relative path for the file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/uri"
+    "description": "Returns the cleaned up relative path for the file"
   },
   "$file->url()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "url()     ",
     "body": "url()",
-    "leftLabel": "$file",
-    "description": "Returns the absolute URL for a file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/url"
+    "description": "Returns the absolute URL for a file"
   },
   "$file->width()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "width()     ",
     "body": "width()",
-    "leftLabel": "$file",
-    "description": "Returns the width of image files in pixels",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/width"
+    "description": "Returns the width of image files in pixels"
   },
   "$file->write($content = null, $format = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "write()     ",
     "body": "write(${1:$content = null}, ${2:$format = null})${3}",
-    "leftLabel": "$file",
-    "description": "Alternative for save",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/file/write"
+    "description": "Alternative for save"
   },
   "$files->count()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "count()      ",
     "body": "count()",
-    "leftLabel": "$files",
-    "description": "Returns the number of files in the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/count"
+    "description": "Returns the number of files in the collection"
   },
   "$files->filter($callback)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "filter()      ",
     "body": "filter(${1:$callback})${2}",
-    "leftLabel": "$files",
-    "description": "Applies a filter callback to each item in the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/filter"
+    "description": "Applies a filter callback to each item in the collection"
   },
   "$files->filterBy($key [, $operator], $value [, $split])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "filterBy()      ",
     "body": "filterBy(${1:$key}, ${2:$operator}, ${3:$value}, ${4:$split})${5}",
-    "leftLabel": "$files",
-    "description": "Filters the collection by any field and value and with a set of filtering operators",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/filterBy"
+    "description": "Filters the collection by any field and value and with a set of filtering operators"
   },
   "$files->find()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "find()      ",
     "body": "find()",
-    "leftLabel": "$files",
-    "description": "Finds a single file or multiple files by one or many filenames.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/find"
+    "description": "Finds a single file or multiple files by one or many filenames."
   },
   "$files->findBy($field, $value)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "findBy()      ",
     "body": "findBy(${1:$field}, ${2:$value})${3}",
-    "leftLabel": "$files",
-    "description": "Finds a single file by key and value",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/findBy"
+    "description": "Finds a single file by key and value"
   },
   "$files->first()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "first()      ",
     "body": "first()",
-    "leftLabel": "$files",
-    "description": "Returns the first file in the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/first"
+    "description": "Returns the first file in the collection"
   },
   "$files->flip()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "flip()      ",
     "body": "flip()",
-    "leftLabel": "$files",
-    "description": "Returns the collection in reverse order",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/flip"
+    "description": "Returns the collection in reverse order"
   },
   "$files->get($filename)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "get()      ",
     "body": "get(${1:$filename})${2}",
-    "leftLabel": "$files",
-    "description": "Returns a single file by filename",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/get"
+    "description": "Returns a single file by filename"
   },
   "$files->groupBy($field, $caseInsensitive = true)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "groupBy()      ",
     "body": "groupBy(${1:$field}, ${2:$caseInsensitive = true})${3}",
-    "leftLabel": "$files",
-    "description": "Groups all files in the collection by a given field.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/groupBy"
+    "description": "Groups all files in the collection by a given field."
   },
   "$files->has($file)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "has()      ",
     "body": "has(${1:$file})${2}",
-    "leftLabel": "$files",
-    "description": "Checks if a $file object is included in the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/has"
+    "description": "Checks if a $file object is included in the collection"
   },
   "$files->keys()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "keys()      ",
     "body": "keys()",
-    "leftLabel": "$files",
-    "description": "Returns an array with all filenames in the collection.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/keys"
+    "description": "Returns an array with all filenames in the collection."
   },
   "$files->last()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "last()      ",
     "body": "last()",
-    "leftLabel": "$files",
-    "description": "Returns the last file in the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/last"
+    "description": "Returns the last file in the collection"
   },
   "$files->limit($limit)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "limit()      ",
     "body": "limit(${1:$limit})${2}",
-    "leftLabel": "$files",
-    "description": "Returns the collection with a limited set of items",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/limit"
+    "description": "Returns the collection with a limited set of items"
   },
   "$files->map($callback)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "map()      ",
     "body": "map(${1:$callback})${2}",
-    "leftLabel": "$files",
-    "description": "Applies a callback to all items in the collection.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/map"
+    "description": "Applies a callback to all items in the collection."
   },
   "$files->not()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "not()      ",
     "body": "not()",
-    "leftLabel": "$files",
-    "description": "Returns the collection without a given file. The ignored file can be passed by filename or entire file object.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/not"
+    "description": "Returns the collection without a given file. The ignored file can be passed by filename or entire file object."
   },
   "$files->nth($n)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "nth()      ",
     "body": "nth(${1:$n})${2}",
-    "leftLabel": "$files",
-    "description": "Returns the nth file in the collection.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/nth"
+    "description": "Returns the nth file in the collection."
   },
   "$files->offset($offset)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "offset()      ",
     "body": "offset(${1:$offset})${2}",
-    "leftLabel": "$files",
-    "description": "Returns the collection starting from a given offset",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/offset"
+    "description": "Returns the collection starting from a given offset"
   },
   "$files->paginate($limit, $options = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "paginate()      ",
     "body": "paginate(${1:$limit}, ${2:$options = array()})${3}",
-    "leftLabel": "$files",
-    "description": "Applies pagination to the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/paginate"
+    "description": "Applies pagination to the collection"
   },
   "$files->pagination()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "pagination()      ",
     "body": "pagination()",
-    "leftLabel": "$files",
-    "description": "Returns the $pagination object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/pagination"
+    "description": "Returns the $pagination object"
   },
   "$files->pluck($field, $split = null, $unique = false)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "pluck()      ",
     "body": "pluck(${1:$field}, ${2:$split = null}, ${3:$unique = false})${4}",
-    "leftLabel": "$files",
-    "description": "Plucks all values for a specific field from the collection and returns those as array.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/pluck"
+    "description": "Plucks all values for a specific field from the collection and returns those as array."
   },
   "$files->shuffle()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "shuffle()      ",
     "body": "shuffle()",
-    "leftLabel": "$files",
-    "description": "Returns the collection in shuffled order.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/shuffle"
+    "description": "Returns the collection in shuffled order."
   },
   "$files->slice($offset = null, $limit = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "slice()      ",
     "body": "slice(${1:$offset = null}, ${2:$limit = null})${3}",
-    "leftLabel": "$files",
-    "description": "Returns a sliced version of the collection starting from a given offset and an optional limited number of items.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/slice"
+    "description": "Returns a sliced version of the collection starting from a given offset and an optional limited number of items."
   },
   "$files->sortBy($field, $direction = 'asc', $method = SORT_REGULAR)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "sortBy()      ",
     "body": "sortBy(${1:$field}, ${2:$direction = 'asc'}, ${3:$method = SORT_REGULAR})${4}",
-    "leftLabel": "$files",
-    "description": "Sorts the files in the collection by field and direction",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/sortBy"
+    "description": "Sorts the files in the collection by field and direction"
   },
   "$files->toArray($callback = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toArray()      ",
     "body": "toArray(${1:$callback = null})${2}",
-    "leftLabel": "$files",
-    "description": "Converts the collection to a simple array.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/to-array"
+    "description": "Converts the collection to a simple array."
   },
   "$files->toJson()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toJson()      ",
     "body": "toJson()",
-    "leftLabel": "$files",
-    "description": "Converts the collection to a json string.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/files/to-json"
+    "description": "Converts the collection to a json string."
   },
   "attr($name, $value = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "attr()       ",
     "body": "attr(${1:$name}, ${2:$value = null})${3}",
-    "leftLabel": "Helpers",
-    "description": "Creates attributes for an HTML tag",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/attr"
+    "description": "Creates attributes for an HTML tag"
   },
   "brick($tag, $html = false, $attr = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "brick()       ",
     "body": "brick(${1:$tag}, ${2:$html = false}, ${3:$attr = array()})${4}",
-    "leftLabel": "Helpers",
-    "description": "Creates an HTML Element (Brick object)",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/brick"
+    "description": "Creates an HTML Element (Brick object)"
   },
   "call($function, $arguments = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "call()       ",
     "body": "call(${1:$function}, ${2:$arguments = array()})${3}",
-    "leftLabel": "Helpers",
-    "description": "Calls a function with a given set of arguments",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/call"
+    "description": "Calls a function with a given set of arguments"
   },
   "csrf($check = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "csrf()       ",
     "body": "csrf(${1:$check = null})${2}",
-    "leftLabel": "Helpers",
-    "description": "Generates and checks CSRF tokens",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/csrf"
+    "description": "Generates and checks CSRF tokens"
   },
   "css($path, $media = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "css()       ",
     "body": "css(${1:$path}, ${2:$media = null})${3}",
-    "leftLabel": "Helpers",
-    "description": "Creates one or multiple CSS link tags",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/css"
+    "description": "Creates one or multiple CSS link tags"
   },
   "dump($variable, $echo = true)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "dump()       ",
     "body": "dump(${1:$variable}, ${2:$echo = true})${3}",
-    "leftLabel": "Helpers",
-    "description": "Dumps the content of any variable in a human readable way for debugging",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/dump"
+    "description": "Dumps the content of any variable in a human readable way for debugging"
   },
   "e($condition, $a, $b = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "e()       ",
     "body": "e(${1:$condition}, ${2:$a}, ${3:$b = null})${4}",
-    "leftLabel": "Helpers",
-    "description": "Echos one of two alternatives depending on a condition (Shortcut for ecco())",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/e"
+    "description": "Echos one of two alternatives depending on a condition (Shortcut for ecco())"
   },
   "ecco($condition, $a, $b = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "ecco()       ",
     "body": "ecco(${1:$condition}, ${2:$a}, ${3:$b = null})${4}",
-    "leftLabel": "Helpers",
-    "description": "Echos one of two alternatives depending on a condition",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/ecco"
+    "description": "Echos one of two alternatives depending on a condition"
   },
   "email($params)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "email()       ",
     "body": "email(${1:$params})${2}",
-    "leftLabel": "Helpers",
-    "description": "Sends an email",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/email"
+    "description": "Sends an email"
   },
   "esc($string, $context = 'html', $strict = false)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "esc()       ",
     "body": "esc(${1:$string}, ${2:$context = 'html'}, ${3:$strict = false})${4}",
-    "leftLabel": "Helpers",
-    "description": "Escapes strings based on the output context",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/esc"
+    "description": "Escapes strings based on the output context"
   },
   "excerpt($text, $length = 140, $mode = 'chars')": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "excerpt()       ",
     "body": "excerpt(${1:$text}, ${2:$length = 140}, ${3:$mode = 'chars'})${4}",
-    "leftLabel": "Helpers",
-    "description": "Creates an excerpt of any text by a given character or word length",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/excerpt"
+    "description": "Creates an excerpt of any text by a given character or word length"
   },
   "get($key = null, $default = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "get()       ",
     "body": "get(${1:$key = null}, ${2:$default = null})${3}",
-    "leftLabel": "Helpers",
-    "description": "Fetches a POST or GET parameter by key",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/get"
+    "description": "Fetches a POST or GET parameter by key"
   },
   "gist($url, $file = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "gist()       ",
     "body": "gist(${1:$url}, ${2:$file = null})${3}",
-    "leftLabel": "Helpers",
-    "description": "Embeds a Gist from Github by URL",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/gist"
+    "description": "Embeds a Gist from Github by URL"
   },
   "go($url = '/', $code = 302)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "go()       ",
     "body": "go(${1:$url = '/'}, ${2:$code = 302})${3}",
-    "leftLabel": "Helpers",
-    "description": "Redirects to a different URL",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/go"
+    "description": "Redirects to a different URL"
   },
   "gravatar($email, $size = 256, $default = 'mm')": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "gravatar()       ",
     "body": "gravatar(${1:$email}, ${2:$size = 256}, ${3:$default = 'mm'})${4}",
-    "leftLabel": "Helpers",
-    "description": "Builds the Gravatar URL by email",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/gravatar"
+    "description": "Builds the Gravatar URL by email"
   },
   "h($text, $keepTags = true)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "h()       ",
     "body": "h(${1:$text}, ${2:$keepTags = true})${3}",
-    "leftLabel": "Helpers",
-    "description": "Converts any text to valid HTML (shortcut for html())",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/h"
+    "description": "Converts any text to valid HTML (shortcut for html())"
   },
   "html($text, $keepTags = true)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "html()       ",
     "body": "html(${1:$text}, ${2:$keepTags = true})${3}",
-    "leftLabel": "Helpers",
-    "description": "Converts any text to valid HTML",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/html"
+    "description": "Converts any text to valid HTML"
   },
   "image($filename = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "image()       ",
     "body": "image(${1:$filename = null})${2}",
-    "leftLabel": "Helpers",
-    "description": "Fetches any image by filename for the current page, or by path for any other page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/image"
+    "description": "Fetches any image by filename for the current page, or by path for any other page"
   },
   "invalid($data, $rules, $messages = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "invalid()       ",
     "body": "invalid(${1:$data}, ${2:$rules}, ${3:$messages = array()})${4}",
-    "leftLabel": "Helpers",
-    "description": "Runs a number of validators on a set of data and checks if the data is invalid",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/invalid"
+    "description": "Runs a number of validators on a set of data and checks if the data is invalid"
   },
   "js($path, $async = false)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "js()       ",
     "body": "js(${1:$path}, ${2:$async = false})${3}",
-    "leftLabel": "Helpers",
-    "description": "Creates a script tag to load a javascript file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/js"
+    "description": "Creates a script tag to load a javascript file"
   },
   "kirby()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "kirby()       ",
     "body": "kirby()",
-    "leftLabel": "Helpers",
-    "description": "Returns the Kirby object in any situation",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/kirby"
+    "description": "Returns the Kirby object in any situation"
   },
   "kirbytag($attr)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "kirbytag()       ",
     "body": "kirbytag(${1:$attr})${2}",
-    "leftLabel": "Helpers",
-    "description": "Makes it possible to use any defined Kirbytag as standalone function",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/kirbytag"
+    "description": "Makes it possible to use any defined Kirbytag as standalone function"
   },
   "kirbytext($text, $page = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "kirbytext()       ",
     "body": "kirbytext(${1:$text}, ${2:$page = null})${3}",
-    "leftLabel": "Helpers",
-    "description": "Parses any text with Markdown and Kirbytext",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/kirbytext"
+    "description": "Parses any text with Markdown and Kirbytext"
   },
   "l($key, $default = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "l()       ",
     "body": "l(${1:$key}, ${2:$default = null})${3}",
-    "leftLabel": "Helpers",
-    "description": "Fetches a language variable for multi-language sites",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/l"
+    "description": "Fetches a language variable for multi-language sites"
   },
   "markdown($text)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "markdown()       ",
     "body": "markdown(${1:$text})${2}",
-    "leftLabel": "Helpers",
-    "description": "Parses the text as Markdown",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/markdown"
+    "description": "Parses the text as Markdown"
   },
   "memory()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "memory()       ",
     "body": "memory()",
-    "leftLabel": "Helpers",
-    "description": "Returns the current memory usage in a human-readable format",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/memory"
+    "description": "Returns the current memory usage in a human-readable format"
   },
   "multiline($text)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "multiline()       ",
     "body": "multiline(${1:$text})${2}",
-    "leftLabel": "Helpers",
-    "description": "Converts new lines in text to html breaks.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/multiline"
+    "description": "Converts new lines in text to html breaks."
   },
   "page($uri = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "page()       ",
     "body": "page(${1:$uri = null})${2}",
-    "leftLabel": "Helpers",
-    "description": "Fetches any page by URI or the current page when no URI is specified",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/page"
+    "description": "Fetches any page by URI or the current page when no URI is specified"
   },
   "pages($data = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "pages()       ",
     "body": "pages(${1:$data = array()})${2}",
-    "leftLabel": "Helpers",
-    "description": "Helper to build page collections",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/pages"
+    "description": "Helper to build page collections"
   },
   "param($key = null, $default = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "param()       ",
     "body": "param(${1:$key = null}, ${2:$default = null})${3}",
-    "leftLabel": "Helpers",
-    "description": "Fetches a Kirby URL parameter",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/param"
+    "description": "Fetches a Kirby URL parameter"
   },
   "params()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "params()       ",
     "body": "params()",
-    "leftLabel": "Helpers",
-    "description": "Fetches all Kirby URL parameters",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/params"
+    "description": "Fetches all Kirby URL parameters"
   },
   "r($condition, $a, $b = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "r()       ",
     "body": "r(${1:$condition}, ${2:$a}, ${3:$b = null})${4}",
-    "leftLabel": "Helpers",
-    "description": "Returns either $a or $b by the given condition",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/r"
+    "description": "Returns either $a or $b by the given condition"
   },
   "site()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "site()       ",
     "body": "site()",
-    "leftLabel": "Helpers",
-    "description": "Returns the site object in any situation",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/site"
+    "description": "Returns the site object in any situation"
   },
   "size($input)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "size()       ",
     "body": "size(${1:$input})${2}",
-    "leftLabel": "Helpers",
-    "description": "Returns the size of strings, numbers, files and arrays.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/size"
+    "description": "Returns the size of strings, numbers, files and arrays."
   },
   "smartypants($text)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "smartypants()       ",
     "body": "smartypants(${1:$text})${2}",
-    "leftLabel": "Helpers",
-    "description": "Applies the SmartyPants Typographer on an HTML string",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/smartypants"
+    "description": "Applies the SmartyPants Typographer on an HTML string"
   },
   "snippet($file, $data = array(), $return = false)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "snippet()       ",
     "body": "snippet(${1:$file}, ${2:$data = array()}, ${3:$return = false})${4}",
-    "leftLabel": "Helpers",
-    "description": "Embeds a snippet from the snippet folder",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/snippet"
+    "description": "Embeds a snippet from the snippet folder"
   },
   "structure($data, $page = null, $key = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "structure()       ",
     "body": "structure(${1:$data}, ${2:$page = null}, ${3:$key = null})${4}",
-    "leftLabel": "Helpers",
-    "description": "Creates a Kirby structure object from a data array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/structure"
+    "description": "Creates a Kirby structure object from a data array"
   },
   "textfile($uri, $template, $lang = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "textfile()       ",
     "body": "textfile(${1:$uri}, ${2:$template}, ${3:$lang = null})${4}",
-    "leftLabel": "Helpers",
-    "description": "Helper to create correct text file names for content files",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/textfile"
+    "description": "Helper to create correct text file names for content files"
   },
   "thisUrl()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "thisUrl()       ",
     "body": "thisUrl()",
-    "leftLabel": "Helpers",
-    "description": "Returns the current url",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/this-url"
+    "description": "Returns the current url"
   },
   "thumb($image, $params = array(), $obj = true)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "thumb()       ",
     "body": "thumb(${1:$image}, ${2:$params = array()}, ${3:$obj = true})${4}",
-    "leftLabel": "Helpers",
-    "description": "Creates a thumbnail for a given image object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/thumb"
+    "description": "Creates a thumbnail for a given image object"
   },
   "twitter($username, $text = null, $title = null, $class = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "twitter()       ",
     "body": "twitter(${1:$username}, ${2:$text = null}, ${3:$title = null}, ${4:$class = null})${5}",
-    "leftLabel": "Helpers",
-    "description": "Builds a Twitter profile link by username",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/twitter"
+    "description": "Builds a Twitter profile link by username"
   },
   "u($path = '/')": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "u()       ",
     "body": "u(${1:$path = '/'})${2}",
-    "leftLabel": "Helpers",
-    "description": "Shortcut for url()",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/u"
+    "description": "Shortcut for url()"
   },
   "upload($to, $params = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "upload()       ",
     "body": "upload(${1:$to}, ${2:$params = array()})${3}",
-    "leftLabel": "Helpers",
-    "description": "Shortcut for the Upload class",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/upload"
+    "description": "Shortcut for the Upload class"
   },
   "url($path = '/')": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "url()       ",
     "body": "url(${1:$path = '/'})${2}",
-    "leftLabel": "Helpers",
-    "description": "Builds an absolute URL for a given path",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/url"
+    "description": "Builds an absolute URL for a given path"
   },
   "vimeo($url, $width = null, $height = null, $class = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "vimeo()       ",
     "body": "vimeo(${1:$url}, ${2:$width = null}, ${3:$height = null}, ${4:$class = null})${5}",
-    "leftLabel": "Helpers",
-    "description": "Embeds a Vimeo video by URL in an iframe",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/vimeo"
+    "description": "Embeds a Vimeo video by URL in an iframe"
   },
   "widont($text)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "widont()       ",
     "body": "widont(${1:$text})${2}",
-    "leftLabel": "Helpers",
-    "description": "Avoids typographical widows in strings by replacing the last space with &nbsp;",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/widont"
+    "description": "Avoids typographical widows in strings by replacing the last space with &nbsp;"
   },
   "xml($text)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "xml()       ",
     "body": "xml(${1:$text})${2}",
-    "leftLabel": "Helpers",
-    "description": "Converts any text to valid XML",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/xml"
+    "description": "Converts any text to valid XML"
   },
   "yaml($string)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "yaml()       ",
     "body": "yaml(${1:$string})${2}",
-    "leftLabel": "Helpers",
-    "description": "Parses any string as YAML",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/yaml"
+    "description": "Parses any string as YAML"
   },
   "youtube($url, $width = null, $height = null, $class = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "youtube()       ",
     "body": "youtube(${1:$url}, ${2:$width = null}, ${3:$height = null}, ${4:$class = null})${5}",
-    "leftLabel": "Helpers",
-    "description": "Embeds a Youtube video by URL in an iframe",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/helpers/youtube"
+    "description": "Embeds a Youtube video by URL in an iframe"
   },
   "$language->code()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "code()         ",
     "body": "code()",
-    "leftLabel": "$language",
-    "description": "Returns the iso language code",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/language/code"
+    "description": "Returns the iso language code"
   },
   "$language->default()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "default()         ",
     "body": "default()",
-    "leftLabel": "$language",
-    "description": "Checks if this is the default language",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/language/default"
+    "description": "Checks if this is the default language"
   },
   "$language->direction()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "direction()         ",
     "body": "direction()",
-    "leftLabel": "$language",
-    "description": "Returns the text direction of the language (rtl or ltr)",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/language/direction"
+    "description": "Returns the text direction of the language (rtl or ltr)"
   },
   "$language->locale()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "locale()         ",
     "body": "locale()",
-    "leftLabel": "$language",
-    "description": "Returns the locale string",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/language/locale"
+    "description": "Returns the locale string"
   },
   "$language->name()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "name()         ",
     "body": "name()",
-    "leftLabel": "$language",
-    "description": "Returns the full name of the language",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/language/name"
+    "description": "Returns the full name of the language"
   },
   "$language->url()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "url()         ",
     "body": "url()",
-    "leftLabel": "$language",
-    "description": "Returns the assigned base URL for the language",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/language/url"
+    "description": "Returns the assigned base URL for the language"
   },
   "$location->lat()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "lat()          ",
     "body": "lat()",
-    "leftLabel": "$location",
-    "description": "Returns the latitude",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/location/lat"
+    "description": "Returns the latitude"
   },
   "$location->lng()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "lng()          ",
     "body": "lng()",
-    "leftLabel": "$location",
-    "description": "Returns the longitude",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/location/lng"
+    "description": "Returns the longitude"
   },
   "$location->toArray()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toArray()          ",
     "body": "toArray()",
-    "leftLabel": "$location",
-    "description": "Returns latitude and longitude as associative array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/location/to-array"
+    "description": "Returns latitude and longitude as associative array"
   },
   "$page->archives()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "archives()            ",
     "body": "archives()",
-    "leftLabel": "$page",
-    "description": "Returns a $files collection with all archive files (zip, gzip, tar) in the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/archives"
+    "description": "Returns a $files collection with all archive files (zip, gzip, tar) in the page's directory"
   },
   "$page->audio()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "audio()            ",
     "body": "audio()",
-    "leftLabel": "$page",
-    "description": "Returns a $files collection with all audio files in the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/audio"
+    "description": "Returns a $files collection with all audio files in the page's directory"
   },
   "$page->children()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "children()            ",
     "body": "children()",
-    "leftLabel": "$page",
-    "description": "Returns a $pages collection with all children of the page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/children"
+    "description": "Returns a $pages collection with all children of the page"
   },
   "$page->code()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "code()            ",
     "body": "code()",
-    "leftLabel": "$page",
-    "description": "Returns a $files collection with all code files (css, js, html, etc.) in the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/code"
+    "description": "Returns a $files collection with all code files (css, js, html, etc.) in the page's directory"
   },
   "$page->content([$lang = null])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "content()            ",
     "body": "content(${1:$lang = null})${2}",
-    "leftLabel": "$page",
-    "description": "Returns the page's $content object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/content"
+    "description": "Returns the page's $content object"
   },
   "$page->content()->has($field)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "has()            ",
     "body": "has(${1:$field})${2}",
-    "leftLabel": "$page",
-    "description": "Checks if the page has a certain field",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/content-has-field"
+    "description": "Checks if the page has a certain field"
   },
   "$page->contentURL()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "contentURL()            ",
     "body": "contentURL()",
-    "leftLabel": "$page",
-    "description": "Returns the full URL for the content folder",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/content-url"
+    "description": "Returns the full URL for the content folder"
   },
   "$page->create($uri, $template, $data = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "create()            ",
     "body": "create(${1:$uri}, ${2:$template}, ${3:$data = array()})${4}",
-    "leftLabel": "$page",
-    "description": "Creates a new page object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/create"
+    "description": "Creates a new page object"
   },
   "$page->date($format = null, $field = 'date')": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "date()            ",
     "body": "date(${1:$format = null}, ${2:$field = 'date'})${3}",
-    "leftLabel": "$page",
-    "description": "Returns a unix timestamp or formatted date string from the page's date field or any other field containing a parsable date",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/date"
+    "description": "Returns a unix timestamp or formatted date string from the page's date field or any other field containing a parsable date"
   },
   "$page->decrement($field, $by = 1, $max = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "decrement()            ",
     "body": "decrement(${1:$field}, ${2:$by = 1}, ${3:$max = null})${4}",
-    "leftLabel": "$page",
-    "description": "Decrement a field value by one or a given value",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/decrement"
+    "description": "Decrement a field value by one or a given value"
   },
   "$page->delete($force = false)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "delete()            ",
     "body": "delete(${1:$force = false})${2}",
-    "leftLabel": "$page",
-    "description": "Deletes the $page object and all its data and files. This cannot be undone!",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/delete"
+    "description": "Deletes the $page object and all its data and files. This cannot be undone!"
   },
   "$page->depth()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "depth()            ",
     "body": "depth()",
-    "leftLabel": "$page",
-    "description": "Returns a number, which represents the nesting depth of the page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/depth"
+    "description": "Returns a number, which represents the nesting depth of the page"
   },
   "$page->dirname()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "dirname()            ",
     "body": "dirname()",
-    "leftLabel": "$page",
-    "description": "Returns the full name of the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/dirname"
+    "description": "Returns the full name of the page's directory"
   },
   "$page->diruri()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "diruri()            ",
     "body": "diruri()",
-    "leftLabel": "$page",
-    "description": "Returns the full directory path of the page starting at /content",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/diruri"
+    "description": "Returns the full directory path of the page starting at /content"
   },
   "$page->document($filename = false)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "document()            ",
     "body": "document(${1:$filename = false})${2}",
-    "leftLabel": "$page",
-    "description": "Returns a specific document $file object by filename. If no filename is given, the first available document will be returned.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/document"
+    "description": "Returns a specific document $file object by filename. If no filename is given, the first available document will be returned."
   },
   "$page->documents()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "documents()            ",
     "body": "documents()",
-    "leftLabel": "$page",
-    "description": "Returns a $files collection with all documents in the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/documents"
+    "description": "Returns a $files collection with all documents in the page's directory"
   },
   "$page->equals($other)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "equals()            ",
     "body": "equals(${1:$other})${2}",
-    "leftLabel": "$page",
-    "description": "Compares the page with another $page object and checks if they are the same",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/equals"
+    "description": "Compares the page with another $page object and checks if they are the same"
   },
   "$page->file($filename = false)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "file()            ",
     "body": "file(${1:$filename = false})${2}",
-    "leftLabel": "$page",
-    "description": "Returns a specific $file object within the page's directory by filename. If no filename is given, the first file will be returned",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/file"
+    "description": "Returns a specific $file object within the page's directory by filename. If no filename is given, the first file will be returned"
   },
   "$page->files()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "files()            ",
     "body": "files()",
-    "leftLabel": "$page",
-    "description": "Returns a $files collection with all files in the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/files"
+    "description": "Returns a $files collection with all files in the page's directory"
   },
   "$page->find($uri)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "find()            ",
     "body": "find(${1:$uri})${2}",
-    "leftLabel": "$page",
-    "description": "Returns the $page object of a specific subpage by URI. If multiple URIs are given, the method will return a $pages collection with all matches.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/find"
+    "description": "Returns the $page object of a specific subpage by URI. If multiple URIs are given, the method will return a $pages collection with all matches."
   },
   "$page->grandChildren()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "grandChildren()            ",
     "body": "grandChildren()",
-    "leftLabel": "$page",
-    "description": "Returns a $pages collection with all children of children in the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/grand-children"
+    "description": "Returns a $pages collection with all children of children in the page's directory"
   },
   "$page->hasArchives()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasArchives()            ",
     "body": "hasArchives()",
-    "leftLabel": "$page",
-    "description": "Checks if there are any archive files (zip, gzip, tar) in the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-archives"
+    "description": "Checks if there are any archive files (zip, gzip, tar) in the page's directory"
   },
   "$page->hasAudio()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasAudio()            ",
     "body": "hasAudio()",
-    "leftLabel": "$page",
-    "description": "Checks if there are any audio files in the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-audio"
+    "description": "Checks if there are any audio files in the page's directory"
   },
   "$page->hasChildren()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasChildren()            ",
     "body": "hasChildren()",
-    "leftLabel": "$page",
-    "description": "Checks if the page has children",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-children"
+    "description": "Checks if the page has children"
   },
   "$page->hasCode()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasCode()            ",
     "body": "hasCode()",
-    "leftLabel": "$page",
-    "description": "Checks if there are any audio files in the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-code"
+    "description": "Checks if there are any audio files in the page's directory"
   },
   "$page->hasDocuments()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasDocuments()            ",
     "body": "hasDocuments()",
-    "leftLabel": "$page",
-    "description": "Checks if there are any documents (pdf, doc, xls, etc.) in the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-documents"
+    "description": "Checks if there are any documents (pdf, doc, xls, etc.) in the page's directory"
   },
   "$page->hasFiles()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasFiles()            ",
     "body": "hasFiles()",
-    "leftLabel": "$page",
-    "description": "Checks if there are any files in the page's directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-files"
+    "description": "Checks if there are any files in the page's directory"
   },
   "$page->hasImages()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasImages()            ",
     "body": "hasImages()",
-    "leftLabel": "$page",
-    "description": "Checks if there are image files (jpg, png, gif, etc.) in the page directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-images"
+    "description": "Checks if there are image files (jpg, png, gif, etc.) in the page directory"
   },
   "$page->hasInvisibleChildren()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasInvisibleChildren()            ",
     "body": "hasInvisibleChildren()",
-    "leftLabel": "$page",
-    "description": "Checks if the page has any invisible children",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-invisible-children"
+    "description": "Checks if the page has any invisible children"
   },
   "$page->hasNext([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasNext()            ",
     "body": "hasNext(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Checks if the page has a next sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-next"
+    "description": "Checks if the page has a next sibling"
   },
   "$page->hasNextInvisible([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasNextInvisible()            ",
     "body": "hasNextInvisible(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Checks if the page has a next invisible sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-next-invisible"
+    "description": "Checks if the page has a next invisible sibling"
   },
   "$page->hasNextVisible([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasNextVisible()            ",
     "body": "hasNextVisible(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Checks if the page has a next visible sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-next-visible"
+    "description": "Checks if the page has a next visible sibling"
   },
   "$page->hasPrev([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasPrev()            ",
     "body": "hasPrev(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Checks if the page has a previous sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-prev"
+    "description": "Checks if the page has a previous sibling"
   },
   "$page->hasPrevInvisible([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasPrevInvisible()            ",
     "body": "hasPrevInvisible(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Checks if the page has a previous invisible sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-prev-invisible"
+    "description": "Checks if the page has a previous invisible sibling"
   },
   "$page->hasPrevVisible([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasPrevVisible()            ",
     "body": "hasPrevVisible(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Checks if the page has a previous visible sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-prev-visible"
+    "description": "Checks if the page has a previous visible sibling"
   },
   "$page->hasTemplate()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasTemplate()            ",
     "body": "hasTemplate()",
-    "leftLabel": "$page",
-    "description": "Checks if the page has its own template or if it uses the default template",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-template"
+    "description": "Checks if the page has its own template or if it uses the default template"
   },
   "$page->hasVideos()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasVideos()            ",
     "body": "hasVideos()",
-    "leftLabel": "$page",
-    "description": "Checks if there are any video files in the page directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-videos"
+    "description": "Checks if there are any video files in the page directory"
   },
   "$page->hasVisibleChildren()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hasVisibleChildren()            ",
     "body": "hasVisibleChildren()",
-    "leftLabel": "$page",
-    "description": "Checks if the page has any visible children",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/has-visible-children"
+    "description": "Checks if the page has any visible children"
   },
   "$page->hash()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hash()            ",
     "body": "hash()",
-    "leftLabel": "$page",
-    "description": "Returns a unique hash for the page, which is used by tinyurls",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/hash"
+    "description": "Returns a unique hash for the page, which is used by tinyurls"
   },
   "$page->headers()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "headers()            ",
     "body": "headers()",
-    "leftLabel": "$page",
-    "description": "Sends all appropriate headers for this page. Can be configured with the headers config array, which should contain all header definitions for each template",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/headers"
+    "description": "Sends all appropriate headers for this page. Can be configured with the headers config array, which should contain all header definitions for each template"
   },
   "$page->hide()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "hide()            ",
     "body": "hide()",
-    "leftLabel": "$page",
-    "description": "Removes the sorting number from the page directory to switch it to invisible",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/hide"
+    "description": "Removes the sorting number from the page directory to switch it to invisible"
   },
   "$page->id()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "id()            ",
     "body": "id()",
-    "leftLabel": "$page",
-    "description": "Returns the page id, which is the untranslated URI",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/id"
+    "description": "Returns the page id, which is the untranslated URI"
   },
   "$page->image($filename = false)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "image()            ",
     "body": "image(${1:$filename = false})${2}",
-    "leftLabel": "$page",
-    "description": "Returns a specific image $file object by filename. If no filename is given, the first available image will be returned.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/image"
+    "description": "Returns a specific image $file object by filename. If no filename is given, the first available image will be returned."
   },
   "$page->images()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "images()            ",
     "body": "images()",
-    "leftLabel": "$page",
-    "description": "Returns a $files collection with all image files (jpg, png, gif, etc.) in the page directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/images"
+    "description": "Returns a $files collection with all image files (jpg, png, gif, etc.) in the page directory"
   },
   "$page->increment($field, $by = 1, $max = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "increment()            ",
     "body": "increment(${1:$field}, ${2:$by = 1}, ${3:$max = null})${4}",
-    "leftLabel": "$page",
-    "description": "Increment a field value by one or a given value",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/increment"
+    "description": "Increment a field value by one or a given value"
   },
   "$page->index()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "index()            ",
     "body": "index()",
-    "leftLabel": "$page",
-    "description": "Recursively builds a $pages collection with all children, children of children, etc.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/index"
+    "description": "Recursively builds a $pages collection with all children, children of children, etc."
   },
   "$page->intendedTemplate()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "intendedTemplate()            ",
     "body": "intendedTemplate()",
-    "leftLabel": "$page",
-    "description": "Returns the name of the intended template. This is the name of the content text file.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/intended-template"
+    "description": "Returns the name of the intended template. This is the name of the content text file."
   },
   "$page->intendedTemplateFile()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "intendedTemplateFile()            ",
     "body": "intendedTemplateFile()",
-    "leftLabel": "$page",
-    "description": "Returns the path for the intended template file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/intendedTemplateFile"
+    "description": "Returns the path for the intended template file"
   },
   "$page->inventory()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "inventory()            ",
     "body": "inventory()",
-    "leftLabel": "$page",
-    "description": "Reads the directory and returns an inventory array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/inventory"
+    "description": "Reads the directory and returns an inventory array"
   },
   "$page->is($other)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "is()            ",
     "body": "is(${1:$other})${2}",
-    "leftLabel": "$page",
-    "description": "Compares the page with another $page object and checks if they are the same",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is"
+    "description": "Compares the page with another $page object and checks if they are the same"
   },
   "$page->isActive()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isActive()            ",
     "body": "isActive()",
-    "leftLabel": "$page",
-    "description": "Checks if the page is the currently active page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-active"
+    "description": "Checks if the page is the currently active page"
   },
   "$page->isAncestorOf($child)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isAncestorOf()            ",
     "body": "isAncestorOf(${1:$child})${2}",
-    "leftLabel": "$page",
-    "description": "Checks if the page is a direct or indirect ancestor of the given $page object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-ancestor-of"
+    "description": "Checks if the page is a direct or indirect ancestor of the given $page object"
   },
   "$page->isCacheable()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isCacheable()            ",
     "body": "isCacheable()",
-    "leftLabel": "$page",
-    "description": "Checks if the page can be cached",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-cachable"
+    "description": "Checks if the page can be cached"
   },
   "$page->isChildOf($parent)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isChildOf()            ",
     "body": "isChildOf(${1:$parent})${2}",
-    "leftLabel": "$page",
-    "description": "Checks if the page is a child of the given page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-child-of"
+    "description": "Checks if the page is a child of the given page"
   },
   "$page->isDeletable()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isDeletable()            ",
     "body": "isDeletable()",
-    "leftLabel": "$page",
-    "description": "Checks if the page is deletable",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-deletable"
+    "description": "Checks if the page is deletable"
   },
   "$page->isDescendantOf($parent)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isDescendantOf()            ",
     "body": "isDescendantOf(${1:$parent})${2}",
-    "leftLabel": "$page",
-    "description": "Checks if the page is a descendant of the given page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-descendant-of"
+    "description": "Checks if the page is a descendant of the given page"
   },
   "$page->isDescendantOfActive()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isDescendantOfActive()            ",
     "body": "isDescendantOfActive()",
-    "leftLabel": "$page",
-    "description": "Checks if the page is a descendant of the currently active page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-descendant-of-active"
+    "description": "Checks if the page is a descendant of the currently active page"
   },
   "$page->isErrorPage()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isErrorPage()            ",
     "body": "isErrorPage()",
-    "leftLabel": "$page",
-    "description": "Checks if the page is the error page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-error-page"
+    "description": "Checks if the page is the error page"
   },
   "$page->isHomePage()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isHomePage()            ",
     "body": "isHomePage()",
-    "leftLabel": "$page",
-    "description": "Checks if the page is the home page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-home-page"
+    "description": "Checks if the page is the home page"
   },
   "$page->isInvisible()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isInvisible()            ",
     "body": "isInvisible()",
-    "leftLabel": "$page",
-    "description": "Checks if the page is invisible",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-invisible"
+    "description": "Checks if the page is invisible"
   },
   "$page->isOpen()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isOpen()            ",
     "body": "isOpen()",
-    "leftLabel": "$page",
-    "description": "Checks if the page is open. This means that it is either active or it is a direct or indirect parent of the currently active page.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-open"
+    "description": "Checks if the page is open. This means that it is either active or it is a direct or indirect parent of the currently active page."
   },
   "$page->isParentOf($child)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isParentOf()            ",
     "body": "isParentOf(${1:$child})${2}",
-    "leftLabel": "$page",
-    "description": "Checks if the page is the parent of the given page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-parent-of"
+    "description": "Checks if the page is the parent of the given page"
   },
   "$page->isSite()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isSite()            ",
     "body": "isSite()",
-    "leftLabel": "$page",
-    "description": "Checks if this page object is the main site",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-site"
+    "description": "Checks if this page object is the main site"
   },
   "$page->isVisible()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isVisible()            ",
     "body": "isVisible()",
-    "leftLabel": "$page",
-    "description": "Checks if the page is visible",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-visible"
+    "description": "Checks if the page is visible"
   },
   "$page->isWritable()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "isWritable()            ",
     "body": "isWritable()",
-    "leftLabel": "$page",
-    "description": "Checks if the page is writable",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/is-writable"
+    "description": "Checks if the page is writable"
   },
   "$page->kirby()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "kirby()            ",
     "body": "kirby()",
-    "leftLabel": "$page",
-    "description": "Returns the kirby object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/kirby"
+    "description": "Returns the kirby object"
   },
   "$page->modified($format = false)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "modified()            ",
     "body": "modified(${1:$format = false})${2}",
-    "leftLabel": "$page",
-    "description": "Returns the unix timestamp or a formatted date string of the last modification date of the page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/modified"
+    "description": "Returns the unix timestamp or a formatted date string of the last modification date of the page"
   },
   "$page->move($uid)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "move()            ",
     "body": "move(${1:$uid})${2}",
-    "leftLabel": "$page",
-    "description": "Changes the uid for the page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/move"
+    "description": "Changes the uid for the page"
   },
   "$page->next([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "next()            ",
     "body": "next(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Returns the next sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/next"
+    "description": "Returns the next sibling"
   },
   "$page->nextInvisible([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "nextInvisible()            ",
     "body": "nextInvisible(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Returns the next invisible sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/next-invisible"
+    "description": "Returns the next invisible sibling"
   },
   "$page->nextVisible([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "nextVisible()            ",
     "body": "nextVisible(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Returns the next visible sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/next-visible"
+    "description": "Returns the next visible sibling"
   },
   "$page->num()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "num()            ",
     "body": "num()",
-    "leftLabel": "$page",
-    "description": "Returns the sorting number",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/num"
+    "description": "Returns the sorting number"
   },
   "$page->parent()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "parent()            ",
     "body": "parent()",
-    "leftLabel": "$page",
-    "description": "Returns the parent $page object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/parent"
+    "description": "Returns the parent $page object"
   },
   "$page->parents()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "parents()            ",
     "body": "parents()",
-    "leftLabel": "$page",
-    "description": "Returns a $pages collection of all parents",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/parents"
+    "description": "Returns a $pages collection of all parents"
   },
   "$page->prev([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "prev()            ",
     "body": "prev(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Returns the previous sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/prev"
+    "description": "Returns the previous sibling"
   },
   "$page->prevInvisible([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "prevInvisible()            ",
     "body": "prevInvisible(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Returns the previous invisble sibling.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/prev-invisible"
+    "description": "Returns the previous invisble sibling."
   },
   "$page->prevVisible([$sort, $direction])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "prevVisible()            ",
     "body": "prevVisible(${1:$sort}, ${2:$direction})${3}",
-    "leftLabel": "$page",
-    "description": "Returns the previous visible sibling",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/prev-visible"
+    "description": "Returns the previous visible sibling"
   },
   "$page->reset()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "reset()            ",
     "body": "reset()",
-    "leftLabel": "$page",
-    "description": "Cleans the temporary page cache and the cache of all parent pages",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/reset"
+    "description": "Cleans the temporary page cache and the cache of all parent pages"
   },
   "$page->root()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "root()            ",
     "body": "root()",
-    "leftLabel": "$page",
-    "description": "Returns the full root of the page directory",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/root"
+    "description": "Returns the full root of the page directory"
   },
   "$page->search($query, $params = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "search()            ",
     "body": "search(${1:$query}, ${2:$params = array()})${3}",
-    "leftLabel": "$page",
-    "description": "Searches all descendants",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/search"
+    "description": "Searches all descendants"
   },
   "$page->siblings($self = true)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "siblings()            ",
     "body": "siblings(${1:$self = true})${2}",
-    "leftLabel": "$page",
-    "description": "Returns all siblings.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/siblings"
+    "description": "Returns all siblings."
   },
   "$page->site()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "site()            ",
     "body": "site()",
-    "leftLabel": "$page",
-    "description": "Returns the site object",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/site"
+    "description": "Returns the site object"
   },
   "$page->slug([$lang = null])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "slug()            ",
     "body": "slug(${1:$lang = null})${2}",
-    "leftLabel": "$page",
-    "description": "Returns the slug. The slug is the last part of the page's URL. It is translatable in multi-language sites while the UID always stays the page's directory name without the sorting number.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/slug"
+    "description": "Returns the slug. The slug is the last part of the page's URL. It is translatable in multi-language sites while the UID always stays the page's directory name without the sorting number."
   },
   "$page->sort($num = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "sort()            ",
     "body": "sort(${1:$num = null})${2}",
-    "leftLabel": "$page",
-    "description": "Changes the sorting number of the page.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/sort"
+    "description": "Changes the sorting number of the page."
   },
   "$page->template()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "template()            ",
     "body": "template()",
-    "leftLabel": "$page",
-    "description": "Returns the name of the used template for the page. Will return default if the intended template cannot be found.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/template"
+    "description": "Returns the name of the used template for the page. Will return default if the intended template cannot be found."
   },
   "$page->templateData()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "templateData()            ",
     "body": "templateData()",
-    "leftLabel": "$page",
-    "description": "Additional data, which will be passed to the template",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/template-data"
+    "description": "Additional data, which will be passed to the template"
   },
   "$page->templateFile()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "templateFile()            ",
     "body": "templateFile()",
-    "leftLabel": "$page",
-    "description": "Returns the full path of the template file.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/templateFile"
+    "description": "Returns the full path of the template file."
   },
   "$page->textfile($template = null [, $lang = null])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "textfile()            ",
     "body": "textfile(${1:$template = null}, ${2:$lang = null})${3}",
-    "leftLabel": "$page",
-    "description": "Returns the root for the content file",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/textfile"
+    "description": "Returns the root for the content file"
   },
   "$page->tinyurl()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "tinyurl()            ",
     "body": "tinyurl()",
-    "leftLabel": "$page",
-    "description": "Returns the tinyurl for the page if tinyurls are activated in the config",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/tinyurl"
+    "description": "Returns the tinyurl for the page if tinyurls are activated in the config"
   },
   "$page->title()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "title()            ",
     "body": "title()",
-    "leftLabel": "$page",
-    "description": "Returns the page title. The title is fetched from the content unless it does not exist. In this case it will be overwritten by the UID.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/title"
+    "description": "Returns the page title. The title is fetched from the content unless it does not exist. In this case it will be overwritten by the UID."
   },
   "$page->toArray($callback = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toArray()            ",
     "body": "toArray(${1:$callback = null})${2}",
-    "leftLabel": "$page",
-    "description": "Converts the entire page object into a plain PHP array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/to-array"
+    "description": "Converts the entire page object into a plain PHP array"
   },
   "$page->toJson($callback = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "toJson()            ",
     "body": "toJson(${1:$callback = null})${2}",
-    "leftLabel": "$page",
-    "description": "Converts the entire page array into a json string",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/to-json"
+    "description": "Converts the entire page array into a json string"
   },
   "$page->touch()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "touch()            ",
     "body": "touch()",
-    "leftLabel": "$page",
-    "description": "Marks the page as modified",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/touch"
+    "description": "Marks the page as modified"
   },
   "$page->uid()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "uid()            ",
     "body": "uid()",
-    "leftLabel": "$page",
-    "description": "The UID is the page directory name without the sorting number.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/uid"
+    "description": "The UID is the page directory name without the sorting number."
   },
   "$page->update($data = array() [, $lang = null])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "update()            ",
     "body": "update(${1:$data = array()}, ${2:$lang = null})${3}",
-    "leftLabel": "$page",
-    "description": "Updates the page content with all passed variables.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/update"
+    "description": "Updates the page content with all passed variables."
   },
   "$page->uri([$lang = null])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "uri()            ",
     "body": "uri(${1:$lang = null})${2}",
-    "leftLabel": "$page",
-    "description": "Returns the URI. The URI is the relative URL without the host or any subfolders.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/uri"
+    "description": "Returns the URI. The URI is the relative URL without the host or any subfolders."
   },
   "$page->url()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "url()            ",
     "body": "url()",
-    "leftLabel": "$page",
-    "description": "Returns the full URL of the page",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/url"
+    "description": "Returns the full URL of the page"
   },
   "$page->urlKey($lang = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "urlKey()            ",
     "body": "urlKey(${1:$lang = null})${2}",
-    "leftLabel": "$page",
-    "description": "Returns the URL key from the content file if available and otherwise returns the page UID",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/url-key"
+    "description": "Returns the URL key from the content file if available and otherwise returns the page UID"
   },
   "$page->video($filename = false)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "video()            ",
     "body": "video(${1:$filename = false})${2}",
-    "leftLabel": "$page",
-    "description": "Returns a specific video $file object by filename. If no filename is given, the first available video will be returned.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/video"
+    "description": "Returns a specific video $file object by filename. If no filename is given, the first available video will be returned."
   },
   "$page->videos()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "videos()            ",
     "body": "videos()",
-    "leftLabel": "$page",
-    "description": "Returns a $files collection with all videos in the page directory.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/page/videos"
+    "description": "Returns a $files collection with all videos in the page directory."
   },
   "$pages->add($page)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "add()             ",
     "body": "add(${1:$page})${2}",
-    "leftLabel": "$pages",
-    "description": "Adds a single page object or a collection to a collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/add"
+    "description": "Adds a single page object or a collection to a collection"
   },
   "$pages->append($key, $object)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "append()             ",
     "body": "append(${1:$key}, ${2:$object})${3}",
-    "leftLabel": "$pages",
-    "description": "Appends an element to the data array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/append"
+    "description": "Appends an element to the data array"
   },
   "$pages->children()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "children()             ",
     "body": "children()",
-    "leftLabel": "$pages",
-    "description": "Returns a $pages collection with all children of each page in the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/children"
+    "description": "Returns a $pages collection with all children of each page in the collection"
   },
   "$pages->chunk($size)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "chunk()             ",
     "body": "chunk(${1:$size})${2}",
-    "leftLabel": "$pages",
-    "description": "Creates chunks of the same size and returns them in a new collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/chunk"
+    "description": "Creates chunks of the same size and returns them in a new collection"
   },
   "$pages->count()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "count()             ",
     "body": "count()",
-    "leftLabel": "$pages",
-    "description": "Returns the number of pages in the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/count"
+    "description": "Returns the number of pages in the collection"
   },
   "$pages->create($uid, $template, $data = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "create()             ",
     "body": "create(${1:$uid}, ${2:$template}, ${3:$data = array()})${4}",
-    "leftLabel": "$pages",
-    "description": "Creates a new subpage",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/create"
+    "description": "Creates a new subpage"
   },
   "$pages->current()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "current()             ",
     "body": "current()",
-    "leftLabel": "$pages",
-    "description": "Returns the current element of the array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/current"
+    "description": "Returns the current element of the array"
   },
   "pages::extractValue($item, $field)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "pages::extractValue()             ",
     "body": "pages::extractValue(${1:$item}, ${2:$HERE})${3}",
-    "leftLabel": "$pages",
-    "description": "Makes sure to provide a valid value for each filter method no matter if an object or an array is given",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/extract-value"
+    "description": "Makes sure to provide a valid value for each filter method no matter if an object or an array is given"
   },
   "$pages->files()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "files()             ",
     "body": "files()",
-    "leftLabel": "$pages",
-    "description": "Returns a $files collection with all files of each page in the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/files"
+    "description": "Returns a $files collection with all files of each page in the collection"
   },
   "$pages->filter($callback)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "filter()             ",
     "body": "filter(${1:$callback})${2}",
-    "leftLabel": "$pages",
-    "description": "Filters the collection with a custom filter callback",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/filter"
+    "description": "Filters the collection with a custom filter callback"
   },
   "$pages->filterBy($key [, $operator], $value [, $split])": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "filterBy()             ",
     "body": "filterBy(${1:$key}, ${2:$operator}, ${3:$value}, ${4:$split})${5}",
-    "leftLabel": "$pages",
-    "description": "Filters the collection by any field and value and with a set of filtering operators",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/filter-by"
+    "description": "Filters the collection by any field and value and with a set of filtering operators"
   },
   "$pages->find($page)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "find()             ",
     "body": "find(${1:$page})${2}",
-    "leftLabel": "$pages",
-    "description": "Finds a $page object in the collection by UID or relative URI",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/find"
+    "description": "Finds a $page object in the collection by UID or relative URI"
   },
   "$pages->findBy($key, $value)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "findBy()             ",
     "body": "findBy(${1:$key}, ${2:$HERE})${3}",
-    "leftLabel": "$pages",
-    "description": "Finds a single $page object in the collection by $key and $value",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/find-by"
+    "description": "Finds a single $page object in the collection by $key and $value"
   },
   "$pages->findByURI($uri)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "findByURI()             ",
     "body": "findByURI(${1:$uri})${2}",
-    "leftLabel": "$pages",
-    "description": "Finds a $page object in the collection by its full URI",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/find-by-uri"
+    "description": "Finds a $page object in the collection by its full URI"
   },
   "$pages->findOpen()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "findOpen()             ",
     "body": "findOpen()",
-    "leftLabel": "$pages",
-    "description": "Finds the open $page object in the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/find-open"
+    "description": "Finds the open $page object in the collection"
   },
   "$pages->first()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "first()             ",
     "body": "first()",
-    "leftLabel": "$pages",
-    "description": "Returns the first $page object from the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/first"
+    "description": "Returns the first $page object from the collection"
   },
   "$pages->flip()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "flip()             ",
     "body": "flip()",
-    "leftLabel": "$pages",
-    "description": "Returns the collection in reverse order",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/flip"
+    "description": "Returns the collection in reverse order"
   },
   "$pages->get($key, $default = null)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "get()             ",
     "body": "get(${1:$key}, ${2:$default = null})${3}",
-    "leftLabel": "$pages",
-    "description": "Returns a $page object by its full URI",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/get"
+    "description": "Returns a $page object by its full URI"
   },
   "$pages->group($callback)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "group()             ",
     "body": "group(${1:$callback})${2}",
-    "leftLabel": "$pages",
-    "description": "Groups the collection by a given callback",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/group"
+    "description": "Groups the collection by a given callback"
   },
   "$pages->groupBy($field, $caseInsensitive = true)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "groupBy()             ",
     "body": "groupBy(${1:$field}, ${2:$caseInsensitive = true})${3}",
-    "leftLabel": "$pages",
-    "description": "Groups $page objects in the collection by any field and returns them in a new collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/group-by"
+    "description": "Groups $page objects in the collection by any field and returns them in a new collection"
   },
   "$pages->has($page)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "has()             ",
     "body": "has(${1:$page})${2}",
-    "leftLabel": "$pages",
-    "description": "Checks if a $page object is included in the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/has"
+    "description": "Checks if a $page object is included in the collection"
   },
   "$pages->index()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "index()             ",
     "body": "index()",
-    "leftLabel": "$pages",
-    "description": "Recursively creates a full index from all pages and subpages in the collection and returns it as a new flat $pages collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/index"
+    "description": "Recursively creates a full index from all pages and subpages in the collection and returns it as a new flat $pages collection"
   },
   "$pages->indexOf($needle)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "indexOf()             ",
     "body": "indexOf(${1:$needle})${2}",
-    "leftLabel": "$pages",
-    "description": "Tries to find the index number for the given element",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/index-of"
+    "description": "Tries to find the index number for the given element"
   },
   "$pages->invisible()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "invisible()             ",
     "body": "invisible()",
-    "leftLabel": "$pages",
-    "description": "Returns all invisible $page objects from the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/invisible"
+    "description": "Returns all invisible $page objects from the collection"
   },
   "$pages->key()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "key()             ",
     "body": "key()",
-    "leftLabel": "$pages",
-    "description": "Returns the current key from the array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/key"
+    "description": "Returns the current key from the array"
   },
   "$pages->keyOf($needle)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "keyOf()             ",
     "body": "keyOf(${1:$needle})${2}",
-    "leftLabel": "$pages",
-    "description": "Tries to find the key for the given element",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/key-of"
+    "description": "Tries to find the key for the given element"
   },
   "$pages->keys()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "keys()             ",
     "body": "keys()",
-    "leftLabel": "$pages",
-    "description": "Returns all keys/URIs from the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/keys"
+    "description": "Returns all keys/URIs from the collection"
   },
   "$pages->last()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "last()             ",
     "body": "last()",
-    "leftLabel": "$pages",
-    "description": "Returns the last $page object from the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/last"
+    "description": "Returns the last $page object from the collection"
   },
   "$pages->limit($limit)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "limit()             ",
     "body": "limit(${1:$limit})${2}",
-    "leftLabel": "$pages",
-    "description": "Returns the collection with a limited amount of pages",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/limit"
+    "description": "Returns the collection with a limited amount of pages"
   },
   "$pages->map($callback)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "map()             ",
     "body": "map(${1:$callback})${2}",
-    "leftLabel": "$pages",
-    "description": "Returns a new collection and applies the mapping callback to all pages",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/map"
+    "description": "Returns a new collection and applies the mapping callback to all pages"
   },
   "$pages->merge($collection2)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "merge()             ",
     "body": "merge(${1:$collection2})${2}",
-    "leftLabel": "$pages",
-    "description": "Returns a new combined collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/merge"
+    "description": "Returns a new combined collection"
   },
   "$pages->next()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "next()             ",
     "body": "next()",
-    "leftLabel": "$pages",
-    "description": "Moves the cursor to the next element in the array and returns it",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/next"
+    "description": "Moves the cursor to the next element in the array and returns it"
   },
   "$pages->not($args)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "not()             ",
     "body": "not(${1:$args})${2}",
-    "leftLabel": "$pages",
-    "description": "Returns the collection without any given pages.",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/not"
+    "description": "Returns the collection without any given pages."
   },
   "$pages->nth($n)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "nth()             ",
     "body": "nth(${1:$n})${2}",
-    "leftLabel": "$pages",
-    "description": "Returns the nth page in the collection",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/nth"
+    "description": "Returns the nth page in the collection"
   },
   "$pages->offset($offset)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "offset()             ",
     "body": "offset(${1:$offset})${2}",
-    "leftLabel": "$pages",
-    "description": "Returns the collection starting from the given offset",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/offset"
+    "description": "Returns the collection starting from the given offset"
   },
   "$pages->paginate($limit, $options = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "paginate()             ",
     "body": "paginate(${1:$limit}, ${2:$HERE})${3}",
-    "leftLabel": "$pages",
-    "description": "Adds a $pagination object to the collection, which makes it easy to page through items",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/paginate"
+    "description": "Adds a $pagination object to the collection, which makes it easy to page through items"
   },
   "$pages->pagination()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "pagination()             ",
     "body": "pagination()",
-    "leftLabel": "$pages",
-    "description": "Returns the $pagination object if available",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/pagination"
+    "description": "Returns the $pagination object if available"
   },
   "$pages->pluck($field, $split = null, $unique = false)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "pluck()             ",
     "body": "pluck(${1:$field}, ${2:$split = null}, ${3:$unique = false})${4}",
-    "leftLabel": "$pages",
-    "description": "Extracts an array of values from each item by field",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/pluck"
+    "description": "Extracts an array of values from each item by field"
   },
   "$pages->prepend($key, $object)": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "prepend()             ",
     "body": "prepend(${1:$key}, ${2:$object})${3}",
-    "leftLabel": "$pages",
-    "description": "Prepends an element to the data array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/prepend"
+    "description": "Prepends an element to the data array"
   },
   "$pages->prev()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "prev()             ",
     "body": "prev()",
-    "leftLabel": "$pages",
-    "description": "Moves the cursor to the previous element in the array and returns it",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/prev"
+    "description": "Moves the cursor to the previous element in the array and returns it"
   },
   "$pages->rewind()": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "rewind()             ",
     "body": "rewind()",
-    "leftLabel": "$pages",
-    "description": "Moves the cursor to the first element of the array",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/rewind"
+    "description": "Moves the cursor to the first element of the array"
   },
   "$pages->search($query, $params = array())": {
-    "rightLabelHTML": "<span style=\"color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em\">K</span>",
     "prefix": "search()             ",
     "body": "search(${1:$query}, ${2:$params = array()})${3}",
-    "leftLabel": "$pages",
-    "description": "Searches all pages in the collection and all descendants",
-    "descriptionMoreURL": "https://getkirby.com/docs/cheatsheet/pages/search"
+    "description": "Searches all pages in the collection and all descendants"
   }
+
 }
