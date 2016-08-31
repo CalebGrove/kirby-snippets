@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle Kirby Snippets",
+        "command": "kirby-snippets:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Kirby Snippets",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "kirby-snippets:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

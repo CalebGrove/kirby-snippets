@@ -1,0 +1,18 @@
+{
+  "name": "kirby-snippets",
+  "main": "./lib/kirby-snippets",
+  "version": "1.0.0",
+  "description": "Kirby snippets for Atom",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "kirby-snippets:toggle"
+  },
+  "repository": "https://github.com/medienbaecker/kirby-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
