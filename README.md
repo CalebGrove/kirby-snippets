@@ -10,4 +10,4 @@ I've added tabs stops for every parameter and included the corresponding descrip
 
 Install it in the Atom Settings
 
-![Installation](installation.png?raw=true)
+![Installation](https://raw.githubusercontent.com/medienbaecker/kirby-snippets/master/installation.png)
