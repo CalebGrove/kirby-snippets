@@ -6,12 +6,6 @@ I've added tabs stops for every parameter and included the corresponding descrip
 
 ![Kirby snippets](snippets-preview.gif?raw=true "Preview")
 
-# Installation
+## Installation
 
-## macOS
-
-Click on `Atom` in the menu bar, click on `Snippets` and paste the content of the `snippets.cson` there.
-
-## Windows
-
-Click on `File`, click `Snippets` and paste the content of the `snippets.cson` there.
+Download and move this repo to `~/.atom/packages/`.
