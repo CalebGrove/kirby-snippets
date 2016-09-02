@@ -8,4 +8,6 @@ I've added tabs stops for every parameter and included the corresponding descrip
 
 ## Installation
 
-Download and move this repo to `~/.atom/packages/`.
+Install it in the Atom Settings
+
+![Installation](installation.png?raw=true)
