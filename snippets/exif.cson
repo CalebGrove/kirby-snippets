@@ -1,0 +1,89 @@
+'.text.html.php':
+
+ '$exif->aperture()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'aperture()   '
+   'body': 'aperture()'
+   'leftLabel': '$exif'
+   'description': 'Returns the aperture value of the image, if it is available in the exif data set.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/exif/aperture'
+
+ '$exif->camera()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'camera()   '
+   'body': 'camera()'
+   'leftLabel': '$exif'
+   'description': 'Returns the $camera object for the image, which contains the make and model.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/exif/camera'
+
+ '$exif->data()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'data()   '
+   'body': 'data()'
+   'leftLabel': '$exif'
+   'description': 'Returns the full exif data set as a raw array.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/exif/data'
+
+ '$exif->exposure()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'exposure()   '
+   'body': 'exposure()'
+   'leftLabel': '$exif'
+   'description': 'Returns the exposure value of the image, if it is available in the exif data set.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/exif/exposure'
+
+ '$exif->focalLength()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'focalLength()   '
+   'body': 'focalLength()'
+   'leftLabel': '$exif'
+   'description': 'Returns the focal length of the image, if it is available in the exif data set.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/exif/focal-length'
+
+ '$exif->isBW()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isBW()   '
+   'body': 'isBW()'
+   'leftLabel': '$exif'
+   'description': 'Checks if the image colorspace is grayscale'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/exif/is-bw'
+
+ '$exif->isColor()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isColor()   '
+   'body': 'isColor()'
+   'leftLabel': '$exif'
+   'description': 'Checks if the image colorspace is either RGB or CMYK'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/exif/is-color'
+
+ '$exif->iso()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'iso()   '
+   'body': 'iso()'
+   'leftLabel': '$exif'
+   'description': 'Returns the iso value of the image, if it is available in the exif data set.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/exif/iso'
+
+ '$exif->location()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'location()   '
+   'body': 'location()'
+   'leftLabel': '$exif'
+   'description': 'Returns the $location object for the image if the image has GPS data.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/exif/location'
+
+ '$exif->timestamp()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'timestamp()   '
+   'body': 'timestamp()'
+   'leftLabel': '$exif'
+   'description': 'Returns the unix timestamp of when the image was taken.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/exif/timestamp'
+
+ '$exif->toArray()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toArray()   '
+   'body': 'toArray()'
+   'leftLabel': '$exif'
+   'description': 'Returns an associative array of all available exif data.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/exif/to-array'

@@ -1,0 +1,25 @@
+'.text.html.php':
+
+ '$location->lat()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'lat()          '
+   'body': 'lat()'
+   'leftLabel': '$location'
+   'description': 'Returns the latitude'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/location/lat'
+
+ '$location->lng()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'lng()          '
+   'body': 'lng()'
+   'leftLabel': '$location'
+   'description': 'Returns the longitude'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/location/lng'
+
+ '$location->toArray()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toArray()          '
+   'body': 'toArray()'
+   'leftLabel': '$location'
+   'description': 'Returns latitude and longitude as associative array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/location/to-array'

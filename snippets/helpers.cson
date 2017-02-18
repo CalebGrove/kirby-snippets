@@ -1,0 +1,393 @@
+'.text.html.php':
+
+ 'attr($name, $value = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'attr()       '
+   'body': 'attr(${1:$name}, ${2:$value = null})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Creates attributes for an HTML tag'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/attr'
+
+ 'brick($tag, $html = false, $attr = array())':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'brick()       '
+   'body': 'brick(${1:$tag}, ${2:$html = false}, ${3:$attr = array()})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Creates an HTML Element (Brick object)'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/brick'
+
+ 'call($function, $arguments = array())':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'call()       '
+   'body': 'call(${1:$function}, ${2:$arguments = array()})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Calls a function with a given set of arguments'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/call'
+
+ 'csrf($check = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'csrf()       '
+   'body': 'csrf(${1:$check = null})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Generates and checks CSRF tokens'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/csrf'
+
+ 'css($path, $media = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'css()       '
+   'body': 'css(${1:$path}, ${2:$media = null})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Creates one or multiple CSS link tags'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/css'
+
+ 'dump($variable, $echo = true)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'dump()       '
+   'body': 'dump(${1:$variable}, ${2:$echo = true})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Dumps the content of any variable in a human readable way for debugging'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/dump'
+
+ 'e($condition, $a, $b = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'e()       '
+   'body': 'e(${1:$condition}, ${2:$a}, ${3:$b = null})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Echos one of two alternatives depending on a condition (Shortcut for ecco())'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/e'
+
+ 'ecco($condition, $a, $b = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'ecco()       '
+   'body': 'ecco(${1:$condition}, ${2:$a}, ${3:$b = null})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Echos one of two alternatives depending on a condition'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/ecco'
+
+ 'email($params)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'email()       '
+   'body': 'email(${1:$params})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Sends an email'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/email'
+
+ 'esc($string, $context = \'html\', $strict = false)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'esc()       '
+   'body': 'esc(${1:$string}, ${2:$context = \'html\'}, ${3:$strict = false})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Escapes strings based on the output context'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/esc'
+
+ 'excerpt($text, $length = 140, $mode = \'chars\')':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'excerpt()       '
+   'body': 'excerpt(${1:$text}, ${2:$length = 140}, ${3:$mode = \'chars\'})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Creates an excerpt of any text by a given character or word length'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/excerpt'
+
+ 'get($key = null, $default = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'get()       '
+   'body': 'get(${1:$key = null}, ${2:$default = null})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Fetches a POST or GET parameter by key'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/get'
+
+ 'gist($url, $file = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'gist()       '
+   'body': 'gist(${1:$url}, ${2:$file = null})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Embeds a Gist from Github by URL'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/gist'
+
+ 'go($url = \'/\', $code = 302)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'go()       '
+   'body': 'go(${1:$url = \'/\'}, ${2:$code = 302})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Redirects to a different URL'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/go'
+
+ 'gravatar($email, $size = 256, $default = \'mm\')':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'gravatar()       '
+   'body': 'gravatar(${1:$email}, ${2:$size = 256}, ${3:$default = \'mm\'})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Builds the Gravatar URL by email'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/gravatar'
+
+ 'h($text, $keepTags = true)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'h()       '
+   'body': 'h(${1:$text}, ${2:$keepTags = true})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Converts any text to valid HTML (shortcut for html())'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/h'
+
+ 'html($text, $keepTags = true)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'html()       '
+   'body': 'html(${1:$text}, ${2:$keepTags = true})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Converts any text to valid HTML'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/html'
+
+ 'image($filename = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'image()       '
+   'body': 'image(${1:$filename = null})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Fetches any image by filename for the current page, or by path for any other page'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/image'
+
+ 'invalid($data, $rules, $messages = array())':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'invalid()       '
+   'body': 'invalid(${1:$data}, ${2:$rules}, ${3:$messages = array()})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Runs a number of validators on a set of data and checks if the data is invalid'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/invalid'
+
+ 'js($path, $async = false)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'js()       '
+   'body': 'js(${1:$path}, ${2:$async = false})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Creates a script tag to load a javascript file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/js'
+
+ 'kirby()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'kirby()       '
+   'body': 'kirby()'
+   'leftLabel': 'Helpers'
+   'description': 'Returns the Kirby object in any situation'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/kirby'
+
+ 'kirbytag($attr)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'kirbytag()       '
+   'body': 'kirbytag(${1:$attr})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Makes it possible to use any defined Kirbytag as standalone function'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/kirbytag'
+
+ 'kirbytext($text, $page = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'kirbytext()       '
+   'body': 'kirbytext(${1:$text}, ${2:$page = null})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Parses any text with Markdown and Kirbytext'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/kirbytext'
+
+ 'l($key, $default = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'l()       '
+   'body': 'l(${1:$key}, ${2:$default = null})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Fetches a language variable for multi-language sites'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/l'
+
+ 'markdown($text)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'markdown()       '
+   'body': 'markdown(${1:$text})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Parses the text as Markdown'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/markdown'
+
+ 'memory()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'memory()       '
+   'body': 'memory()'
+   'leftLabel': 'Helpers'
+   'description': 'Returns the current memory usage in a human-readable format'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/memory'
+
+ 'multiline($text)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'multiline()       '
+   'body': 'multiline(${1:$text})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Converts new lines in text to html breaks.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/multiline'
+
+ 'page($uri = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'page()       '
+   'body': 'page(${1:$uri = null})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Fetches any page by URI or the current page when no URI is specified'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/page'
+
+ 'pages($data = array())':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'pages()       '
+   'body': 'pages(${1:$data = array()})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Helper to build page collections'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/pages'
+
+ 'param($key = null, $default = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'param()       '
+   'body': 'param(${1:$key = null}, ${2:$default = null})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Fetches a Kirby URL parameter'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/param'
+
+ 'params()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'params()       '
+   'body': 'params()'
+   'leftLabel': 'Helpers'
+   'description': 'Fetches all Kirby URL parameters'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/params'
+
+ 'r($condition, $a, $b = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'r()       '
+   'body': 'r(${1:$condition}, ${2:$a}, ${3:$b = null})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Returns either $a or $b by the given condition'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/r'
+
+ 'site()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'site()       '
+   'body': 'site()'
+   'leftLabel': 'Helpers'
+   'description': 'Returns the site object in any situation'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/site'
+
+ 'size($input)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'size()       '
+   'body': 'size(${1:$input})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Returns the size of strings, numbers, files and arrays.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/size'
+
+ 'smartypants($text)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'smartypants()       '
+   'body': 'smartypants(${1:$text})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Applies the SmartyPants Typographer on an HTML string'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/smartypants'
+
+ 'snippet($file, $data = array(), $return = false)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'snippet()       '
+   'body': 'snippet(${1:$file}, ${2:$data = array()}, ${3:$return = false})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Embeds a snippet from the snippet folder'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/snippet'
+
+ 'structure($data, $page = null, $key = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'structure()       '
+   'body': 'structure(${1:$data}, ${2:$page = null}, ${3:$key = null})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Creates a Kirby structure object from a data array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/structure'
+
+ 'textfile($uri, $template, $lang = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'textfile()       '
+   'body': 'textfile(${1:$uri}, ${2:$template}, ${3:$lang = null})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Helper to create correct text file names for content files'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/textfile'
+
+ 'thisUrl()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'thisUrl()       '
+   'body': 'thisUrl()'
+   'leftLabel': 'Helpers'
+   'description': 'Returns the current url'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/this-url'
+
+ 'thumb($image, $params = array(), $obj = true)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'thumb()       '
+   'body': 'thumb(${1:$image}, ${2:$params = array()}, ${3:$obj = true})${4}'
+   'leftLabel': 'Helpers'
+   'description': 'Creates a thumbnail for a given image object'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/thumb'
+
+ 'twitter($username, $text = null, $title = null, $class = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'twitter()       '
+   'body': 'twitter(${1:$username}, ${2:$text = null}, ${3:$title = null}, ${4:$class = null})${5}'
+   'leftLabel': 'Helpers'
+   'description': 'Builds a Twitter profile link by username'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/twitter'
+
+ 'u($path = \'/\')':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'u()       '
+   'body': 'u(${1:$path = \'/\'})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Shortcut for url()'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/u'
+
+ 'upload($to, $params = array())':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'upload()       '
+   'body': 'upload(${1:$to}, ${2:$params = array()})${3}'
+   'leftLabel': 'Helpers'
+   'description': 'Shortcut for the Upload class'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/upload'
+
+ 'url($path = \'/\')':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'url()       '
+   'body': 'url(${1:$path = \'/\'})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Builds an absolute URL for a given path'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/url'
+
+ 'vimeo($url, $width = null, $height = null, $class = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'vimeo()       '
+   'body': 'vimeo(${1:$url}, ${2:$width = null}, ${3:$height = null}, ${4:$class = null})${5}'
+   'leftLabel': 'Helpers'
+   'description': 'Embeds a Vimeo video by URL in an iframe'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/vimeo'
+
+ 'widont($text)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'widont()       '
+   'body': 'widont(${1:$text})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Avoids typographical widows in strings by replacing the last space with &nbsp;'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/widont'
+
+ 'xml($text)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'xml()       '
+   'body': 'xml(${1:$text})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Converts any text to valid XML'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/xml'
+
+ 'yaml($string)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'yaml()       '
+   'body': 'yaml(${1:$string})${2}'
+   'leftLabel': 'Helpers'
+   'description': 'Parses any string as YAML'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/yaml'
+
+ 'youtube($url, $width = null, $height = null, $class = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'youtube()       '
+   'body': 'youtube(${1:$url}, ${2:$width = null}, ${3:$height = null}, ${4:$class = null})${5}'
+   'leftLabel': 'Helpers'
+   'description': 'Embeds a Youtube video by URL in an iframe'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/helpers/youtube'

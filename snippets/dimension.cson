@@ -1,0 +1,89 @@
+'.text.html.php':
+
+ '$dimension->fit()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'fit()  '
+   'body': 'fit()'
+   'leftLabel': '$dimension'
+   'description': 'Fits the width and height into a box by the given value and returns a modified dimension object'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/dimension/fit'
+
+ '$dimension->fitHeight()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'fitHeight()  '
+   'body': 'fitHeight()'
+   'leftLabel': '$dimension'
+   'description': 'Fits the height by the given value and returns a modified dimension object'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/dimension/fit-height'
+
+ '$dimension->fitWidth()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'fitWidth()  '
+   'body': 'fitWidth()'
+   'leftLabel': '$dimension'
+   'description': 'Fits the width by the given value and returns a modified dimension object'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/dimension/fit-width'
+
+ '$dimension->fitWidthAndHeight()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'fitWidthAndHeight()  '
+   'body': 'fitWidthAndHeight()'
+   'leftLabel': '$dimension'
+   'description': 'Fits the width and height by the given values and returns a modified dimension object'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/dimension/fit-width-and-height'
+
+ '$dimension->height()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'height()  '
+   'body': 'height()'
+   'leftLabel': '$dimension'
+   'description': 'Returns the height in pixels'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/dimension/height'
+
+ '$dimension->landscape()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'landscape()  '
+   'body': 'landscape()'
+   'leftLabel': '$dimension'
+   'description': 'Checks if the dimensions are "landscape"'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/dimension/landscape'
+
+ '$dimension->orientation()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'orientation()  '
+   'body': 'orientation()'
+   'leftLabel': '$dimension'
+   'description': 'Returns the orientation of the image as string (landscape|portrait|square)'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/dimension/orientation'
+
+ '$dimension->portrait()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'portrait()  '
+   'body': 'portrait()'
+   'leftLabel': '$dimension'
+   'description': 'Checks if the dimensions are "portrait"'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/dimension/portrait'
+
+ '$dimension->ratio()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'ratio()  '
+   'body': 'ratio()'
+   'leftLabel': '$dimension'
+   'description': 'Returns the ratio'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/dimension/ratio'
+
+ '$dimension->square()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'square()  '
+   'body': 'square()'
+   'leftLabel': '$dimension'
+   'description': 'Checks if the dimensions are square'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/dimension/square'
+
+ '$dimension->width()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'width()  '
+   'body': 'width()'
+   'leftLabel': '$dimension'
+   'description': 'Returns the width in pixels'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/dimension/width'

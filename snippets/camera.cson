@@ -1,0 +1,25 @@
+'.text.html.php':
+
+ '$camera->make()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'make()'
+   'body': 'make()'
+   'leftLabel': '$camera'
+   'description': 'Returns the camera brand/make'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/camera/make'
+
+ '$camera->model()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'model()'
+   'body': 'model()'
+   'leftLabel': '$camera'
+   'description': 'Returns the name of the camera model'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/camera/model'
+
+ '$camera->toArray()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toArray()'
+   'body': 'toArray()'
+   'leftLabel': '$camera'
+   'description': 'Returns the make and model as associative array.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/camera/to-array'

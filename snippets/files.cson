@@ -1,0 +1,201 @@
+'.text.html.php':
+
+ '$files->count()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'count()      '
+   'body': 'count()'
+   'leftLabel': '$files'
+   'description': 'Returns the number of files in the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/count'
+
+ '$files->filter($callback)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'filter()      '
+   'body': 'filter(${1:$callback})${2}'
+   'leftLabel': '$files'
+   'description': 'Applies a filter callback to each item in the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/filter'
+
+ '$files->filterBy($key [, $operator], $value [, $split])':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'filterBy()      '
+   'body': 'filterBy(${1:$key}, ${2:$operator}, ${3:$value}, ${4:$split})${5}'
+   'leftLabel': '$files'
+   'description': 'Filters the collection by any field and value and with a set of filtering operators'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/filterBy'
+
+ '$files->find()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'find()      '
+   'body': 'find()'
+   'leftLabel': '$files'
+   'description': 'Finds a single file or multiple files by one or many filenames.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/find'
+
+ '$files->findBy($field, $value)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'findBy()      '
+   'body': 'findBy(${1:$field}, ${2:$value})${3}'
+   'leftLabel': '$files'
+   'description': 'Finds a single file by key and value'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/findBy'
+
+ '$files->first()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'first()      '
+   'body': 'first()'
+   'leftLabel': '$files'
+   'description': 'Returns the first file in the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/first'
+
+ '$files->flip()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'flip()      '
+   'body': 'flip()'
+   'leftLabel': '$files'
+   'description': 'Returns the collection in reverse order'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/flip'
+
+ '$files->get($filename)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'get()      '
+   'body': 'get(${1:$filename})${2}'
+   'leftLabel': '$files'
+   'description': 'Returns a single file by filename'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/get'
+
+ '$files->groupBy($field, $caseInsensitive = true)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'groupBy()      '
+   'body': 'groupBy(${1:$field}, ${2:$caseInsensitive = true})${3}'
+   'leftLabel': '$files'
+   'description': 'Groups all files in the collection by a given field.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/groupBy'
+
+ '$files->has($file)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'has()      '
+   'body': 'has(${1:$file})${2}'
+   'leftLabel': '$files'
+   'description': 'Checks if a $file object is included in the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/has'
+
+ '$files->keys()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'keys()      '
+   'body': 'keys()'
+   'leftLabel': '$files'
+   'description': 'Returns an array with all filenames in the collection.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/keys'
+
+ '$files->last()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'last()      '
+   'body': 'last()'
+   'leftLabel': '$files'
+   'description': 'Returns the last file in the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/last'
+
+ '$files->limit($limit)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'limit()      '
+   'body': 'limit(${1:$limit})${2}'
+   'leftLabel': '$files'
+   'description': 'Returns the collection with a limited set of items'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/limit'
+
+ '$files->map($callback)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'map()      '
+   'body': 'map(${1:$callback})${2}'
+   'leftLabel': '$files'
+   'description': 'Applies a callback to all items in the collection.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/map'
+
+ '$files->not()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'not()      '
+   'body': 'not()'
+   'leftLabel': '$files'
+   'description': 'Returns the collection without a given file. The ignored file can be passed by filename or entire file object.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/not'
+
+ '$files->nth($n)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'nth()      '
+   'body': 'nth(${1:$n})${2}'
+   'leftLabel': '$files'
+   'description': 'Returns the nth file in the collection.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/nth'
+
+ '$files->offset($offset)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'offset()      '
+   'body': 'offset(${1:$offset})${2}'
+   'leftLabel': '$files'
+   'description': 'Returns the collection starting from a given offset'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/offset'
+
+ '$files->paginate($limit, $options = array())':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'paginate()      '
+   'body': 'paginate(${1:$limit}, ${2:$options = array()})${3}'
+   'leftLabel': '$files'
+   'description': 'Applies pagination to the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/paginate'
+
+ '$files->pagination()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'pagination()      '
+   'body': 'pagination()'
+   'leftLabel': '$files'
+   'description': 'Returns the $pagination object'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/pagination'
+
+ '$files->pluck($field, $split = null, $unique = false)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'pluck()      '
+   'body': 'pluck(${1:$field}, ${2:$split = null}, ${3:$unique = false})${4}'
+   'leftLabel': '$files'
+   'description': 'Plucks all values for a specific field from the collection and returns those as array.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/pluck'
+
+ '$files->shuffle()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'shuffle()      '
+   'body': 'shuffle()'
+   'leftLabel': '$files'
+   'description': 'Returns the collection in shuffled order.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/shuffle'
+
+ '$files->slice($offset = null, $limit = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'slice()      '
+   'body': 'slice(${1:$offset = null}, ${2:$limit = null})${3}'
+   'leftLabel': '$files'
+   'description': 'Returns a sliced version of the collection starting from a given offset and an optional limited number of items.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/slice'
+
+ '$files->sortBy($field, $direction = \'asc\', $method = SORT_REGULAR)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'sortBy()      '
+   'body': 'sortBy(${1:$field}, ${2:$direction = \'asc\'}, ${3:$method = SORT_REGULAR})${4}'
+   'leftLabel': '$files'
+   'description': 'Sorts the files in the collection by field and direction'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/sortBy'
+
+ '$files->toArray($callback = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toArray()      '
+   'body': 'toArray(${1:$callback = null})${2}'
+   'leftLabel': '$files'
+   'description': 'Converts the collection to a simple array.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/to-array'
+
+ '$files->toJson()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toJson()      '
+   'body': 'toJson()'
+   'leftLabel': '$files'
+   'description': 'Converts the collection to a json string.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/files/to-json'

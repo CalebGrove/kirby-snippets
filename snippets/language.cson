@@ -1,0 +1,49 @@
+'.text.html.php':
+
+ '$language->code()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'code()         '
+   'body': 'code()'
+   'leftLabel': '$language'
+   'description': 'Returns the iso language code'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/language/code'
+
+ '$language->default()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'default()         '
+   'body': 'default()'
+   'leftLabel': '$language'
+   'description': 'Checks if this is the default language'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/language/default'
+
+ '$language->direction()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'direction()         '
+   'body': 'direction()'
+   'leftLabel': '$language'
+   'description': 'Returns the text direction of the language (rtl or ltr)'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/language/direction'
+
+ '$language->locale()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'locale()         '
+   'body': 'locale()'
+   'leftLabel': '$language'
+   'description': 'Returns the locale string'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/language/locale'
+
+ '$language->name()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'name()         '
+   'body': 'name()'
+   'leftLabel': '$language'
+   'description': 'Returns the full name of the language'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/language/name'
+
+ '$language->url()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'url()         '
+   'body': 'url()'
+   'leftLabel': '$language'
+   'description': 'Returns the assigned base URL for the language'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/language/url'

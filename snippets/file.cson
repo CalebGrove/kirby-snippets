@@ -1,0 +1,585 @@
+'.text.html.php':
+
+ '$file->append($content)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'append()     '
+   'body': 'append(${1:$content})${2}'
+   'leftLabel': '$file'
+   'description': 'Appends the content and saves the file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/append'
+
+ '$file->base64()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'base64()     '
+   'body': 'base64()'
+   'leftLabel': '$file'
+   'description': 'Returns the content of the file as base64 encoded string'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/base64'
+
+ '$file->blur()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'blur()     '
+   'body': 'blur()'
+   'leftLabel': '$file'
+   'description': 'Applies a blur filter to the image'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/blur'
+
+ '$file->bw($bw)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'bw()     '
+   'body': 'bw(${1:$bw})${2}'
+   'leftLabel': '$file'
+   'description': 'Converts the image to grayscale'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/bw'
+
+ '$file->content($content = null, $format = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'content()     '
+   'body': 'content(${1:$content = null}, ${2:$format = null})${3}'
+   'leftLabel': '$file'
+   'description': 'Setter and getter for the file content'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/content'
+
+ '$file->copy($to)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'copy()     '
+   'body': 'copy(${1:$to})${2}'
+   'leftLabel': '$file'
+   'description': 'Copies the file to a new location'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/copy'
+
+ '$file->createNewFilename($name, $safeName = true)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'createNewFilename()     '
+   'body': 'createNewFilename(${1:$name}, ${2:$safeName = true})${3}'
+   'leftLabel': '$file'
+   'description': 'Generates a new filename for a given name and makes sure to handle badly given extensions correctly'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/create-new-filename'
+
+ '$file->crop($width, $height = null, $quality = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'crop()     '
+   'body': 'crop(${1:$width}, ${2:$height = null}, ${3:$quality = null})${4}'
+   'leftLabel': '$file'
+   'description': 'Crops the image by width and optionally by height'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/crop'
+
+ '$file->dataUri()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'dataUri()     '
+   'body': 'dataUri()'
+   'leftLabel': '$file'
+   'description': 'Returns a full base64 encoded data uri with a proper mime type'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/data-uri'
+
+ '$file->date($format = null, $field = \'date\')':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'date()     '
+   'body': 'date(${1:$format = null}, ${2:$field = \'date\'})${3}'
+   'leftLabel': '$file'
+   'description': 'Returns a unix timestamp or formatted date string from the file\'s meta date field or any other field containing a parsable date'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/date'
+
+ '$file->delete()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'delete()     '
+   'body': 'delete()'
+   'leftLabel': '$file'
+   'description': 'Deletes the file. This cannot be undone.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/delete'
+
+ '$file->dimensions()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'dimensions()     '
+   'body': 'dimensions()'
+   'leftLabel': '$file'
+   'description': 'Returns the $dimensions object for the file. This is only available for images (jpg, png, gif)'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/dimensions'
+
+ '$file->dir()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'dir()     '
+   'body': 'dir()'
+   'leftLabel': '$file'
+   'description': 'Returns the full path for the directory, in which the file is located'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/dir'
+
+ '$file->diruri()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'diruri()     '
+   'body': 'diruri()'
+   'leftLabel': '$file'
+   'description': 'Returns the relative path for the file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/diruri'
+
+ '$file->download($filename = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'download()     '
+   'body': 'download(${1:$filename = null})'
+   'leftLabel': '$file'
+   'description': 'Sends all needed headers and the content to force the browser to download the file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/download'
+
+ '$file->exif()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'exif()     '
+   'body': 'exif()'
+   'leftLabel': '$file'
+   'description': 'Returns the $exif object for the file, which can be used to fetch information such as the camera model or GPS data'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/exif'
+
+ '$file->exists()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'exists()     '
+   'body': 'exists()'
+   'leftLabel': '$file'
+   'description': 'Checks if the file exists'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/exists'
+
+ '$file->extension()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'extension()     '
+   'body': 'extension()'
+   'leftLabel': '$file'
+   'description': 'Returns the file extension'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/extension'
+
+ '$file->filename()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'filename()     '
+   'body': 'filename()'
+   'leftLabel': '$file'
+   'description': 'Returns the full filename including extension'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/filename'
+
+ '$file->files()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'files()     '
+   'body': 'files()'
+   'leftLabel': '$file'
+   'description': 'Returns the collection of sibling files including the current object'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/files'
+
+ '$file->hasNext()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'hasNext()     '
+   'body': 'hasNext()'
+   'leftLabel': '$file'
+   'description': 'Checks if there\'s a next sibling'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/has-next'
+
+ '$file->hasPrev()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'hasPrev()     '
+   'body': 'hasPrev()'
+   'leftLabel': '$file'
+   'description': 'Checks if there\'s a previous sibling'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/has-prev'
+
+ '$file->hash()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'hash()     '
+   'body': 'hash()'
+   'leftLabel': '$file'
+   'description': 'Returns an md5 hash for the root of the file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/hash'
+
+ '$file->header($send = true)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'header()     '
+   'body': 'header(${1:$send = true})${2}'
+   'leftLabel': '$file'
+   'description': 'Sends an appropriate header for the asset'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/header'
+
+ '$file->height()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'height()     '
+   'body': 'height()'
+   'leftLabel': '$file'
+   'description': 'Returns the height of image files in pixels'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/height'
+
+ '$file->html($attr = array())':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'html()     '
+   'body': 'html(${1:$attr = array()})${2}'
+   'leftLabel': '$file'
+   'description': 'Auto-generates an HTML tag for images'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/html'
+
+ '$file->imagesize()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'imagesize()     '
+   'body': 'imagesize()'
+   'leftLabel': '$file'
+   'description': 'Returns the PHP imagesize array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/imagesize'
+
+ '$file->is($value)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'is()     '
+   'body': 'is(${1:$value})${2}'
+   'leftLabel': '$file'
+   'description': 'Checks if a file is of a certain type'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/is'
+
+ '$file->isExecutable()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isExecutable()     '
+   'body': 'isExecutable()'
+   'leftLabel': '$file'
+   'description': 'Checks if the file is executable'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/is-executable'
+
+ '$file->isLandscape()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isLandscape()     '
+   'body': 'isLandscape()'
+   'leftLabel': '$file'
+   'description': 'Checks if an image file has been taken in landscape mode'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/is-landscape'
+
+ '$file->isPortrait()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isPortrait()     '
+   'body': 'isPortrait()'
+   'leftLabel': '$file'
+   'description': 'Checks if an image file has been taken in portrait mode'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/is-portrait'
+
+ '$file->isReadable()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isReadable()     '
+   'body': 'isReadable()'
+   'leftLabel': '$file'
+   'description': 'Checks if the file is readable'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/is-readable'
+
+ '$file->isSquare()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isSquare()     '
+   'body': 'isSquare()'
+   'leftLabel': '$file'
+   'description': 'Checks if the image is square'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/is-square'
+
+ '$file->isWebsafe()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isWebsafe()     '
+   'body': 'isWebsafe()'
+   'leftLabel': '$file'
+   'description': 'Checks if the file is a jpg, png or gif'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/is-websafe'
+
+ '$file->isWritable()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isWritable()     '
+   'body': 'isWritable()'
+   'leftLabel': '$file'
+   'description': 'Checks if the file is writable'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/is-writable'
+
+ '$file->kirby()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'kirby()     '
+   'body': 'kirby()'
+   'leftLabel': '$file'
+   'description': 'Returns the kirby object'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/kirby'
+
+ '$file->load($data = array())':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'load()     '
+   'body': 'load(${1:$data = array()})${2}'
+   'leftLabel': '$file'
+   'description': 'Safely requires a file if it exists'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/load'
+
+ '$file->meta([$language])':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'meta()     '
+   'body': 'meta(${1:$language})${2}'
+   'leftLabel': '$file'
+   'description': 'Returns the file\'s $content object with data from the meta file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/meta'
+
+ '$file->mime()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'mime()     '
+   'body': 'mime()'
+   'leftLabel': '$file'
+   'description': 'Returns the file\'s mime type'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/mime'
+
+ '$file->modified($format = false, $handler = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'modified()     '
+   'body': 'modified(${1:$format = false}, ${2:$handler = null})${3}'
+   'leftLabel': '$file'
+   'description': 'Returns the unix timestamp or a formatted date for when the file has been modified'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/modified'
+
+ '$file->move($to)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'move()     '
+   'body': 'move(${1:$to})${2}'
+   'leftLabel': '$file'
+   'description': 'Moves the file to a new location'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/move'
+
+ '$file->name()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'name()     '
+   'body': 'name()'
+   'leftLabel': '$file'
+   'description': 'Returns the name of the file without extension'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/name'
+
+ '$file->next()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'next()     '
+   'body': 'next()'
+   'leftLabel': '$file'
+   'description': 'Returns the next sibling'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/next'
+
+ '$file->niceSize()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'niceSize()     '
+   'body': 'niceSize()'
+   'leftLabel': '$file'
+   'description': 'Returns the size of the file in a human readable format'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/nice-size'
+
+ '$file->orientation()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'orientation()     '
+   'body': 'orientation()'
+   'leftLabel': '$file'
+   'description': 'Returns the orientation of image files as a string (landscape, portrait, square)'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/orientation'
+
+ '$file->original()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'original()     '
+   'body': 'original()'
+   'leftLabel': '$file'
+   'description': 'Returns the reference to the original file (for thumbnails)'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/original'
+
+ '$file->page()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'page()     '
+   'body': 'page()'
+   'leftLabel': '$file'
+   'description': 'Returns the page object for a file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/page'
+
+ '$file->prev()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'prev()     '
+   'body': 'prev()'
+   'leftLabel': '$file'
+   'description': 'Returns the previous sibling'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/prev'
+
+ '$file->ratio()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'ratio()     '
+   'body': 'ratio()'
+   'leftLabel': '$file'
+   'description': 'Returns the ratio of an image file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/ratio'
+
+ '$file->read($format = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'read()     '
+   'body': 'read(${1:$format = null})${2}'
+   'leftLabel': '$file'
+   'description': 'Reads the content of the file and returns it'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/read'
+
+ '$file->remove()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'remove()     '
+   'body': 'remove()'
+   'leftLabel': '$file'
+   'description': 'Alternative for delete'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/remove'
+
+ '$file->rename($name, $safeName = true)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'rename()     '
+   'body': 'rename(${1:$name}, ${2:$safeName = true})${3}'
+   'leftLabel': '$file'
+   'description': 'Renames the file and all the meta text files'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/rename'
+
+ '$file->reset()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'reset()     '
+   'body': 'reset()'
+   'leftLabel': '$file'
+   'description': 'Resets the internal memory data cache'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/reset'
+
+ '$file->resize($width, $height = null, $quality = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'resize()     '
+   'body': 'resize(${1:$width}, ${2:$height = null}, ${3:$quality = null})${4}'
+   'leftLabel': '$file'
+   'description': 'Resizes the image by width and optionally by height'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/resize'
+
+ '$file->root()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'root()     '
+   'body': 'root()'
+   'leftLabel': '$file'
+   'description': 'Returns the full root for a file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/root'
+
+ '$file->safeName()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'safeName()     '
+   'body': 'safeName()'
+   'leftLabel': '$file'
+   'description': 'Returns the filename as safe name'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/safe-name'
+
+ '$file->save($content = null, $format = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'save()     '
+   'body': 'save(${1:$content = null}, ${2:$format = null})${3}'
+   'leftLabel': '$file'
+   'description': 'Saves new content to the file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/save'
+
+ '$file->scale($by)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'scale()     '
+   'body': 'scale(${1:$by})${2}'
+   'leftLabel': '$file'
+   'description': 'Scales the image up or down by value'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/scale'
+
+ '$file->show()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'show()     '
+   'body': 'show()'
+   'leftLabel': '$file'
+   'description': 'Read and send the file with the correct headers'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/show'
+
+ '$file->siblings()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'siblings()     '
+   'body': 'siblings()'
+   'leftLabel': '$file'
+   'description': 'Returns all siblings of the file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/siblings'
+
+ '$file->site()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'site()     '
+   'body': 'site()'
+   'leftLabel': '$file'
+   'description': 'Returns the site object'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/site'
+
+ '$file->size()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'size()     '
+   'body': 'size()'
+   'leftLabel': '$file'
+   'description': 'Returns the raw file size'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/size'
+
+ '$file->textfile([$language])':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'textfile()     '
+   'body': 'textfile(${1:$language})${2}'
+   'leftLabel': '$file'
+   'description': 'Returns the root for the meta file of the file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/textfile'
+
+ '$file->thumb($params)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'thumb()     '
+   'body': 'thumb([\'width\' => ${1:300}, \'height\' => ${2:200}, \'quality\' => ${3:80}])${4}'
+   'leftLabel': '$file'
+   'description': 'Sets all parameters for the thumb generator at once.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/thumb'
+
+ '$file->toArray($callback = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toArray()     '
+   'body': 'toArray(${1:$callback = null})${2}'
+   'leftLabel': '$file'
+   'description': 'Converts the entire file object into a plain PHP array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/to-array'
+
+ '$file->toJson($callback = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toJson()     '
+   'body': 'toJson(${1:$callback = null})${2}'
+   'leftLabel': '$file'
+   'description': 'Converts the entire media object into a JSON string'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/to-json'
+
+ '$file->touch()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'touch()     '
+   'body': 'touch()'
+   'leftLabel': '$file'
+   'description': 'Change the file\'s modification date to now and create it with an empty content if it is not there yet'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/touch'
+
+ '$file->type()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'type()     '
+   'body': 'type()'
+   'leftLabel': '$file'
+   'description': 'Returns the file type (image, document, video, archive, code, audio, unkown)'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/type'
+
+ '$file->update($data = array()[, $language])':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'update()     '
+   'body': 'update(${1:$data = array()}, ${2:$language})${3}'
+   'leftLabel': '$file'
+   'description': 'Updates the meta information for a file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/update'
+
+ '$file->uri()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'uri()     '
+   'body': 'uri()'
+   'leftLabel': '$file'
+   'description': 'Returns the cleaned up relative path for the file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/uri'
+
+ '$file->url()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'url()     '
+   'body': 'url()'
+   'leftLabel': '$file'
+   'description': 'Returns the absolute URL for a file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/url'
+
+ '$file->width()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'width()     '
+   'body': 'width()'
+   'leftLabel': '$file'
+   'description': 'Returns the width of image files in pixels'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/width'
+
+ '$file->write($content = null, $format = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'write()     '
+   'body': 'write(${1:$content = null}, ${2:$format = null})${3}'
+   'leftLabel': '$file'
+   'description': 'Alternative for save'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/file/write'

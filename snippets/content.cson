@@ -1,0 +1,81 @@
+'.text.html.php':
+
+ '$content->data()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'data() '
+   'body': 'data()'
+   'leftLabel': '$content'
+   'description': 'Returns the entire data array with all field objects'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/content/data'
+
+ '$content([$lang])->exists()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'exists() '
+   'body': 'exists()'
+   'leftLabel': '$content'
+   'description': 'Checks if the content file exists'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/content/exists'
+
+ '$content([$lang])->fields()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'fields() '
+   'body': 'fields()'
+   'leftLabel': '$content'
+   'description': 'Returns an array with all field names'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/content/fields'
+
+ '$content([$lang])->get($key, $arguments = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'get() '
+   'body': 'get(${1:$key}, ${2:$arguments})${3}'
+   'leftLabel': '$content'
+   'description': 'Gets a field from the content'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/content/get'
+
+ '$content([$lang])->has($key)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'has() '
+   'body': 'has(${1:$key})'
+   'leftLabel': '$content'
+   'description': 'Checks if a field exists'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/content/has'
+
+ '$content->language()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'language() '
+   'body': 'language()'
+   'leftLabel': '$content'
+   'description': 'Return the language code for the content'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/content/language'
+
+ '$content->name()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'name() '
+   'body': 'name()'
+   'leftLabel': '$content'
+   'description': 'Returns the name of the content file without the extension. This is being used to determine the template for the page'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/content/name'
+
+ '$content([$lang])->raw()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'raw() '
+   'body': 'raw()'
+   'leftLabel': '$content'
+   'description': 'Returns the raw content from the file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/content/raw'
+
+ '$content([$lang])->root()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'root() '
+   'body': 'root()'
+   'leftLabel': '$content'
+   'description': 'Returns the root for the content file'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/content/root'
+
+ '$content([$lang])->toArray()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toArray() '
+   'body': 'toArray()'
+   'leftLabel': '$content'
+   'description': 'Returns the content object as array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/content/to-array'

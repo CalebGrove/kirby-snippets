@@ -1,0 +1,281 @@
+'.text.html.php':
+
+ '$field->bool()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'bool()    '
+   'body': 'bool()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts the field value into a proper boolean'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/bool'
+
+ '$field->empty()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'empty()    '
+   'body': 'empty()'
+   'leftLabel': 'Field methods'
+   'description': 'Checks if the field is empty'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/empty'
+
+ '$field->escape()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'escape()    '
+   'body': 'escape()'
+   'leftLabel': 'Field methods'
+   'description': 'Escapes all critical characters from the field content to make sure all you get is clean HTML'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/escape'
+
+ '$field->excerpt($length = 140, $mode = \'chars\')':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'excerpt()    '
+   'body': 'excerpt(${1:$length = 140}, ${2:$mode = \'chars\'})${3}'
+   'leftLabel': 'Field methods'
+   'description': 'Creates a short text excerpt'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/excerpt'
+
+ '$field->exists()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'exists()    '
+   'body': 'exists()'
+   'leftLabel': 'Field methods'
+   'description': 'Checks if the field exists.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/exists'
+
+ '$field->float()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'float()    '
+   'body': 'float()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts the field value into a proper float'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/float'
+
+ '$field->html()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'html()    '
+   'body': 'html()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts the field content to valid HTML'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/html'
+
+ '$field->int()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'int()    '
+   'body': 'int()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts the field value into a proper integer'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/int'
+
+ '$field->isEmpty()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isEmpty()    '
+   'body': 'isEmpty()'
+   'leftLabel': 'Field methods'
+   'description': 'Checks if the field is empty'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/isEmpty'
+
+ '$field->isFalse()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isFalse()    '
+   'body': 'isFalse()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts the field value into a proper boolean and inverts it'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/isFalse'
+
+ '$field->isNotEmpty()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isNotEmpty()    '
+   'body': 'isNotEmpty()'
+   'leftLabel': 'Field methods'
+   'description': 'Checks if the field is not empty'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/isNotEmpty'
+
+ '$field->isTranslated($lang = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isTranslated()    '
+   'body': 'isTranslated(${1:$lang = null})${2}'
+   'leftLabel': 'Field methods'
+   'description': 'Checks if the field is translated in the current/specified language'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/isTranslated'
+
+ '$field->isTrue()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'isTrue()    '
+   'body': 'isTrue()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts the field value into a proper boolean'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/isTrue'
+
+ '$field->key()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'key()    '
+   'body': 'key()'
+   'leftLabel': 'Field methods'
+   'description': 'Returns the name of the field.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/key'
+
+ '$field->kirbytext()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'kirbytext()    '
+   'body': 'kirbytext()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts the field content from Markdown/Kirbytext to valid HTML'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/kirbytext'
+
+ '$field->kt()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'kt()    '
+   'body': 'kt()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts the field content from Markdown/Kirbytext to valid HTML'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/kt'
+
+ '$field->length()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'length()    '
+   'body': 'length()'
+   'leftLabel': 'Field methods'
+   'description': 'Returns the length of the field content'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/length'
+
+ '$field->link()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'link()    '
+   'body': 'link()'
+   'leftLabel': 'Field methods'
+   'description': 'Creates a link for any field value'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/link'
+
+ '$field->lower()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'lower()    '
+   'body': 'lower()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts the field content to lowercase'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/lower'
+
+ '$field->markdown()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'markdown()    '
+   'body': 'markdown()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts markdown to valid HTML'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/markdown'
+
+ '$field->or($alternative)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'or()    '
+   'body': 'or(${1:$alternative})${2}'
+   'leftLabel': 'Field methods'
+   'description': 'Checks if the field is empty and returns an alternative value in this case'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/or'
+
+ '$field->pages()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'pages()    '
+   'body': 'pages()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts a yaml list of page URIs to valid page objects'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/pages'
+
+ '$field->short($chars)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'short()    '
+   'body': 'short(${1:$chars})${2}'
+   'leftLabel': 'Field methods'
+   'description': 'Shortens the field content by the given length'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/short'
+
+ '$field->smartypants()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'smartypants()    '
+   'body': 'smartypants()'
+   'leftLabel': 'Field methods'
+   'description': 'Applies SmartyPants to the field'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/smartypants'
+
+ '$field->split($separator = \',\')':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'split()    '
+   'body': 'split(${1:$separator = \',\'})${2}'
+   'leftLabel': 'Field methods'
+   'description': 'Splits the field content into an array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/split'
+
+ '$field->toFile()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toFile()    '
+   'body': 'toFile()'
+   'leftLabel': 'Field methods'
+   'description': 'Returns a file object from a filename in the field'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/toFile'
+
+ '$field->toPage()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toPage()    '
+   'body': 'toPage()'
+   'leftLabel': 'Field methods'
+   'description': 'Returns a page object from a uri in the field'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/toPage'
+
+ '$field->toStructure()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toStructure()    '
+   'body': 'toStructure()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts a yaml field to a Structure object'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/toStructure'
+
+ '$field->toURL()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'toURL()    '
+   'body': 'toURL()'
+   'leftLabel': 'Field methods'
+   'description': 'Creates an URL for any field value'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/toURL'
+
+ '$field->upper()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'upper()    '
+   'body': 'upper()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts the field content to uppercase'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/upper'
+
+ '$field->value()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'value()    '
+   'body': 'value()'
+   'leftLabel': 'Field methods'
+   'description': 'Returns the value of a field as string.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/value'
+
+ '$field->widont()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'widont()    '
+   'body': 'widont()'
+   'leftLabel': 'Field methods'
+   'description': 'Avoids typographical widows in strings by replacing the last space with &nbsp;'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/widont'
+
+ '$field->words()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'words()    '
+   'body': 'words()'
+   'leftLabel': 'Field methods'
+   'description': 'Returns the number of words in the text'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/words'
+
+ '$field->xml()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'xml()    '
+   'body': 'xml()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts the field content to valid XML'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/xml'
+
+ '$field->yaml()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'yaml()    '
+   'body': 'yaml()'
+   'leftLabel': 'Field methods'
+   'description': 'Converts YAML-structured field content to an array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/field-methods/yaml'

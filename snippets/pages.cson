@@ -1,0 +1,337 @@
+'.text.html.php':
+
+ '$pages->add($page)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'add()             '
+   'body': 'add(${1:$page})${2}'
+   'leftLabel': '$pages'
+   'description': 'Adds a single page object or a collection to a collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/add'
+
+ '$pages->append($key, $object)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'append()             '
+   'body': 'append(${1:$key}, ${2:$object})${3}'
+   'leftLabel': '$pages'
+   'description': 'Appends an element to the data array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/append'
+
+ '$pages->children()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'children()             '
+   'body': 'children()'
+   'leftLabel': '$pages'
+   'description': 'Returns a $pages collection with all children of each page in the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/children'
+
+ '$pages->chunk($size)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'chunk()             '
+   'body': 'chunk(${1:$size})${2}'
+   'leftLabel': '$pages'
+   'description': 'Creates chunks of the same size and returns them in a new collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/chunk'
+
+ '$pages->count()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'count()             '
+   'body': 'count()'
+   'leftLabel': '$pages'
+   'description': 'Returns the number of pages in the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/count'
+
+ '$pages->create($uid, $template, $data = array())':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'create()             '
+   'body': 'create(${1:$uid}, ${2:$template}, ${3:$data = array()})${4}'
+   'leftLabel': '$pages'
+   'description': 'Creates a new subpage'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/create'
+
+ '$pages->current()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'current()             '
+   'body': 'current()'
+   'leftLabel': '$pages'
+   'description': 'Returns the current element of the array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/current'
+
+ 'pages::extractValue($item, $field)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'pages::extractValue()             '
+   'body': 'pages::extractValue(${1:$item}, ${2:$HERE})${3}'
+   'leftLabel': '$pages'
+   'description': 'Makes sure to provide a valid value for each filter method no matter if an object or an array is given'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/extract-value'
+
+ '$pages->files()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'files()             '
+   'body': 'files()'
+   'leftLabel': '$pages'
+   'description': 'Returns a $files collection with all files of each page in the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/files'
+
+ '$pages->filter($callback)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'filter()             '
+   'body': 'filter(${1:$callback})${2}'
+   'leftLabel': '$pages'
+   'description': 'Filters the collection with a custom filter callback'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/filter'
+
+ '$pages->filterBy($key [, $operator], $value [, $split])':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'filterBy()             '
+   'body': 'filterBy(${1:$key}, ${2:$operator}, ${3:$value}, ${4:$split})${5}'
+   'leftLabel': '$pages'
+   'description': 'Filters the collection by any field and value and with a set of filtering operators'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/filter-by'
+
+ '$pages->find($page)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'find()             '
+   'body': 'find(${1:$page})${2}'
+   'leftLabel': '$pages'
+   'description': 'Finds a $page object in the collection by UID or relative URI'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/find'
+
+ '$pages->findBy($key, $value)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'findBy()             '
+   'body': 'findBy(${1:$key}, ${2:$HERE})${3}'
+   'leftLabel': '$pages'
+   'description': 'Finds a single $page object in the collection by $key and $value'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/find-by'
+
+ '$pages->findByURI($uri)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'findByURI()             '
+   'body': 'findByURI(${1:$uri})${2}'
+   'leftLabel': '$pages'
+   'description': 'Finds a $page object in the collection by its full URI'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/find-by-uri'
+
+ '$pages->findOpen()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'findOpen()             '
+   'body': 'findOpen()'
+   'leftLabel': '$pages'
+   'description': 'Finds the open $page object in the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/find-open'
+
+ '$pages->first()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'first()             '
+   'body': 'first()'
+   'leftLabel': '$pages'
+   'description': 'Returns the first $page object from the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/first'
+
+ '$pages->flip()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'flip()             '
+   'body': 'flip()'
+   'leftLabel': '$pages'
+   'description': 'Returns the collection in reverse order'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/flip'
+
+ '$pages->get($key, $default = null)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'get()             '
+   'body': 'get(${1:$key}, ${2:$default = null})${3}'
+   'leftLabel': '$pages'
+   'description': 'Returns a $page object by its full URI'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/get'
+
+ '$pages->group($callback)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'group()             '
+   'body': 'group(${1:$callback})${2}'
+   'leftLabel': '$pages'
+   'description': 'Groups the collection by a given callback'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/group'
+
+ '$pages->groupBy($field, $caseInsensitive = true)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'groupBy()             '
+   'body': 'groupBy(${1:$field}, ${2:$caseInsensitive = true})${3}'
+   'leftLabel': '$pages'
+   'description': 'Groups $page objects in the collection by any field and returns them in a new collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/group-by'
+
+ '$pages->has($page)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'has()             '
+   'body': 'has(${1:$page})${2}'
+   'leftLabel': '$pages'
+   'description': 'Checks if a $page object is included in the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/has'
+
+ '$pages->index()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'index()             '
+   'body': 'index()'
+   'leftLabel': '$pages'
+   'description': 'Recursively creates a full index from all pages and subpages in the collection and returns it as a new flat $pages collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/index'
+
+ '$pages->indexOf($needle)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'indexOf()             '
+   'body': 'indexOf(${1:$needle})${2}'
+   'leftLabel': '$pages'
+   'description': 'Tries to find the index number for the given element'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/index-of'
+
+ '$pages->invisible()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'invisible()             '
+   'body': 'invisible()'
+   'leftLabel': '$pages'
+   'description': 'Returns all invisible $page objects from the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/invisible'
+
+ '$pages->key()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'key()             '
+   'body': 'key()'
+   'leftLabel': '$pages'
+   'description': 'Returns the current key from the array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/key'
+
+ '$pages->keyOf($needle)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'keyOf()             '
+   'body': 'keyOf(${1:$needle})${2}'
+   'leftLabel': '$pages'
+   'description': 'Tries to find the key for the given element'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/key-of'
+
+ '$pages->keys()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'keys()             '
+   'body': 'keys()'
+   'leftLabel': '$pages'
+   'description': 'Returns all keys/URIs from the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/keys'
+
+ '$pages->last()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'last()             '
+   'body': 'last()'
+   'leftLabel': '$pages'
+   'description': 'Returns the last $page object from the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/last'
+
+ '$pages->limit($limit)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'limit()             '
+   'body': 'limit(${1:$limit})${2}'
+   'leftLabel': '$pages'
+   'description': 'Returns the collection with a limited amount of pages'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/limit'
+
+ '$pages->map($callback)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'map()             '
+   'body': 'map(${1:$callback})${2}'
+   'leftLabel': '$pages'
+   'description': 'Returns a new collection and applies the mapping callback to all pages'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/map'
+
+ '$pages->merge($collection2)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'merge()             '
+   'body': 'merge(${1:$collection2})${2}'
+   'leftLabel': '$pages'
+   'description': 'Returns a new combined collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/merge'
+
+ '$pages->next()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'next()             '
+   'body': 'next()'
+   'leftLabel': '$pages'
+   'description': 'Moves the cursor to the next element in the array and returns it'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/next'
+
+ '$pages->not($args)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'not()             '
+   'body': 'not(${1:$args})${2}'
+   'leftLabel': '$pages'
+   'description': 'Returns the collection without any given pages.'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/not'
+
+ '$pages->nth($n)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'nth()             '
+   'body': 'nth(${1:$n})${2}'
+   'leftLabel': '$pages'
+   'description': 'Returns the nth page in the collection'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/nth'
+
+ '$pages->offset($offset)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'offset()             '
+   'body': 'offset(${1:$offset})${2}'
+   'leftLabel': '$pages'
+   'description': 'Returns the collection starting from the given offset'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/offset'
+
+ '$pages->paginate($limit, $options = array())':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'paginate()             '
+   'body': 'paginate(${1:$limit}, ${2:$HERE})${3}'
+   'leftLabel': '$pages'
+   'description': 'Adds a $pagination object to the collection, which makes it easy to page through items'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/paginate'
+
+ '$pages->pagination()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'pagination()             '
+   'body': 'pagination()'
+   'leftLabel': '$pages'
+   'description': 'Returns the $pagination object if available'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/pagination'
+
+ '$pages->pluck($field, $split = null, $unique = false)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'pluck()             '
+   'body': 'pluck(${1:$field}, ${2:$split = null}, ${3:$unique = false})${4}'
+   'leftLabel': '$pages'
+   'description': 'Extracts an array of values from each item by field'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/pluck'
+
+ '$pages->prepend($key, $object)':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'prepend()             '
+   'body': 'prepend(${1:$key}, ${2:$object})${3}'
+   'leftLabel': '$pages'
+   'description': 'Prepends an element to the data array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/prepend'
+
+ '$pages->prev()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'prev()             '
+   'body': 'prev()'
+   'leftLabel': '$pages'
+   'description': 'Moves the cursor to the previous element in the array and returns it'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/prev'
+
+ '$pages->rewind()':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'rewind()             '
+   'body': 'rewind()'
+   'leftLabel': '$pages'
+   'description': 'Moves the cursor to the first element of the array'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/rewind'
+
+ '$pages->search($query, $params = array())':
+   'rightLabelHTML': '<span style="color:white;transform:rotate(-90deg);display:inline-block;font-weight:400;font-size:1.25em">K</span>'
+   'prefix': 'search()             '
+   'body': 'search(${1:$query}, ${2:$params = array()})${3}'
+   'leftLabel': '$pages'
+   'description': 'Searches all pages in the collection and all descendants'
+   'descriptionMoreURL': 'https://getkirby.com/docs/cheatsheet/pages/search'
